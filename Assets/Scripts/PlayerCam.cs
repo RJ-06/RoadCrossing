@@ -8,6 +8,7 @@ public class PlayerCam : MonoBehaviour
 
     [SerializeField] float sensX;
     [SerializeField] float sensY;
+    [SerializeField] float rotationYLock;
 
     [SerializeField] Transform orientation;
 
@@ -28,7 +29,7 @@ public class PlayerCam : MonoBehaviour
         yRot += mouseX;
         xRot -= mouseY;
 
-        xRot = Mathf.Clamp(xRot, -90,90); //clamps how much you can look
+        xRot = Mathf.Clamp(xRot, -rotationYLock,rotationYLock); //clamps how much you can look
 
         transform.rotation = Quaternion.Euler(xRot, yRot, 0);
         orientation.rotation = Quaternion.Euler(0, yRot, 0);
