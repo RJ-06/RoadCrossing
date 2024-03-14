@@ -1,0 +1,5 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:VisualElement style="flex-grow: 1; background-image: url(&apos;project://database/Assets/Placeholder-Title-3-12-2024.png?fileID=2800000&amp;guid=9b9e006a42ec1664ba6fddc51d4815e3&amp;type=3#Placeholder-Title-3-12-2024&apos;); -unity-background-scale-mode: scale-to-fit; white-space: normal; -unity-text-align: upper-center; align-items: auto; justify-content: flex-start; margin-top: 30px; margin-right: 100px; margin-bottom: 20px; margin-left: 100px;" />
+    <ui:Button text="Play" parse-escape-sequences="true" display-tooltip-when-elided="true" style="-unity-text-align: lower-center; margin-top: 0; margin-bottom: 20px; margin-left: 200px; margin-right: 200px;" />
+    <ui:Button text="Options" parse-escape-sequences="true" display-tooltip-when-elided="true" style="margin-right: 200px; margin-top: 0; margin-bottom: 50px; margin-left: 200px;" />
+</ui:UXML>
