@@ -50,4 +50,9 @@ public class Car : MonoBehaviour
         transform.position = Vector3.MoveTowards(this.transform.position,nextNode.transform.position,speed * Time.deltaTime);
         transform.LookAt(nextNode.transform.position);
     }
+
+    public Rigidbody getrb() 
+    {
+        return rb;
+    }
 }
