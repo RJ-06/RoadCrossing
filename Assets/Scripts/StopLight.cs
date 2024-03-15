@@ -8,10 +8,13 @@ public class StopLight : MonoBehaviour
     [SerializeField] RoadNode[] r;
     [SerializeField] Car car;
     private int lightState;
+    [SerializeField] float minTime;
+    [SerializeField] float maxTime;
 
     void Start()
     {
         car = GetComponent<Car>();
+        StartCoroutine(changeLight());
     }
 
     // Update is called once per frame
@@ -29,7 +32,9 @@ public class StopLight : MonoBehaviour
     private void yellowLight() 
     {
         Rigidbody rb = car.getrb();
-        rb.velocity *= .4f;
+        //rb.velocity *= .4f;
+        //new idea - have a collision box for each stoplight that can be edited based on stoplight, slowdown is scaled based on stoplight
+        //check collision enter
     }
 
     private void greenLight() 
@@ -38,7 +43,7 @@ public class StopLight : MonoBehaviour
             node.canMoveTo = true;
     }
 
-    private void changeLight() 
+    IEnumerator changeLight() 
     {
         switch (lightState) //cycles between the stoplight states
         {
@@ -57,5 +62,6 @@ public class StopLight : MonoBehaviour
             default:
                 break;
         }
+        yield return new WaitForSeconds(Random.Range(minTime, maxTime));
     }
 }
