@@ -254,7 +254,7 @@ MonoBehaviour:
   detectionRadius: 1
   s: {fileID: 243081283}
   tpossiblePoints:
-  - {fileID: 0}
+  - {fileID: 1305392437}
 --- !u!4 &243081285
 Transform:
   m_ObjectHideFlags: 0
@@ -598,7 +598,7 @@ MonoBehaviour:
   detectionRadius: 1
   s: {fileID: 1374773995}
   tpossiblePoints:
-  - {fileID: 0}
+  - {fileID: 1305392437}
 --- !u!4 &1374773997
 Transform:
   m_ObjectHideFlags: 0
