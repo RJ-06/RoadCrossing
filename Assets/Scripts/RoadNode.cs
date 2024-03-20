@@ -14,6 +14,8 @@ public class RoadNode : MonoBehaviour
 
     public List<RoadNode> tpossiblePoints; //true points the car can go to
 
+    public Car carAtNode;
+
 
     void Start()
     {
@@ -32,5 +34,17 @@ public class RoadNode : MonoBehaviour
     void Update()
     {
         
+    }
+
+    private void OnTriggerEnter(Collider other)
+    {
+        carAtNode = other.GetComponent<Car>();
+        canMoveTo = false;
+    }
+
+    private void OnTriggerExit(Collider other)
+    {
+        carAtNode = null;
+        canMoveTo = true;
     }
 }

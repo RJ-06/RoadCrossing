@@ -6,14 +6,14 @@ public class StopLight : MonoBehaviour
 {
     // Start is called before the first frame update
     [SerializeField] RoadNode[] r;
-    [SerializeField] Car car;
+    //[SerializeField] Car car;
     private int lightState;
     [SerializeField] float minTime;
     [SerializeField] float maxTime;
 
     void Start()
     {
-        car = GetComponent<Car>();
+        //car = GetComponent<Car>();
         StartCoroutine(changeLight());
     }
 
@@ -31,10 +31,7 @@ public class StopLight : MonoBehaviour
 
     private void yellowLight() 
     {
-        Rigidbody rb = car.getrb();
-        //rb.velocity *= .4f;
-        //new idea - have a collision box for each stoplight that can be edited based on stoplight, slowdown is scaled based on stoplight
-        //check collision enter
+        
     }
 
     private void greenLight() 
