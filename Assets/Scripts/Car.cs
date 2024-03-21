@@ -47,6 +47,9 @@ public class Car : MonoBehaviour
     public void moveToNextNode()
     {
         //moves to position, rotates car
+        if(!nextNode.canMoveTo)
+            return;
+
         transform.position = Vector3.MoveTowards(this.transform.position,nextNode.transform.position,speed * Time.deltaTime);
         transform.LookAt(nextNode.transform.position);
     }

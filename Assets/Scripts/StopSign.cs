@@ -12,30 +12,45 @@ public class StopSign : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        car = GetComponent<Car>();
+        
     }
 
     // Update is called once per frame
     void Update()
     {
+        car = r.carAtNode;
+
+        if (car != null)
+        {
+            StartCoroutine(stopCar());
+        }
 
     }
 
-    IEnumerator stopCar() 
+    private void OnTriggerEnter(Collider other)
     {
-        if (car.currentNode == r)
+        if (car != null)
         {
-            foreach (RoadNode node in next)
-            {
-                node.canMoveTo = false;
-            }
+            StartCoroutine(stopCar());
         }
-        yield return new WaitForSeconds(stopTime);
+    }
 
-        foreach (RoadNode node in next) 
+    IEnumerator stopCar()
+    {
+        Debug.Log("running");
+        foreach (RoadNode node in next)
+        {
+            node.canMoveTo = false;
+        }
+
+        yield return new WaitForSecondsRealtime(stopTime);
+
+        Debug.Log("continuing");
+        foreach(RoadNode node in next)
         {
             node.canMoveTo = true;
         }
-        
     }
+
+    
 }

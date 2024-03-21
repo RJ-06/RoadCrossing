@@ -47,11 +47,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   allPossiblePoints: []
   canMoveTo: 1
-  speed: 10
+  speed: 800
   detectionRadius: 1
   s: {fileID: 7616039571812925480}
   tpossiblePoints:
   - {fileID: 0}
+  carAtNode: {fileID: 0}
 --- !u!135 &7616039571812925480
 SphereCollider:
   m_ObjectHideFlags: 0
