@@ -7,7 +7,7 @@ public class StopLight : MonoBehaviour
     // Start is called before the first frame update
     [SerializeField] RoadNode[] r;
     //[SerializeField] Car car;
-    private int lightState;
+    private int lightState = 0;
     [SerializeField] float minTime;
     [SerializeField] float maxTime;
 
@@ -42,8 +42,10 @@ public class StopLight : MonoBehaviour
 
     IEnumerator changeLight() 
     {
+        Debug.Log("changed state: " + lightState);
         switch (lightState) //cycles between the stoplight states
         {
+           
             case 0:
                 greenLight();
                 lightState = 1;

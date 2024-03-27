@@ -37,7 +37,6 @@ public class StopSign : MonoBehaviour
 
     IEnumerator stopCar()
     {
-        Debug.Log("running");
         foreach (RoadNode node in next)
         {
             node.canMoveTo = false;
@@ -45,7 +44,6 @@ public class StopSign : MonoBehaviour
 
         yield return new WaitForSecondsRealtime(stopTime);
 
-        Debug.Log("continuing");
         foreach(RoadNode node in next)
         {
             node.canMoveTo = true;
