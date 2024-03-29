@@ -14,6 +14,8 @@ public class PlayerController : MonoBehaviour
     Vector3 moveDirecion;
     [SerializeField] Transform orientation;
 
+    [SerializeField] float jumpForce;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -32,7 +34,7 @@ public class PlayerController : MonoBehaviour
     //fixedUpdate runs a fixed amount of times per second, so is used for physics
     private void FixedUpdate()
     {
-        movePlayer();   
+        movePlayer();
         
     }
 
@@ -40,6 +42,11 @@ public class PlayerController : MonoBehaviour
     {
         moveX = Input.GetAxisRaw("Horizontal");
         moveY = Input.GetAxisRaw("Vertical");
+
+        if (Input.GetKeyDown(KeyCode.J)) 
+        {
+            rb.AddForce(0,jumpForce, 0);
+        }
     }
 
     private void movePlayer() 
@@ -47,4 +54,6 @@ public class PlayerController : MonoBehaviour
         moveDirecion = orientation.forward * moveY + orientation.right * moveX;
         rb.velocity = (moveDirecion.normalized * playerSpeed);
     }
+
+    
 }

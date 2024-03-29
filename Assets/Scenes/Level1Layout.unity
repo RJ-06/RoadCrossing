@@ -17,7 +17,7 @@ RenderSettings:
   m_Fog: 0
   m_FogColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
   m_FogMode: 3
-  m_FogDensity: 0.01
+  m_FogDensity: 0.0001
   m_LinearFogStart: 0
   m_LinearFogEnd: 300
   m_AmbientSkyColor: {r: 0.212, g: 0.227, b: 0.259, a: 1}
@@ -35,10 +35,10 @@ RenderSettings:
   m_DefaultReflectionMode: 0
   m_DefaultReflectionResolution: 128
   m_ReflectionBounces: 1
-  m_ReflectionIntensity: 1
+  m_ReflectionIntensity: 0.083
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.18028378, g: 0.22571412, b: 0.30692285, a: 1}
+  m_IndirectSpecularColor: {r: 0.014963553, g: 0.01873427, b: 0.025474595, a: 0.083}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -2501,7 +2501,7 @@ PrefabInstance:
         type: 3}
       propertyPath: tpossiblePoints.Array.data[0]
       value: 
-      objectReference: {fileID: 1124989504}
+      objectReference: {fileID: 1897843864}
     - target: {fileID: 8697341319722283711, guid: f8af907e1ea96ca46aac62d3131023da,
         type: 3}
       propertyPath: tpossiblePoints.Array.data[1]
@@ -2926,7 +2926,7 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: d17806f27f8f43246914d4f58f69a73c,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -1147
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: d17806f27f8f43246914d4f58f69a73c,
         type: 3}
@@ -7340,15 +7340,21 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1521076293}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: a739a0416b4b2db4d8ad0f5534a5503d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  r:
-  - {fileID: 1124989504}
-  minTime: 2
+  rStop:
+  - {fileID: 1897843864}
+  - {fileID: 903177931}
+  minTime: 3
   maxTime: 5
+  slowDownPoints:
+  - {fileID: 1649774166}
+  - {fileID: 290914652}
+  - {fileID: 290914652}
+  slowDownSpeed: 0.6
 --- !u!4 &1521076295
 Transform:
   m_ObjectHideFlags: 0
@@ -7358,7 +7364,7 @@ Transform:
   m_GameObject: {fileID: 1521076293}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -6920, y: 0, z: 1029}
+  m_LocalPosition: {x: -6898, y: 0, z: -173}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
