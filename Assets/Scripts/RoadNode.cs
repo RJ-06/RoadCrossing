@@ -17,6 +17,7 @@ public class RoadNode : MonoBehaviour
     public Car carAtNode;
 
 
+
     void Start()
     {
         s = GetComponent<SphereCollider>();
