@@ -3704,9 +3704,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8697341319722283711, guid: f8af907e1ea96ca46aac62d3131023da,
         type: 3}
+      propertyPath: tpossiblePoints.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8697341319722283711, guid: f8af907e1ea96ca46aac62d3131023da,
+        type: 3}
       propertyPath: tpossiblePoints.Array.data[0]
       value: 
       objectReference: {fileID: 903177931}
+    - target: {fileID: 8697341319722283711, guid: f8af907e1ea96ca46aac62d3131023da,
+        type: 3}
+      propertyPath: tpossiblePoints.Array.data[1]
+      value: 
+      objectReference: {fileID: 1124989504}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []

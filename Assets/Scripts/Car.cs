@@ -15,7 +15,7 @@ public class Car : MonoBehaviour
     void Start()
     {
         rb = GetComponent<Rigidbody>();
-        choosePath();
+        choosePath(currentNode);
     }
 
     // Update is called once per frame
@@ -27,10 +27,10 @@ public class Car : MonoBehaviour
 
 
 
-    public void choosePath() 
+    public void choosePath(RoadNode r) 
     {
         //randomly chooses which node to go to (allows for multiple lanes
-        RoadNode[] posPoints = currentNode.tpossiblePoints.ToArray();
+        RoadNode[] posPoints = r.tpossiblePoints.ToArray();
         nextNode = posPoints[Random.Range(0, posPoints.Length)];
     }
 
@@ -38,7 +38,7 @@ public class Car : MonoBehaviour
     {
         //gets which node its touching
         currentNode = col.GetComponent<RoadNode>();
-        choosePath();
+        choosePath(currentNode);
         //allows changing car speed based on where it is
         speed = currentNode.speed;
         
