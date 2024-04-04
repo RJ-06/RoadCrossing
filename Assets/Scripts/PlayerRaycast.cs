@@ -20,7 +20,6 @@ public class PlayerRaycast : MonoBehaviour
 
         // Get the direction based on the orientation of the player
         Vector3 raycastDirection = orientation.forward;
-        Debug.Log(orientation.forward);
         // Perform the raycast
         RaycastHit hit;
         if (Physics.Raycast(orientation.position, raycastDirection, out hit, Mathf.Infinity, LayerMask.GetMask("RaycastNode")))
