@@ -24,7 +24,6 @@ public class ScanArea : MonoBehaviour
 
     private GameObject eventScriptObject; // Reference to the object with the event script
 
-    [SerializeField] private Event eHelper;
     void Start()
     {
         hitNodes = new bool[rows, columns]; // Initialize the hitNodes array
@@ -130,11 +129,7 @@ public class ScanArea : MonoBehaviour
             Debug.LogError("Invalid fill check mode: " + fillCheckMode);
         }
 
-        // Set event flag if enough of the grid is filled and an event script is attached
-        if (enoughGridFilled)
-        {
-            eHelper.TriggerEvent();
-        }
+        
     }
 
 
@@ -161,6 +156,7 @@ public class ScanArea : MonoBehaviour
 
         // Check if the required fill percentage is met
         enoughGridFilled = filledPercentage >= requiredFillPercentage;
+        if(enoughGridFilled) EventManager.instance.score++;
     }
 
     // Method to check at least one node per column
@@ -187,5 +183,6 @@ public class ScanArea : MonoBehaviour
         }
 
         enoughGridFilled = true;
+        EventManager.instance.score++;
     }
 }

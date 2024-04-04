@@ -11,25 +11,16 @@ public class EventManager : MonoBehaviour
 
     // Singleton instance
     public static EventManager instance;
-    public static EventManager Instance
-    {
-        get
-        {
-            if (instance == null)
-            {
-                instance = FindObjectOfType<EventManager>();
-                if (instance == null)
-                {
-                    GameObject obj = new GameObject("EventManager");
-                    instance = obj.AddComponent<EventManager>();
-                }
-            }
-            return instance;
-        }
-    }
+    public static EventManager Instance{get;}
 
     private void Awake()
     {
+        if (instance == null)
+        {
+            instance = this;
+        }
+        else if (instance != this) Destroy(this);
+
         // Initialize event flags with event names as keys and default value false
         foreach (string eventName in eventNames)
         {
