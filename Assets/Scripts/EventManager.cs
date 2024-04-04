@@ -24,7 +24,6 @@ public class EventManager : MonoBehaviour
         // Initialize event flags with event names as keys and default value false
         foreach (string eventName in eventNames)
         {
-            Debug.Log(eventName);
             eventFlags.Add(eventName, false);
         }
     }
@@ -46,7 +45,6 @@ public class EventManager : MonoBehaviour
         {
             eventFlags.Add(eventName, value);
         }
-        Debug.Log(eventFlags[eventName]);
     }
 
     // Function to get the flag for a specific event
