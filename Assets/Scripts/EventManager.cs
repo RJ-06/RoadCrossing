@@ -1,11 +1,13 @@
 using UnityEngine;
 using System.Collections.Generic;
+using UnityEngine.Experimental.Rendering;
 
 public class EventManager : MonoBehaviour
 {
     // Dictionary to store event flags keyed by event names
     private Dictionary<string, bool> eventFlags = new Dictionary<string, bool>();
     [SerializeField] string[] eventNames;
+    [SerializeField] public int score = 0;
 
     // Singleton instance
     public static EventManager instance;
@@ -31,6 +33,7 @@ public class EventManager : MonoBehaviour
         // Initialize event flags with event names as keys and default value false
         foreach (string eventName in eventNames)
         {
+            Debug.Log(eventName);
             eventFlags.Add(eventName, false);
         }
     }

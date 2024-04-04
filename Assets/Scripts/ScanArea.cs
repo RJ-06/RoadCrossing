@@ -23,11 +23,12 @@ public class ScanArea : MonoBehaviour
     private string eventScriptObjectName = "Event"; // Name of the script to check for
 
     private GameObject eventScriptObject; // Reference to the object with the event script
+
+    [SerializeField] private Event eHelper;
     void Start()
     {
         hitNodes = new bool[rows, columns]; // Initialize the hitNodes array
         SpawnGrid(); // Method to spawn the grid
-        FindEventScriptObject();
     }
 
     void Update()
@@ -92,16 +93,6 @@ public class ScanArea : MonoBehaviour
         }
     }
 
-    // Method to find the object with the event script attached
-    void FindEventScriptObject()
-    {
-        eventScriptObject = GameObject.Find(eventScriptObjectName);
-        if (eventScriptObject == null)
-        {
-            Debug.LogWarning("Event script object not found: " + eventScriptObjectName);
-        }
-    }
-
     // Method to get the size of an object
     Vector3 GetObjectSize(GameObject obj)
     {
@@ -140,13 +131,9 @@ public class ScanArea : MonoBehaviour
         }
 
         // Set event flag if enough of the grid is filled and an event script is attached
-        if (enoughGridFilled && eventScriptObject != null)
+        if (enoughGridFilled)
         {
-            Event eventHelper = eventScriptObject.GetComponent<Event>();
-            if (eventHelper != null)
-            {
-                eventHelper.TriggerEvent("AreaOneScanned");
-            }
+            eHelper.TriggerEvent();
         }
     }
 
