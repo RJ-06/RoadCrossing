@@ -17,8 +17,11 @@ public class StopLight : MonoBehaviour
 
     private Dictionary<int,string> colorDict = new Dictionary<int,string>();
 
+    [SerializeField] Light[] lights;
+
     void Start()
     {
+
         //car = GetComponent<Car>();
         colorDict.Add(0, "green");
         colorDict.Add(1, "yellow");
@@ -27,6 +30,11 @@ public class StopLight : MonoBehaviour
         foreach (RoadNode node in slowDownPoints)
         {
             speedList.Add(node.speed);
+        }
+
+        foreach (Light l in lights) 
+        {
+            l.enabled = false;
         }
 
         StartCoroutine(changeLight());
@@ -46,6 +54,9 @@ public class StopLight : MonoBehaviour
 
         foreach (RoadNode node in rStop)
             node.canMoveTo = false;
+        
+        lights[2].enabled = false;
+        lights[0].enabled = true;
     }
 
     private void yellowLight() 
@@ -54,6 +65,8 @@ public class StopLight : MonoBehaviour
         {
             node.speed *= slowDownSpeed;
         }
+        lights[0].enabled = false;
+        lights[1].enabled = true;
     }
 
     private void greenLight() 
@@ -68,6 +81,9 @@ public class StopLight : MonoBehaviour
         {
             node.canMoveTo = true;
         }
+
+        lights[1].enabled = false;
+        lights[2].enabled = true;
 
     }
 
