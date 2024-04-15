@@ -7,6 +7,7 @@ public class RoadCross : MonoBehaviour
     // Start is called before the first frame update
     [SerializeField] ScanArea s;
 
+
     private bool shouldCross;
 
 
@@ -23,6 +24,8 @@ public class RoadCross : MonoBehaviour
 
     void startRoadCrossing() 
     {
+
+
         //Danial to do:
         //instantiate new ScanArea
         //if ScanArea has been completed, set the bool shouldCross to true
