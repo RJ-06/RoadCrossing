@@ -5,7 +5,7 @@ using UnityEngine;
 public class RoadNode : MonoBehaviour
 {
     // Start is called before the first frame update
-    public RoadNode[] allPossiblePoints; //all connected points
+    public List<RoadNode> allPossiblePoints; //all connected points
     public bool canMoveTo = true;
     public float speed;
 

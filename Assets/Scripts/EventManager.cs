@@ -1,33 +1,26 @@
 using UnityEngine;
 using System.Collections.Generic;
+using UnityEngine.Experimental.Rendering;
 
 public class EventManager : MonoBehaviour
 {
     // Dictionary to store event flags keyed by event names
     private Dictionary<string, bool> eventFlags = new Dictionary<string, bool>();
     [SerializeField] string[] eventNames;
+    [SerializeField] public int score = 0;
 
     // Singleton instance
     public static EventManager instance;
-    public static EventManager Instance
-    {
-        get
-        {
-            if (instance == null)
-            {
-                instance = FindObjectOfType<EventManager>();
-                if (instance == null)
-                {
-                    GameObject obj = new GameObject("EventManager");
-                    instance = obj.AddComponent<EventManager>();
-                }
-            }
-            return instance;
-        }
-    }
+    public static EventManager Instance{get;}
 
     private void Awake()
     {
+        if (instance == null)
+        {
+            instance = this;
+        }
+        else if (instance != this) Destroy(this);
+
         // Initialize event flags with event names as keys and default value false
         foreach (string eventName in eventNames)
         {
@@ -52,7 +45,6 @@ public class EventManager : MonoBehaviour
         {
             eventFlags.Add(eventName, value);
         }
-        Debug.Log(eventFlags[eventName]);
     }
 
     // Function to get the flag for a specific event

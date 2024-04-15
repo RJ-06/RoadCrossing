@@ -29,7 +29,5 @@ public class NodeController : MonoBehaviour
 
         // Change the material color to green
         renderer.material.color = Color.green;
-
-        Debug.Log("Hit!");
     }
 }

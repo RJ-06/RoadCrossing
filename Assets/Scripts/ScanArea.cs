@@ -23,11 +23,11 @@ public class ScanArea : MonoBehaviour
     private string eventScriptObjectName = "Event"; // Name of the script to check for
 
     private GameObject eventScriptObject; // Reference to the object with the event script
+
     void Start()
     {
         hitNodes = new bool[rows, columns]; // Initialize the hitNodes array
         SpawnGrid(); // Method to spawn the grid
-        FindEventScriptObject();
     }
 
     void Update()
@@ -92,16 +92,6 @@ public class ScanArea : MonoBehaviour
         }
     }
 
-    // Method to find the object with the event script attached
-    void FindEventScriptObject()
-    {
-        eventScriptObject = GameObject.Find(eventScriptObjectName);
-        if (eventScriptObject == null)
-        {
-            Debug.LogWarning("Event script object not found: " + eventScriptObjectName);
-        }
-    }
-
     // Method to get the size of an object
     Vector3 GetObjectSize(GameObject obj)
     {
@@ -139,15 +129,7 @@ public class ScanArea : MonoBehaviour
             Debug.LogError("Invalid fill check mode: " + fillCheckMode);
         }
 
-        // Set event flag if enough of the grid is filled and an event script is attached
-        if (enoughGridFilled && eventScriptObject != null)
-        {
-            Event eventHelper = eventScriptObject.GetComponent<Event>();
-            if (eventHelper != null)
-            {
-                eventHelper.TriggerEvent("AreaOneScanned");
-            }
-        }
+        
     }
 
 
@@ -174,6 +156,7 @@ public class ScanArea : MonoBehaviour
 
         // Check if the required fill percentage is met
         enoughGridFilled = filledPercentage >= requiredFillPercentage;
+        if(enoughGridFilled) EventManager.instance.score++;
     }
 
     // Method to check at least one node per column
@@ -200,5 +183,6 @@ public class ScanArea : MonoBehaviour
         }
 
         enoughGridFilled = true;
+        EventManager.instance.score++;
     }
 }
