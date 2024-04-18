@@ -20,6 +20,18 @@ public class NodeController : MonoBehaviour
         originalMaterial = renderer.material;
     }
 
+    private void Update()
+    {
+        if (!gridManager.hitNodes[row, column])
+        {
+            renderer.material.color = Color.white;
+        }
+        if(gridManager.enoughGridFilled)
+        {
+            renderer.enabled = false;
+        }
+    }
+
     public void OnRaycastHit()
     {
         if(hit) return;

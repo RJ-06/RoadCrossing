@@ -986,6 +986,7 @@ MonoBehaviour:
   requiredFillPercentage: 50
   enoughGridFilled: 0
   fillCheckMode: 2
+  numScans: 2
   barrier: {fileID: 1033743191}
 --- !u!4 &1854416130
 Transform:

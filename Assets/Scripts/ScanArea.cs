@@ -15,10 +15,13 @@ public class ScanArea : MonoBehaviour
     [SerializeField]
     private float requiredFillPercentage = 50f; // Percentage of the area that must be filled
     [SerializeField]
-    private bool enoughGridFilled = false; // Flag indicating if enough of the grid is filled
+    public bool enoughGridFilled = false; // Flag indicating if enough of the grid is filled
 
     [SerializeField]
     private int fillCheckMode = 1; // Mode to determine whether the grid is filled enough
+
+    [SerializeField]
+    private int numScans = 1;
 
     private string eventScriptObjectName = "Event"; // Name of the script to check for
 
@@ -184,8 +187,18 @@ public class ScanArea : MonoBehaviour
             }
         }
 
-        enoughGridFilled = true;
-        EventManager.instance.score++;
-        barrier.SetActive(false);
+        numScans--;
+        resetGrid();
+        if(numScans <= 0)
+        {
+            enoughGridFilled = true;
+            EventManager.instance.score++;
+            barrier.SetActive(false);
+        }
+    }
+
+    void resetGrid()
+    {
+        hitNodes = new bool[rows, columns];
     }
 }
