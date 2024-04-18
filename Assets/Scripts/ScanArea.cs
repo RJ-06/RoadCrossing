@@ -24,6 +24,8 @@ public class ScanArea : MonoBehaviour
 
     private GameObject eventScriptObject; // Reference to the object with the event script
 
+    public GameObject barrier;
+
     void Start()
     {
         hitNodes = new bool[rows, columns]; // Initialize the hitNodes array
@@ -184,5 +186,6 @@ public class ScanArea : MonoBehaviour
 
         enoughGridFilled = true;
         EventManager.instance.score++;
+        barrier.SetActive(false);
     }
 }
