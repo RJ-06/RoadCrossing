@@ -6,10 +6,12 @@ public class Scoring : MonoBehaviour
 {
     // Start is called before the first frame update
     public static int score;
+    public static int highScore;
 
 
     void Start()
     {
+        loadGame();
         score = 0;
     }
 
@@ -22,5 +24,21 @@ public class Scoring : MonoBehaviour
     public void onCross() 
     {
         score++;
+
+        if (score > highScore) 
+        {
+            highScore = score;
+        }
+    }
+
+    void saveGame()
+    {
+        PlayerPrefs.SetInt("HighScore", highScore);
+        PlayerPrefs.Save();
+    }
+
+    void loadGame()
+    {
+        highScore = PlayerPrefs.GetInt("HiighScore");
     }
 }
