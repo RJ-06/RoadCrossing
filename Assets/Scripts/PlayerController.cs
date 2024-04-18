@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.InputSystem;
 
 public class PlayerController : MonoBehaviour
 {
@@ -14,11 +15,14 @@ public class PlayerController : MonoBehaviour
     Vector3 moveDirecion;
     [SerializeField] Transform orientation;
 
-    [SerializeField] float jumpForce;
+    [SerializeField] InputActionReference moveAction;
+
 
     // Start is called before the first frame update
     void Start()
     {
+        Cursor.visible = true;
+
         rb = GetComponent<Rigidbody>();
         charController = GetComponent<CharacterController>();
         rb.freezeRotation = true;
@@ -43,14 +47,12 @@ public class PlayerController : MonoBehaviour
         moveX = Input.GetAxisRaw("Horizontal");
         moveY = Input.GetAxisRaw("Vertical");
 
-        if (Input.GetKeyDown(KeyCode.J)) 
-        {
-            rb.AddForce(0,jumpForce, 0);
-        }
     }
 
     private void movePlayer() 
     {
+        //Vector2 moveDir = moveAction.action.ReadValue<Vector2>();
+
         moveDirecion = orientation.forward * moveY + orientation.right * moveX;
         rb.velocity = (moveDirecion.normalized * playerSpeed);
     }
