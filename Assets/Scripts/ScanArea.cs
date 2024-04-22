@@ -156,7 +156,11 @@ public class ScanArea : MonoBehaviour
 
         // Check if the required fill percentage is met
         enoughGridFilled = filledPercentage >= requiredFillPercentage;
-        if(enoughGridFilled) EventManager.instance.score++;
+        if (enoughGridFilled)
+        {
+            EventManager.instance.score++;
+            Scoring.onCross();
+        }
     }
 
     // Method to check at least one node per column
@@ -188,6 +192,7 @@ public class ScanArea : MonoBehaviour
         {
             enoughGridFilled = true;
             EventManager.instance.score++;
+            Scoring.onCross();
             barrier.SetActive(false);
         }
     }
