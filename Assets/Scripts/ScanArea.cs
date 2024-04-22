@@ -29,6 +29,11 @@ public class ScanArea : MonoBehaviour
 
     public GameObject barrier;
 
+    [SerializeField]
+    Material nodeMatDeactive;
+    [SerializeField]
+    Material nodeMatActive;
+
     void Start()
     {
         hitNodes = new bool[rows, columns]; // Initialize the hitNodes array
@@ -79,20 +84,10 @@ public class ScanArea : MonoBehaviour
                 // Assign the RaycastNode layer to the spawned square
                 spawnedSquare.layer = LayerMask.NameToLayer("RaycastNode");
 
-                // Make the squares slightly translucent
-                Renderer renderer = spawnedSquare.GetComponent<Renderer>();
-                if (renderer != null)
-                {
-                    Material material = new Material(renderer.material);
-                    material.color = new Color(1f, 1f, 1f, 0.5f); // Set color with alpha
-                    renderer.material = material;
-                }
 
-                // Attach NodeController script to the spawned square
+                // Attach and setup NodeController script to the spawned square
                 NodeController nodeController = spawnedSquare.AddComponent<NodeController>();
-                nodeController.row = row;
-                nodeController.column = col;
-                nodeController.gridManager = this;
+                nodeController.Init(nodeMatActive, nodeMatDeactive, this, row, col);
             }
         }
     }

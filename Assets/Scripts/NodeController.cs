@@ -8,23 +8,35 @@ public class NodeController : MonoBehaviour
     public bool hit;
     private Material originalMaterial; // Original material of the sphere
     private Renderer renderer; // Reference to the renderer component
+    Material nodeMatDeactive;
+    Material nodeMatActive;
 
-    void Awake()
+    public void Init(Material ActiveMat, Material DeactiveMat, ScanArea gm, int row, int col)
     {
+        gridManager = gm;
+        nodeMatDeactive = DeactiveMat;
+        nodeMatActive = ActiveMat;
+
+        this.row = row;
+        this.column = col;
+
         hit = false;
 
         // Get the renderer component
         renderer = GetComponent<Renderer>();
 
         // Store the original material of the sphere
-        originalMaterial = renderer.material;
+        renderer.material = nodeMatDeactive;
+        renderer.receiveShadows = false;
+        renderer.shadowCastingMode = UnityEngine.Rendering.ShadowCastingMode.Off;
     }
 
     private void Update()
     {
         if (!gridManager.hitNodes[row, column])
         {
-            renderer.material.color = Color.white;
+            renderer.material = nodeMatDeactive;
+            hit = false;
         }
         if(gridManager.enoughGridFilled)
         {
@@ -40,6 +52,6 @@ public class NodeController : MonoBehaviour
         gridManager.hitNodes[row, column] = true;
 
         // Change the material color to green
-        renderer.material.color = Color.green;
+        renderer.material = nodeMatActive;
     }
 }
