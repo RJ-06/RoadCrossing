@@ -15,16 +15,24 @@ public class ScanArea : MonoBehaviour
     [SerializeField]
     private float requiredFillPercentage = 50f; // Percentage of the area that must be filled
     [SerializeField]
-    private bool enoughGridFilled = false; // Flag indicating if enough of the grid is filled
+    public bool enoughGridFilled = false; // Flag indicating if enough of the grid is filled
 
     [SerializeField]
     private int fillCheckMode = 1; // Mode to determine whether the grid is filled enough
+
+    [SerializeField]
+    private int numScans = 1;
 
     private string eventScriptObjectName = "Event"; // Name of the script to check for
 
     private GameObject eventScriptObject; // Reference to the object with the event script
 
     public GameObject barrier;
+
+    [SerializeField]
+    Material nodeMatDeactive;
+    [SerializeField]
+    Material nodeMatActive;
 
     void Start()
     {
@@ -76,20 +84,10 @@ public class ScanArea : MonoBehaviour
                 // Assign the RaycastNode layer to the spawned square
                 spawnedSquare.layer = LayerMask.NameToLayer("RaycastNode");
 
-                // Make the squares slightly translucent
-                Renderer renderer = spawnedSquare.GetComponent<Renderer>();
-                if (renderer != null)
-                {
-                    Material material = new Material(renderer.material);
-                    material.color = new Color(1f, 1f, 1f, 0.5f); // Set color with alpha
-                    renderer.material = material;
-                }
 
-                // Attach NodeController script to the spawned square
+                // Attach and setup NodeController script to the spawned square
                 NodeController nodeController = spawnedSquare.AddComponent<NodeController>();
-                nodeController.row = row;
-                nodeController.column = col;
-                nodeController.gridManager = this;
+                nodeController.Init(nodeMatActive, nodeMatDeactive, this, row, col);
             }
         }
     }
@@ -158,7 +156,11 @@ public class ScanArea : MonoBehaviour
 
         // Check if the required fill percentage is met
         enoughGridFilled = filledPercentage >= requiredFillPercentage;
-        if(enoughGridFilled) EventManager.instance.score++;
+        if (enoughGridFilled)
+        {
+            EventManager.instance.score++;
+            Scoring.onCross();
+        }
     }
 
     // Method to check at least one node per column
@@ -184,8 +186,19 @@ public class ScanArea : MonoBehaviour
             }
         }
 
-        enoughGridFilled = true;
-        EventManager.instance.score++;
-        barrier.SetActive(false);
+        numScans--;
+        resetGrid();
+        if(numScans <= 0)
+        {
+            enoughGridFilled = true;
+            EventManager.instance.score++;
+            Scoring.onCross();
+            barrier.SetActive(false);
+        }
+    }
+
+    void resetGrid()
+    {
+        hitNodes = new bool[rows, columns];
     }
 }

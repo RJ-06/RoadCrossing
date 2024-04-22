@@ -5,7 +5,7 @@ using UnityEngine;
 public class Scoring : MonoBehaviour
 {
     // Start is called before the first frame update
-    public static int score;
+    public static int score = 0;
     public static int highScore;
 
 
@@ -21,10 +21,11 @@ public class Scoring : MonoBehaviour
         
     }
 
-    public void onCross() 
+    public static void onCross() 
     {
         score++;
-
+        UIManager.UpdateScore(score);
+        Debug.Log("Updating Score");
         if (score > highScore) 
         {
             highScore = score;
