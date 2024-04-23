@@ -11,6 +11,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Level1Layout.unity
     guid: 71a6926e8cee6f749a179909b3d466ae
+  - enabled: 1
+    path: Assets/Scenes/RaycastTesting.unity
+    guid: 063dde31cd699dd47acce9da75e4cb7f
   m_configObjects:
     com.unity.adaptiveperformance.loader_settings: {fileID: 11400000, guid: 4cdd54a5f958d8045bd904b74a898045,
       type: 2}
