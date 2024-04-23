@@ -12,7 +12,10 @@ public class Scoring : MonoBehaviour
     void Start()
     {
         loadGame();
+        
         score = 0;
+        Debug.Log("Updating Score");
+        UIManager.UpdateScore(score, highScore);
     }
 
     // Update is called once per frame
@@ -24,22 +27,30 @@ public class Scoring : MonoBehaviour
     public static void onCross() 
     {
         score++;
-        UIManager.UpdateScore(score);
-        Debug.Log("Updating Score");
         if (score > highScore) 
         {
             highScore = score;
+            saveGame();
         }
+        UIManager.UpdateScore(score, highScore);
     }
 
-    void saveGame()
+    static void saveGame()
     {
         PlayerPrefs.SetInt("HighScore", highScore);
         PlayerPrefs.Save();
     }
 
-    void loadGame()
+    static void loadGame()
     {
-        highScore = PlayerPrefs.GetInt("HiighScore");
+        try
+        {
+            highScore = PlayerPrefs.GetInt("HighScore");
+        }
+        catch
+        {
+            highScore = 0;
+            Debug.Log("Lame!");
+        }
     }
 }
