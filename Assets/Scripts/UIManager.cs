@@ -15,8 +15,8 @@ public class UIManager : MonoBehaviour
         score = uiDocument.Q<Label>("ScoreVal");
     }
 
-    public static void UpdateScore(int nScore)
+    public static void UpdateScore(int nScore, int hScore)
     {
-        score.text = nScore.ToString();
+        score.text = "Score: " + nScore.ToString() + "\nHigh Score: " + hScore;
     }
 }
