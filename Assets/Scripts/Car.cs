@@ -21,8 +21,9 @@ public class Car : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(nextNode != null)
-            moveToNextNode();
+        moveToNextNode();
+        //if (nextNode != null)
+            
     }
 
 
@@ -38,6 +39,9 @@ public class Car : MonoBehaviour
     {
         //gets which node its touching
         currentNode = col.GetComponent<RoadNode>();
+        if (currentNode == null)
+            return;
+
         choosePath(currentNode);
         //allows changing car speed based on where it is
         speed = currentNode.speed;

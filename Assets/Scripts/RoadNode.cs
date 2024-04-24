@@ -37,14 +37,20 @@ public class RoadNode : MonoBehaviour
         
     }
 
-    private void OnTriggerEnter(Collider other)
+    private void OnTriggerStay(Collider other)
     {
         carAtNode = other.GetComponent<Car>();
+        if (carAtNode == null)
+            return;
+
         canMoveTo = false;
     }
 
     private void OnTriggerExit(Collider other)
     {
+        if (other.GetComponent<Car>() == null)
+            return;
+
         carAtNode = null;
         canMoveTo = true;
     }
