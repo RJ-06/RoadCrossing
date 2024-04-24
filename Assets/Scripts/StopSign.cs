@@ -9,6 +9,8 @@ public class StopSign : MonoBehaviour
     [SerializeField] Car car;
     [SerializeField] float stopTime;
 
+    bool stop = false;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -20,23 +22,28 @@ public class StopSign : MonoBehaviour
     {
         car = r.carAtNode;
 
-        if (car != null)
+        
+
+        if (car != null && !stop)
         {
             StartCoroutine(stopCar());
         }
 
+
     }
 
-    private void OnTriggerEnter(Collider other)
+    
+    /*private void OnTriggerStay(Collider other)
     {
         if (car != null)
         {
             StartCoroutine(stopCar());
         }
-    }
+    }*/
 
     IEnumerator stopCar()
     {
+        
         foreach (RoadNode node in next)
         {
             node.canMoveTo = false;
@@ -48,6 +55,7 @@ public class StopSign : MonoBehaviour
         {
             node.canMoveTo = true;
         }
+        stop = false;
     }
 
     
