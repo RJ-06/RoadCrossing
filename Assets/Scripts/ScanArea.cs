@@ -23,7 +23,7 @@ public class ScanArea : MonoBehaviour
     [SerializeField]
     private int numScans = 1;
 
-    private string eventScriptObjectName = "Event"; // Name of the script to check for
+    //private string eventScriptObjectName = "Event"; // Name of the script to check for
 
     private GameObject eventScriptObject; // Reference to the object with the event script
 
@@ -96,9 +96,10 @@ public class ScanArea : MonoBehaviour
     Vector3 GetObjectSize(GameObject obj)
     {
         Renderer renderer = obj.GetComponent<Renderer>();
+        Transform t = obj.gameObject.transform;
         if (renderer != null)
         {
-            return renderer.bounds.size;
+            return t.localScale;
         }
         else
         {
@@ -191,9 +192,11 @@ public class ScanArea : MonoBehaviour
         if(numScans <= 0)
         {
             enoughGridFilled = true;
-            EventManager.instance.score++;
-            Scoring.onCross();
             barrier.SetActive(false);
+            //EventManager.instance.score++;
+            Scoring.onCross();
+            Debug.Log("scanned!");
+            
         }
     }
 

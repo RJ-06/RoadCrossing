@@ -7,7 +7,7 @@ public class StopLight : MonoBehaviour
     // Start is called before the first frame update
     [SerializeField] RoadNode[] rStop;
     //[SerializeField] Car car;
-    private int lightState = 0;
+    public int lightState = 0;
     [SerializeField] float minTime;
     [SerializeField] float maxTime;
 
@@ -97,18 +97,18 @@ public class StopLight : MonoBehaviour
 
                 case 0:
                     greenLight();
-                    lightState = 1;
                     yield return new WaitForSeconds(Random.Range(minTime, maxTime));
+                    lightState = 1;
                     break;
                 case 1:
                     yellowLight();
-                    lightState = 2;
                     yield return new WaitForSeconds(0.3f*Random.Range(minTime, maxTime));
+                    lightState = 2;
                     break;
                 case 2:
-                    redLight();
-                    lightState = 0;
+                    redLight();  
                     yield return new WaitForSeconds(Random.Range(minTime, maxTime));
+                    lightState = 0;
                     break;
                 default:
                     break;

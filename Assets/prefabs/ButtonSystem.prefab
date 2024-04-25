@@ -431,6 +431,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   objectToEnable: {fileID: 5360895061096995944}
+  s: {fileID: 0}
 --- !u!64 &1710167515282718157
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -472,8 +473,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 0.61605096, y: 0.29, z: 0.8862206}
-  m_Center: {x: 0.05802548, y: -1.2771732e-16, z: 0.24101263}
+  m_Size: {x: 0.61605096, y: 0.312271, z: 0.8862206}
+  m_Center: {x: 0.05802548, y: -0.31535974, z: 0.24101263}
 --- !u!4 &5270896425173879468 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: dbfefe2d12ceaaf4f8cad0a7e21404e1,
