@@ -28,10 +28,10 @@ public partial class @PlayerControls: IInputActionCollection2, IDisposable
             ""id"": ""04fc13ad-a231-474e-a45f-24a385aa4236"",
             ""actions"": [
                 {
-                    ""name"": ""playermove"",
+                    ""name"": ""Move"",
                     ""type"": ""Value"",
                     ""id"": ""200da1c1-7b4c-4b3f-aa59-56797d5d60c4"",
-                    ""expectedControlType"": """",
+                    ""expectedControlType"": ""Vector2"",
                     ""processors"": """",
                     ""interactions"": """",
                     ""initialStateCheck"": true
@@ -54,9 +54,64 @@ public partial class @PlayerControls: IInputActionCollection2, IDisposable
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": """",
-                    ""action"": ""playermove"",
+                    ""action"": ""Move"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": ""2D Vector"",
+                    ""id"": ""20e711f7-e26f-4147-aef5-26605797c6f6"",
+                    ""path"": ""2DVector"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Move"",
+                    ""isComposite"": true,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": ""up"",
+                    ""id"": ""59568f10-0952-454e-aa3e-8a8093bd0e55"",
+                    ""path"": ""<Keyboard>/w"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Move"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": true
+                },
+                {
+                    ""name"": ""down"",
+                    ""id"": ""94333738-8096-4bf5-bbb4-bba3198d7bb8"",
+                    ""path"": ""<Keyboard>/s"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Move"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": true
+                },
+                {
+                    ""name"": ""left"",
+                    ""id"": ""ec421ede-2e99-4981-817e-db8d82170c23"",
+                    ""path"": ""<Keyboard>/a"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Move"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": true
+                },
+                {
+                    ""name"": ""right"",
+                    ""id"": ""f0a1ef7d-2dc2-4393-b101-411af08ab334"",
+                    ""path"": ""<Keyboard>/d"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Move"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": true
                 },
                 {
                     ""name"": """",
@@ -76,7 +131,7 @@ public partial class @PlayerControls: IInputActionCollection2, IDisposable
 }");
         // player
         m_player = asset.FindActionMap("player", throwIfNotFound: true);
-        m_player_playermove = m_player.FindAction("playermove", throwIfNotFound: true);
+        m_player_Move = m_player.FindAction("Move", throwIfNotFound: true);
         m_player_PlayerCamera = m_player.FindAction("PlayerCamera", throwIfNotFound: true);
     }
 
@@ -139,13 +194,13 @@ public partial class @PlayerControls: IInputActionCollection2, IDisposable
     // player
     private readonly InputActionMap m_player;
     private List<IPlayerActions> m_PlayerActionsCallbackInterfaces = new List<IPlayerActions>();
-    private readonly InputAction m_player_playermove;
+    private readonly InputAction m_player_Move;
     private readonly InputAction m_player_PlayerCamera;
     public struct PlayerActions
     {
         private @PlayerControls m_Wrapper;
         public PlayerActions(@PlayerControls wrapper) { m_Wrapper = wrapper; }
-        public InputAction @playermove => m_Wrapper.m_player_playermove;
+        public InputAction @Move => m_Wrapper.m_player_Move;
         public InputAction @PlayerCamera => m_Wrapper.m_player_PlayerCamera;
         public InputActionMap Get() { return m_Wrapper.m_player; }
         public void Enable() { Get().Enable(); }
@@ -156,9 +211,9 @@ public partial class @PlayerControls: IInputActionCollection2, IDisposable
         {
             if (instance == null || m_Wrapper.m_PlayerActionsCallbackInterfaces.Contains(instance)) return;
             m_Wrapper.m_PlayerActionsCallbackInterfaces.Add(instance);
-            @playermove.started += instance.OnPlayermove;
-            @playermove.performed += instance.OnPlayermove;
-            @playermove.canceled += instance.OnPlayermove;
+            @Move.started += instance.OnMove;
+            @Move.performed += instance.OnMove;
+            @Move.canceled += instance.OnMove;
             @PlayerCamera.started += instance.OnPlayerCamera;
             @PlayerCamera.performed += instance.OnPlayerCamera;
             @PlayerCamera.canceled += instance.OnPlayerCamera;
@@ -166,9 +221,9 @@ public partial class @PlayerControls: IInputActionCollection2, IDisposable
 
         private void UnregisterCallbacks(IPlayerActions instance)
         {
-            @playermove.started -= instance.OnPlayermove;
-            @playermove.performed -= instance.OnPlayermove;
-            @playermove.canceled -= instance.OnPlayermove;
+            @Move.started -= instance.OnMove;
+            @Move.performed -= instance.OnMove;
+            @Move.canceled -= instance.OnMove;
             @PlayerCamera.started -= instance.OnPlayerCamera;
             @PlayerCamera.performed -= instance.OnPlayerCamera;
             @PlayerCamera.canceled -= instance.OnPlayerCamera;
@@ -191,7 +246,7 @@ public partial class @PlayerControls: IInputActionCollection2, IDisposable
     public PlayerActions @player => new PlayerActions(this);
     public interface IPlayerActions
     {
-        void OnPlayermove(InputAction.CallbackContext context);
+        void OnMove(InputAction.CallbackContext context);
         void OnPlayerCamera(InputAction.CallbackContext context);
     }
 }

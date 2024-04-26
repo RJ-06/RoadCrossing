@@ -15,8 +15,8 @@ public class PlayerController : MonoBehaviour
     Vector3 moveDirecion;
     [SerializeField] Transform orientation;
 
-    [SerializeField] InputActionReference moveAction;
-
+    PlayerInput pInput;
+    InputAction mAction;
 
     // Start is called before the first frame update
     void Start()
@@ -25,6 +25,8 @@ public class PlayerController : MonoBehaviour
 
         rb = GetComponent<Rigidbody>();
         charController = GetComponent<CharacterController>();
+        pInput = GetComponent<PlayerInput>();
+        mAction = pInput.actions.FindAction("Move");
         rb.freezeRotation = true;
         
     }
@@ -44,8 +46,12 @@ public class PlayerController : MonoBehaviour
 
     private void myInput() 
     {
-        moveX = Input.GetAxisRaw("Horizontal");
-        moveY = Input.GetAxisRaw("Vertical");
+
+
+        //moveX = Input.GetAxisRaw("Horizontal");
+        //moveY = Input.GetAxisRaw("Vertical");
+        moveX = mAction.ReadValue<Vector2>().x;
+        moveY = mAction.ReadValue<Vector2>().y;
 
     }
 

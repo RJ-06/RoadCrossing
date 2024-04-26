@@ -26,16 +26,16 @@ public class PlayerCam : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        return;
-        //float mouseX = Input.GetAxisRaw("Mouse X") * Time.deltaTime * sensX;
-        //float mouseY = Input.GetAxisRaw("Mouse Y") * Time.deltaTime * sensY;
-        //yRot += mouseX;
-        //xRot -= mouseY;
+        
+        float mouseX = Input.GetAxisRaw("Mouse X") * Time.deltaTime * sensX;
+        float mouseY = Input.GetAxisRaw("Mouse Y") * Time.deltaTime * sensY;
+        yRot += mouseX;
+        xRot -= mouseY;
 
-        //xRot = Mathf.Clamp(xRot, -rotationYLock,rotationYLock); //clamps how much you can look
+        xRot = Mathf.Clamp(xRot, -rotationYLock,rotationYLock); //clamps how much you can look
 
-        //transform.rotation = Quaternion.Euler(xRot, yRot, 0);
-        //orientation.rotation = Quaternion.Euler(0, yRot, 0);
+        transform.rotation = Quaternion.Euler(xRot, yRot, 0);
+        orientation.rotation = Quaternion.Euler(0, yRot, 0);
 
     }
 }
