@@ -193,6 +193,7 @@ public class ScanArea : MonoBehaviour
         {
             enoughGridFilled = true;
             barrier.SetActive(false);
+            this.gameObject.SetActive(false);
             //EventManager.instance.score++;
             Scoring.onCross();
             Debug.Log("scanned!");
