@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.InputSystem;
 
 public class PlayerCam : MonoBehaviour
 {
@@ -15,20 +16,28 @@ public class PlayerCam : MonoBehaviour
     float xRot;
     float yRot;
 
+    [SerializeField] PlayerInput pInput;
+    InputAction cameraAction;
+
     void Start()
     {
-        Cursor.lockState = CursorLockMode.Locked;
-        Cursor.visible = false;
-        /*Cursor.lockState = CursorLockMode.None;
-        Cursor.visible = true;*/
+        /*Cursor.lockState = CursorLockMode.Locked;
+        Cursor.visible = false;*/
+        Cursor.lockState = CursorLockMode.None;
+        Cursor.visible = true;
+
+        cameraAction = pInput.actions.FindAction("PlayerCamera");
     }
 
     // Update is called once per frame
     void Update()
     {
-        
-        float mouseX = Input.GetAxisRaw("Mouse X") * Time.deltaTime * sensX;
-        float mouseY = Input.GetAxisRaw("Mouse Y") * Time.deltaTime * sensY;
+
+        float mouseX = cameraAction.ReadValue<Vector2>().x;
+        float mouseY = cameraAction.ReadValue<Vector2>().y;
+
+        /*float mouseX = Input.GetAxisRaw("Mouse X") * Time.deltaTime * sensX;
+        float mouseY = Input.GetAxisRaw("Mouse Y") * Time.deltaTime * sensY;*/
         yRot += mouseX;
         xRot -= mouseY;
 
