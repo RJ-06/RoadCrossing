@@ -10,6 +10,6 @@ public class PanelManager : MonoBehaviour
         UnityEngine.UIElements.Button buttonPlay = root.Q<UnityEngine.UIElements.Button>("ButtonPlay");
         UnityEngine.UIElements.Button buttonOptions = root.Q<UnityEngine.UIElements.Button>("ButtonOptions");
 
-        buttonPlay.clicked += () => SceneManager.LoadScene("RaycastTesting");
+        buttonPlay.clicked += () => SceneManager.LoadScene("Level1Layout");
     }
 }

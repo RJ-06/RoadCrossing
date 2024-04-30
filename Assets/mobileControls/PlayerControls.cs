@@ -126,8 +126,8 @@ public partial class @PlayerControls: IInputActionCollection2, IDisposable
                 },
                 {
                     ""name"": """",
-                    ""id"": ""b7c651db-73d7-4643-bdbc-202f7f1530a1"",
-                    ""path"": ""<Touchscreen>/delta"",
+                    ""id"": ""154a2c88-227c-4a3b-b892-7c5199f1c998"",
+                    ""path"": ""<Mouse>/delta"",
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": """",
@@ -137,8 +137,8 @@ public partial class @PlayerControls: IInputActionCollection2, IDisposable
                 },
                 {
                     ""name"": """",
-                    ""id"": ""8fade7e9-a517-42a2-9ea9-010ed099646f"",
-                    ""path"": ""<Mouse>/delta"",
+                    ""id"": ""21322f9a-994d-4194-a509-ac28abc810b8"",
+                    ""path"": ""<Gamepad>/rightStick"",
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": """",
