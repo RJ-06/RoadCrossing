@@ -48,7 +48,7 @@ public partial class @PlayerControls: IInputActionCollection2, IDisposable
             ],
             ""bindings"": [
                 {
-                    ""name"": ""2D Vector"",
+                    ""name"": ""Keyboard"",
                     ""id"": ""20e711f7-e26f-4147-aef5-26605797c6f6"",
                     ""path"": ""2DVector"",
                     ""interactions"": """",
@@ -104,7 +104,18 @@ public partial class @PlayerControls: IInputActionCollection2, IDisposable
                 },
                 {
                     ""name"": """",
-                    ""id"": ""af23815f-a827-4e9f-959a-9389f4446552"",
+                    ""id"": ""d51adf05-6263-420f-8b55-2455e5353d86"",
+                    ""path"": ""<Joystick>/stick"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Move"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""3705d9a5-2e7e-4c76-a35d-dca820e6ae7f"",
                     ""path"": ""<Gamepad>/leftStick"",
                     ""interactions"": """",
                     ""processors"": """",
@@ -115,8 +126,8 @@ public partial class @PlayerControls: IInputActionCollection2, IDisposable
                 },
                 {
                     ""name"": """",
-                    ""id"": ""b7c651db-73d7-4643-bdbc-202f7f1530a1"",
-                    ""path"": ""<Touchscreen>/delta"",
+                    ""id"": ""154a2c88-227c-4a3b-b892-7c5199f1c998"",
+                    ""path"": ""<Mouse>/delta"",
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": """",
@@ -126,8 +137,8 @@ public partial class @PlayerControls: IInputActionCollection2, IDisposable
                 },
                 {
                     ""name"": """",
-                    ""id"": ""7eae4496-001a-4b22-93e4-de5c0cbe2699"",
-                    ""path"": ""<Mouse>/delta"",
+                    ""id"": ""21322f9a-994d-4194-a509-ac28abc810b8"",
+                    ""path"": ""<Gamepad>/rightStick"",
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": """",
