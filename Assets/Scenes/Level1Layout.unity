@@ -4295,6 +4295,21 @@ PrefabInstance:
       propertyPath: orientation
       value: 
       objectReference: {fileID: 1853834650}
+    - target: {fileID: 3163520520904282111, guid: 7ddb95718746e2949b5062cb9568cc70,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3163520520904282111, guid: 7ddb95718746e2949b5062cb9568cc70,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5065789501581053667, guid: 7ddb95718746e2949b5062cb9568cc70,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -249
+      objectReference: {fileID: 0}
     - target: {fileID: 5471726056273403243, guid: 7ddb95718746e2949b5062cb9568cc70,
         type: 3}
       propertyPath: m_Behaviour
@@ -4329,6 +4344,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6696971130983126750, guid: 7ddb95718746e2949b5062cb9568cc70,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 228
       objectReference: {fileID: 0}
     - target: {fileID: 6702154635852335156, guid: 7ddb95718746e2949b5062cb9568cc70,
         type: 3}
@@ -10403,7 +10423,7 @@ PrefabInstance:
     - target: {fileID: 7621295846226332875, guid: 461ce726b5bcb6a49abddf3466cad36d,
         type: 3}
       propertyPath: far clip plane
-      value: 500000
+      value: 50000
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
