@@ -134,6 +134,7 @@ GameObject:
   - component: {fileID: 54985397}
   - component: {fileID: 54985399}
   - component: {fileID: 54985398}
+  - component: {fileID: 54985400}
   m_Layer: 0
   m_Name: driveway_long (4)
   m_TagString: Untagged
@@ -207,6 +208,27 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 54985396}
   m_Mesh: {fileID: -3456312405952388865, guid: 781f7c54381cefb42890e21283ad39ae, type: 3}
+--- !u!65 &54985400
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 54985396}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.36, y: 0.01, z: 0.4}
+  m_Center: {x: 0, y: 0.005, z: 0}
 --- !u!1 &75255371
 GameObject:
   m_ObjectHideFlags: 0
@@ -218,6 +240,7 @@ GameObject:
   - component: {fileID: 75255372}
   - component: {fileID: 75255374}
   - component: {fileID: 75255373}
+  - component: {fileID: 75255375}
   m_Layer: 0
   m_Name: road_straight (12)
   m_TagString: Untagged
@@ -293,6 +316,125 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 75255371}
   m_Mesh: {fileID: 6440166555503141632, guid: 1e3401b7de61455419963494f10aeb82, type: 3}
+--- !u!65 &75255375
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 75255371}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1.0000002, y: 0.02, z: 1.0000002}
+  m_Center: {x: 0, y: 0.01, z: 0}
+--- !u!1001 &81930657
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1349916400784189919, guid: 7ddb95718746e2949b5062cb9568cc70,
+        type: 3}
+      propertyPath: m_Name
+      value: Player
+      objectReference: {fileID: 0}
+    - target: {fileID: 1712427139881683690, guid: 7ddb95718746e2949b5062cb9568cc70,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1712427139881683690, guid: 7ddb95718746e2949b5062cb9568cc70,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1712427139881683690, guid: 7ddb95718746e2949b5062cb9568cc70,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1712427139881683690, guid: 7ddb95718746e2949b5062cb9568cc70,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 11.85
+      objectReference: {fileID: 0}
+    - target: {fileID: 1712427139881683690, guid: 7ddb95718746e2949b5062cb9568cc70,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.155
+      objectReference: {fileID: 0}
+    - target: {fileID: 1712427139881683690, guid: 7ddb95718746e2949b5062cb9568cc70,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 6.53
+      objectReference: {fileID: 0}
+    - target: {fileID: 1712427139881683690, guid: 7ddb95718746e2949b5062cb9568cc70,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1712427139881683690, guid: 7ddb95718746e2949b5062cb9568cc70,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1712427139881683690, guid: 7ddb95718746e2949b5062cb9568cc70,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1712427139881683690, guid: 7ddb95718746e2949b5062cb9568cc70,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1712427139881683690, guid: 7ddb95718746e2949b5062cb9568cc70,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1712427139881683690, guid: 7ddb95718746e2949b5062cb9568cc70,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1712427139881683690, guid: 7ddb95718746e2949b5062cb9568cc70,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2058593281094808437, guid: 7ddb95718746e2949b5062cb9568cc70,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.77
+      objectReference: {fileID: 0}
+    - target: {fileID: 2446292090997747224, guid: 7ddb95718746e2949b5062cb9568cc70,
+        type: 3}
+      propertyPath: orientation
+      value: 
+      objectReference: {fileID: 892104284}
+    - target: {fileID: 3860472805342613074, guid: 7ddb95718746e2949b5062cb9568cc70,
+        type: 3}
+      propertyPath: playerSpeed
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 7ddb95718746e2949b5062cb9568cc70, type: 3}
 --- !u!1 &87504923
 GameObject:
   m_ObjectHideFlags: 0
@@ -304,6 +446,7 @@ GameObject:
   - component: {fileID: 87504924}
   - component: {fileID: 87504926}
   - component: {fileID: 87504925}
+  - component: {fileID: 87504927}
   m_Layer: 0
   m_Name: road_bend (12)
   m_TagString: Untagged
@@ -379,6 +522,27 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 87504923}
   m_Mesh: {fileID: 8439104543645927819, guid: bc4221be88ec40148bdd153b6aa3fc47, type: 3}
+--- !u!65 &87504927
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 87504923}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1.0000002, y: 0.02, z: 1.0000002}
+  m_Center: {x: 0, y: 0.01, z: 0}
 --- !u!1 &101195514
 GameObject:
   m_ObjectHideFlags: 0
@@ -390,6 +554,7 @@ GameObject:
   - component: {fileID: 101195515}
   - component: {fileID: 101195517}
   - component: {fileID: 101195516}
+  - component: {fileID: 101195518}
   m_Layer: 0
   m_Name: road_intersection (13)
   m_TagString: Untagged
@@ -465,6 +630,27 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 101195514}
   m_Mesh: {fileID: -4603950910259808982, guid: e9f2942feacbe5244821b1cd6b290c5a, type: 3}
+--- !u!65 &101195518
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 101195514}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1.0000002, y: 0.02, z: 1.0000002}
+  m_Center: {x: 0, y: 0.01, z: 0}
 --- !u!1 &185997428
 GameObject:
   m_ObjectHideFlags: 0
@@ -476,6 +662,7 @@ GameObject:
   - component: {fileID: 185997429}
   - component: {fileID: 185997431}
   - component: {fileID: 185997430}
+  - component: {fileID: 185997432}
   m_Layer: 0
   m_Name: road_intersection (12)
   m_TagString: Untagged
@@ -551,6 +738,27 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 185997428}
   m_Mesh: {fileID: -4603950910259808982, guid: e9f2942feacbe5244821b1cd6b290c5a, type: 3}
+--- !u!65 &185997432
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 185997428}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 0.02, z: 1}
+  m_Center: {x: 0, y: 0.01, z: 0}
 --- !u!1 &205112492
 GameObject:
   m_ObjectHideFlags: 0
@@ -562,6 +770,7 @@ GameObject:
   - component: {fileID: 205112493}
   - component: {fileID: 205112495}
   - component: {fileID: 205112494}
+  - component: {fileID: 205112496}
   m_Layer: 0
   m_Name: road_intersection (4)
   m_TagString: Untagged
@@ -637,6 +846,27 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 205112492}
   m_Mesh: {fileID: -4603950910259808982, guid: e9f2942feacbe5244821b1cd6b290c5a, type: 3}
+--- !u!65 &205112496
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 205112492}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1.0000002, y: 0.02, z: 1.0000002}
+  m_Center: {x: 0, y: 0.01, z: 0}
 --- !u!1 &235597092
 GameObject:
   m_ObjectHideFlags: 0
@@ -648,6 +878,7 @@ GameObject:
   - component: {fileID: 235597093}
   - component: {fileID: 235597095}
   - component: {fileID: 235597094}
+  - component: {fileID: 235597096}
   m_Layer: 0
   m_Name: road_straight (18)
   m_TagString: Untagged
@@ -723,6 +954,27 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 235597092}
   m_Mesh: {fileID: 6440166555503141632, guid: 1e3401b7de61455419963494f10aeb82, type: 3}
+--- !u!65 &235597096
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 235597092}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1.0000004, y: 0.02, z: 1.0000002}
+  m_Center: {x: 0, y: 0.01, z: 0}
 --- !u!1 &307363593
 GameObject:
   m_ObjectHideFlags: 0
@@ -734,6 +986,7 @@ GameObject:
   - component: {fileID: 307363594}
   - component: {fileID: 307363596}
   - component: {fileID: 307363595}
+  - component: {fileID: 307363597}
   m_Layer: 0
   m_Name: road_intersection (14)
   m_TagString: Untagged
@@ -809,6 +1062,27 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 307363593}
   m_Mesh: {fileID: -4603950910259808982, guid: e9f2942feacbe5244821b1cd6b290c5a, type: 3}
+--- !u!65 &307363597
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 307363593}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 0.02, z: 1}
+  m_Center: {x: 0, y: 0.01, z: 0}
 --- !u!1 &310994192
 GameObject:
   m_ObjectHideFlags: 0
@@ -820,6 +1094,7 @@ GameObject:
   - component: {fileID: 310994193}
   - component: {fileID: 310994195}
   - component: {fileID: 310994194}
+  - component: {fileID: 310994196}
   m_Layer: 0
   m_Name: driveway_long (8)
   m_TagString: Untagged
@@ -893,6 +1168,27 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 310994192}
   m_Mesh: {fileID: -3456312405952388865, guid: 781f7c54381cefb42890e21283ad39ae, type: 3}
+--- !u!65 &310994196
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 310994192}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.36, y: 0.01, z: 0.4}
+  m_Center: {x: 0, y: 0.005, z: 0}
 --- !u!1 &326731252
 GameObject:
   m_ObjectHideFlags: 0
@@ -904,6 +1200,7 @@ GameObject:
   - component: {fileID: 326731253}
   - component: {fileID: 326731255}
   - component: {fileID: 326731254}
+  - component: {fileID: 326731256}
   m_Layer: 0
   m_Name: driveway_long (7)
   m_TagString: Untagged
@@ -977,6 +1274,27 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 326731252}
   m_Mesh: {fileID: -3456312405952388865, guid: 781f7c54381cefb42890e21283ad39ae, type: 3}
+--- !u!65 &326731256
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 326731252}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.36, y: 0.01, z: 0.4}
+  m_Center: {x: 0, y: 0.005, z: 0}
 --- !u!1 &338243785
 GameObject:
   m_ObjectHideFlags: 0
@@ -1082,6 +1400,7 @@ GameObject:
   - component: {fileID: 345095467}
   - component: {fileID: 345095469}
   - component: {fileID: 345095468}
+  - component: {fileID: 345095470}
   m_Layer: 0
   m_Name: road_straight (34)
   m_TagString: Untagged
@@ -1157,6 +1476,27 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 345095466}
   m_Mesh: {fileID: 6440166555503141632, guid: 1e3401b7de61455419963494f10aeb82, type: 3}
+--- !u!65 &345095470
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 345095466}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 0.02, z: 1}
+  m_Center: {x: 0, y: 0.01, z: 0}
 --- !u!1 &346045356
 GameObject:
   m_ObjectHideFlags: 0
@@ -1168,6 +1508,7 @@ GameObject:
   - component: {fileID: 346045357}
   - component: {fileID: 346045359}
   - component: {fileID: 346045358}
+  - component: {fileID: 346045360}
   m_Layer: 0
   m_Name: road_bend (5)
   m_TagString: Untagged
@@ -1243,6 +1584,27 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 346045356}
   m_Mesh: {fileID: 8439104543645927819, guid: bc4221be88ec40148bdd153b6aa3fc47, type: 3}
+--- !u!65 &346045360
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 346045356}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1.0000002, y: 0.02, z: 1.0000002}
+  m_Center: {x: 0, y: 0.01, z: 0}
 --- !u!1 &359498962
 GameObject:
   m_ObjectHideFlags: 0
@@ -1254,6 +1616,7 @@ GameObject:
   - component: {fileID: 359498963}
   - component: {fileID: 359498965}
   - component: {fileID: 359498964}
+  - component: {fileID: 359498966}
   m_Layer: 0
   m_Name: road_straight (7)
   m_TagString: Untagged
@@ -1329,6 +1692,27 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 359498962}
   m_Mesh: {fileID: 6440166555503141632, guid: 1e3401b7de61455419963494f10aeb82, type: 3}
+--- !u!65 &359498966
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 359498962}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1.0000002, y: 0.02, z: 1.0000002}
+  m_Center: {x: 0, y: 0.01, z: 0}
 --- !u!1 &385089458
 GameObject:
   m_ObjectHideFlags: 0
@@ -1340,6 +1724,7 @@ GameObject:
   - component: {fileID: 385089459}
   - component: {fileID: 385089461}
   - component: {fileID: 385089460}
+  - component: {fileID: 385089462}
   m_Layer: 0
   m_Name: house_type05 (3)
   m_TagString: Untagged
@@ -1416,6 +1801,27 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 385089458}
   m_Mesh: {fileID: -6445713987585115133, guid: 23cbdc4a6de95d34bb82c7f3769b2dba, type: 3}
+--- !u!65 &385089462
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 385089458}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1.308, y: 0.7375, z: 1.308}
+  m_Center: {x: 0, y: 0.36875, z: 0}
 --- !u!1 &400462073
 GameObject:
   m_ObjectHideFlags: 0
@@ -1427,6 +1833,7 @@ GameObject:
   - component: {fileID: 400462074}
   - component: {fileID: 400462076}
   - component: {fileID: 400462075}
+  - component: {fileID: 400462077}
   m_Layer: 0
   m_Name: house_type05 (10)
   m_TagString: Untagged
@@ -1503,6 +1910,27 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 400462073}
   m_Mesh: {fileID: -6445713987585115133, guid: 23cbdc4a6de95d34bb82c7f3769b2dba, type: 3}
+--- !u!65 &400462077
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 400462073}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1.308, y: 0.7375, z: 1.308}
+  m_Center: {x: 0, y: 0.36875, z: 0}
 --- !u!1 &417861906
 GameObject:
   m_ObjectHideFlags: 0
@@ -1514,6 +1942,7 @@ GameObject:
   - component: {fileID: 417861907}
   - component: {fileID: 417861909}
   - component: {fileID: 417861908}
+  - component: {fileID: 417861910}
   m_Layer: 0
   m_Name: house_type05 (7)
   m_TagString: Untagged
@@ -1590,6 +2019,27 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 417861906}
   m_Mesh: {fileID: -6445713987585115133, guid: 23cbdc4a6de95d34bb82c7f3769b2dba, type: 3}
+--- !u!65 &417861910
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 417861906}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1.308, y: 0.7375, z: 1.308}
+  m_Center: {x: 0, y: 0.36875, z: 0}
 --- !u!1 &422302051
 GameObject:
   m_ObjectHideFlags: 0
@@ -1601,6 +2051,7 @@ GameObject:
   - component: {fileID: 422302052}
   - component: {fileID: 422302054}
   - component: {fileID: 422302053}
+  - component: {fileID: 422302055}
   m_Layer: 0
   m_Name: house_type05 (9)
   m_TagString: Untagged
@@ -1677,6 +2128,27 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 422302051}
   m_Mesh: {fileID: -6445713987585115133, guid: 23cbdc4a6de95d34bb82c7f3769b2dba, type: 3}
+--- !u!65 &422302055
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 422302051}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1.308, y: 0.7375, z: 1.308}
+  m_Center: {x: 0, y: 0.36875, z: 0}
 --- !u!1 &423900288
 GameObject:
   m_ObjectHideFlags: 0
@@ -1688,6 +2160,7 @@ GameObject:
   - component: {fileID: 423900289}
   - component: {fileID: 423900291}
   - component: {fileID: 423900290}
+  - component: {fileID: 423900292}
   m_Layer: 0
   m_Name: road_straight (14)
   m_TagString: Untagged
@@ -1763,6 +2236,27 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 423900288}
   m_Mesh: {fileID: 6440166555503141632, guid: 1e3401b7de61455419963494f10aeb82, type: 3}
+--- !u!65 &423900292
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 423900288}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1.0000002, y: 0.02, z: 1.0000002}
+  m_Center: {x: 0, y: 0.01, z: 0}
 --- !u!1 &456921891
 GameObject:
   m_ObjectHideFlags: 0
@@ -1774,6 +2268,7 @@ GameObject:
   - component: {fileID: 456921892}
   - component: {fileID: 456921894}
   - component: {fileID: 456921893}
+  - component: {fileID: 456921895}
   m_Layer: 0
   m_Name: road_intersection (11)
   m_TagString: Untagged
@@ -1849,6 +2344,27 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 456921891}
   m_Mesh: {fileID: -4603950910259808982, guid: e9f2942feacbe5244821b1cd6b290c5a, type: 3}
+--- !u!65 &456921895
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 456921891}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1.0000002, y: 0.02, z: 1.0000002}
+  m_Center: {x: 0, y: 0.01, z: 0}
 --- !u!1 &459477500
 GameObject:
   m_ObjectHideFlags: 0
@@ -1860,6 +2376,7 @@ GameObject:
   - component: {fileID: 459477501}
   - component: {fileID: 459477503}
   - component: {fileID: 459477502}
+  - component: {fileID: 459477504}
   m_Layer: 0
   m_Name: road_straight (40)
   m_TagString: Untagged
@@ -1935,6 +2452,27 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 459477500}
   m_Mesh: {fileID: 6440166555503141632, guid: 1e3401b7de61455419963494f10aeb82, type: 3}
+--- !u!65 &459477504
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 459477500}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1.0000002, y: 0.02, z: 1.0000002}
+  m_Center: {x: 0, y: 0.01, z: 0}
 --- !u!1 &471579012
 GameObject:
   m_ObjectHideFlags: 0
@@ -1946,6 +2484,7 @@ GameObject:
   - component: {fileID: 471579013}
   - component: {fileID: 471579015}
   - component: {fileID: 471579014}
+  - component: {fileID: 471579016}
   m_Layer: 0
   m_Name: road_intersection (9)
   m_TagString: Untagged
@@ -2021,6 +2560,54 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 471579012}
   m_Mesh: {fileID: -4603950910259808982, guid: e9f2942feacbe5244821b1cd6b290c5a, type: 3}
+--- !u!65 &471579016
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 471579012}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 0.02, z: 1}
+  m_Center: {x: 0, y: 0.01, z: 0}
+--- !u!1 &499820439 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7261972405215247847, guid: 6904d36d5cf1ec548ac953f06bc2531e,
+    type: 3}
+  m_PrefabInstance: {fileID: 499924288}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &499820443
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 499820439}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 0.02, z: 1}
+  m_Center: {x: 0, y: 0.01, z: 0}
 --- !u!1001 &499924288
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2115,7 +2702,11 @@ PrefabInstance:
         type: 3}
       insertIndex: -1
       addedObject: {fileID: 781905186}
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 7261972405215247847, guid: 6904d36d5cf1ec548ac953f06bc2531e,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 499820443}
   m_SourcePrefab: {fileID: 100100000, guid: 6904d36d5cf1ec548ac953f06bc2531e, type: 3}
 --- !u!4 &499924289 stripped
 Transform:
@@ -2134,6 +2725,7 @@ GameObject:
   - component: {fileID: 599433698}
   - component: {fileID: 599433700}
   - component: {fileID: 599433699}
+  - component: {fileID: 599433701}
   m_Layer: 0
   m_Name: road_straight (24)
   m_TagString: Untagged
@@ -2209,6 +2801,27 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 599433697}
   m_Mesh: {fileID: 6440166555503141632, guid: 1e3401b7de61455419963494f10aeb82, type: 3}
+--- !u!65 &599433701
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 599433697}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1.0000004, y: 0.02, z: 1.0000002}
+  m_Center: {x: 0, y: 0.01, z: 0}
 --- !u!1 &626021931
 GameObject:
   m_ObjectHideFlags: 0
@@ -2220,6 +2833,7 @@ GameObject:
   - component: {fileID: 626021932}
   - component: {fileID: 626021934}
   - component: {fileID: 626021933}
+  - component: {fileID: 626021935}
   m_Layer: 0
   m_Name: road_straight (22)
   m_TagString: Untagged
@@ -2295,6 +2909,27 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 626021931}
   m_Mesh: {fileID: 6440166555503141632, guid: 1e3401b7de61455419963494f10aeb82, type: 3}
+--- !u!65 &626021935
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 626021931}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 0.02, z: 1}
+  m_Center: {x: 0, y: 0.01, z: 0}
 --- !u!1 &674312208
 GameObject:
   m_ObjectHideFlags: 0
@@ -2306,6 +2941,7 @@ GameObject:
   - component: {fileID: 674312209}
   - component: {fileID: 674312211}
   - component: {fileID: 674312210}
+  - component: {fileID: 674312212}
   m_Layer: 0
   m_Name: road_straight (37)
   m_TagString: Untagged
@@ -2381,6 +3017,27 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 674312208}
   m_Mesh: {fileID: 6440166555503141632, guid: 1e3401b7de61455419963494f10aeb82, type: 3}
+--- !u!65 &674312212
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 674312208}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1.0000001, y: 0.02, z: 1}
+  m_Center: {x: 0, y: 0.01, z: 0}
 --- !u!1 &721836812
 GameObject:
   m_ObjectHideFlags: 0
@@ -2392,6 +3049,7 @@ GameObject:
   - component: {fileID: 721836813}
   - component: {fileID: 721836815}
   - component: {fileID: 721836814}
+  - component: {fileID: 721836816}
   m_Layer: 0
   m_Name: road_bend (11)
   m_TagString: Untagged
@@ -2467,6 +3125,27 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 721836812}
   m_Mesh: {fileID: 8439104543645927819, guid: bc4221be88ec40148bdd153b6aa3fc47, type: 3}
+--- !u!65 &721836816
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 721836812}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1.0000002, y: 0.02, z: 1.0000002}
+  m_Center: {x: 0, y: 0.01, z: 0}
 --- !u!1 &726979507
 GameObject:
   m_ObjectHideFlags: 0
@@ -2478,6 +3157,7 @@ GameObject:
   - component: {fileID: 726979508}
   - component: {fileID: 726979510}
   - component: {fileID: 726979509}
+  - component: {fileID: 726979511}
   m_Layer: 0
   m_Name: driveway_long (6)
   m_TagString: Untagged
@@ -2551,6 +3231,27 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 726979507}
   m_Mesh: {fileID: -3456312405952388865, guid: 781f7c54381cefb42890e21283ad39ae, type: 3}
+--- !u!65 &726979511
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 726979507}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.36, y: 0.01, z: 0.4}
+  m_Center: {x: 0, y: 0.005, z: 0}
 --- !u!1 &728850505
 GameObject:
   m_ObjectHideFlags: 0
@@ -2562,6 +3263,7 @@ GameObject:
   - component: {fileID: 728850506}
   - component: {fileID: 728850508}
   - component: {fileID: 728850507}
+  - component: {fileID: 728850509}
   m_Layer: 0
   m_Name: road_straight (15)
   m_TagString: Untagged
@@ -2637,6 +3339,27 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 728850505}
   m_Mesh: {fileID: 6440166555503141632, guid: 1e3401b7de61455419963494f10aeb82, type: 3}
+--- !u!65 &728850509
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 728850505}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 0.02, z: 1}
+  m_Center: {x: 0, y: 0.01, z: 0}
 --- !u!1 &732632936
 GameObject:
   m_ObjectHideFlags: 0
@@ -2648,6 +3371,7 @@ GameObject:
   - component: {fileID: 732632937}
   - component: {fileID: 732632939}
   - component: {fileID: 732632938}
+  - component: {fileID: 732632940}
   m_Layer: 0
   m_Name: road_straight (5)
   m_TagString: Untagged
@@ -2723,6 +3447,27 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 732632936}
   m_Mesh: {fileID: 6440166555503141632, guid: 1e3401b7de61455419963494f10aeb82, type: 3}
+--- !u!65 &732632940
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 732632936}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1.0000002, y: 0.02, z: 1.0000002}
+  m_Center: {x: 0, y: 0.01, z: 0}
 --- !u!1 &758943668
 GameObject:
   m_ObjectHideFlags: 0
@@ -2734,6 +3479,7 @@ GameObject:
   - component: {fileID: 758943669}
   - component: {fileID: 758943671}
   - component: {fileID: 758943670}
+  - component: {fileID: 758943672}
   m_Layer: 0
   m_Name: road_intersection (7)
   m_TagString: Untagged
@@ -2809,6 +3555,27 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 758943668}
   m_Mesh: {fileID: -4603950910259808982, guid: e9f2942feacbe5244821b1cd6b290c5a, type: 3}
+--- !u!65 &758943672
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 758943668}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 0.02, z: 1}
+  m_Center: {x: 0, y: 0.01, z: 0}
 --- !u!1 &781905185
 GameObject:
   m_ObjectHideFlags: 0
@@ -2820,6 +3587,7 @@ GameObject:
   - component: {fileID: 781905186}
   - component: {fileID: 781905188}
   - component: {fileID: 781905187}
+  - component: {fileID: 781905189}
   m_Layer: 0
   m_Name: road_crossroad (3)
   m_TagString: Untagged
@@ -2895,6 +3663,27 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 781905185}
   m_Mesh: {fileID: -4377417742920401669, guid: 6904d36d5cf1ec548ac953f06bc2531e, type: 3}
+--- !u!65 &781905189
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 781905185}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 0.02, z: 1}
+  m_Center: {x: 0, y: 0.01, z: 0}
 --- !u!1001 &783164782
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3027,7 +3816,11 @@ PrefabInstance:
         type: 3}
       insertIndex: -1
       addedObject: {fileID: 471579013}
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 7380474572356889416, guid: e9f2942feacbe5244821b1cd6b290c5a,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1978478065}
   m_SourcePrefab: {fileID: 100100000, guid: e9f2942feacbe5244821b1cd6b290c5a, type: 3}
 --- !u!4 &783164783 stripped
 Transform:
@@ -3046,6 +3839,7 @@ GameObject:
   - component: {fileID: 786002734}
   - component: {fileID: 786002736}
   - component: {fileID: 786002735}
+  - component: {fileID: 786002737}
   m_Layer: 0
   m_Name: road_straight (23)
   m_TagString: Untagged
@@ -3121,6 +3915,54 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 786002733}
   m_Mesh: {fileID: 6440166555503141632, guid: 1e3401b7de61455419963494f10aeb82, type: 3}
+--- !u!65 &786002737
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 786002733}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 0.02, z: 1}
+  m_Center: {x: 0, y: 0.01, z: 0}
+--- !u!1 &827918719 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4830592140103716783, guid: 781f7c54381cefb42890e21283ad39ae,
+    type: 3}
+  m_PrefabInstance: {fileID: 1919792890}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &827918723
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 827918719}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.36, y: 0.01, z: 0.4}
+  m_Center: {x: 0, y: 0.005, z: 0}
 --- !u!1 &885630156
 GameObject:
   m_ObjectHideFlags: 0
@@ -3132,6 +3974,7 @@ GameObject:
   - component: {fileID: 885630157}
   - component: {fileID: 885630159}
   - component: {fileID: 885630158}
+  - component: {fileID: 885630160}
   m_Layer: 0
   m_Name: road_straight (10)
   m_TagString: Untagged
@@ -3207,6 +4050,33 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 885630156}
   m_Mesh: {fileID: 6440166555503141632, guid: 1e3401b7de61455419963494f10aeb82, type: 3}
+--- !u!65 &885630160
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 885630156}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 0.02, z: 1}
+  m_Center: {x: 0, y: 0.01, z: 0}
+--- !u!4 &892104284 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2058593281094808437, guid: 7ddb95718746e2949b5062cb9568cc70,
+    type: 3}
+  m_PrefabInstance: {fileID: 81930657}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &980616978
 GameObject:
   m_ObjectHideFlags: 0
@@ -3218,6 +4088,7 @@ GameObject:
   - component: {fileID: 980616979}
   - component: {fileID: 980616981}
   - component: {fileID: 980616980}
+  - component: {fileID: 980616982}
   m_Layer: 0
   m_Name: road_straight (26)
   m_TagString: Untagged
@@ -3293,6 +4164,27 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 980616978}
   m_Mesh: {fileID: 6440166555503141632, guid: 1e3401b7de61455419963494f10aeb82, type: 3}
+--- !u!65 &980616982
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 980616978}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1.0000002, y: 0.02, z: 1.0000002}
+  m_Center: {x: 0, y: 0.01, z: 0}
 --- !u!1 &1018520942
 GameObject:
   m_ObjectHideFlags: 0
@@ -3304,6 +4196,7 @@ GameObject:
   - component: {fileID: 1018520943}
   - component: {fileID: 1018520945}
   - component: {fileID: 1018520944}
+  - component: {fileID: 1018520946}
   m_Layer: 0
   m_Name: house_type05 (5)
   m_TagString: Untagged
@@ -3380,6 +4273,27 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1018520942}
   m_Mesh: {fileID: -6445713987585115133, guid: 23cbdc4a6de95d34bb82c7f3769b2dba, type: 3}
+--- !u!65 &1018520946
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1018520942}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1.308, y: 0.7375, z: 1.308}
+  m_Center: {x: 0, y: 0.36875, z: 0}
 --- !u!1 &1019768125
 GameObject:
   m_ObjectHideFlags: 0
@@ -3496,6 +4410,7 @@ GameObject:
   - component: {fileID: 1026159477}
   - component: {fileID: 1026159479}
   - component: {fileID: 1026159478}
+  - component: {fileID: 1026159480}
   m_Layer: 0
   m_Name: road_crossing (4)
   m_TagString: Untagged
@@ -3571,6 +4486,27 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1026159476}
   m_Mesh: {fileID: -8522776619696526587, guid: 177795364844ed84c9e530f01023c37f, type: 3}
+--- !u!65 &1026159480
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1026159476}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 0.02, z: 1}
+  m_Center: {x: 0, y: 0.01, z: 0}
 --- !u!1 &1026757401
 GameObject:
   m_ObjectHideFlags: 0
@@ -3582,6 +4518,7 @@ GameObject:
   - component: {fileID: 1026757402}
   - component: {fileID: 1026757404}
   - component: {fileID: 1026757403}
+  - component: {fileID: 1026757405}
   m_Layer: 0
   m_Name: road_straight (16)
   m_TagString: Untagged
@@ -3657,6 +4594,27 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1026757401}
   m_Mesh: {fileID: 6440166555503141632, guid: 1e3401b7de61455419963494f10aeb82, type: 3}
+--- !u!65 &1026757405
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1026757401}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1.0000004, y: 0.02, z: 1.0000002}
+  m_Center: {x: 0, y: 0.01, z: 0}
 --- !u!1 &1038513143
 GameObject:
   m_ObjectHideFlags: 0
@@ -3668,6 +4626,7 @@ GameObject:
   - component: {fileID: 1038513144}
   - component: {fileID: 1038513146}
   - component: {fileID: 1038513145}
+  - component: {fileID: 1038513147}
   m_Layer: 0
   m_Name: road_intersection (10)
   m_TagString: Untagged
@@ -3743,6 +4702,54 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1038513143}
   m_Mesh: {fileID: -4603950910259808982, guid: e9f2942feacbe5244821b1cd6b290c5a, type: 3}
+--- !u!65 &1038513147
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1038513143}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1.0000002, y: 0.02, z: 1.0000002}
+  m_Center: {x: 0, y: 0.01, z: 0}
+--- !u!1 &1062204485 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 783080341667269886, guid: 23cbdc4a6de95d34bb82c7f3769b2dba,
+    type: 3}
+  m_PrefabInstance: {fileID: 2043318186}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &1062204489
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1062204485}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1.308, y: 0.7375, z: 1.308}
+  m_Center: {x: 0, y: 0.36875, z: 0}
 --- !u!1 &1066170450
 GameObject:
   m_ObjectHideFlags: 0
@@ -3754,6 +4761,7 @@ GameObject:
   - component: {fileID: 1066170451}
   - component: {fileID: 1066170453}
   - component: {fileID: 1066170452}
+  - component: {fileID: 1066170454}
   m_Layer: 0
   m_Name: road_straight (21)
   m_TagString: Untagged
@@ -3829,6 +4837,27 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1066170450}
   m_Mesh: {fileID: 6440166555503141632, guid: 1e3401b7de61455419963494f10aeb82, type: 3}
+--- !u!65 &1066170454
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1066170450}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1.0000004, y: 0.02, z: 1.0000002}
+  m_Center: {x: 0, y: 0.01, z: 0}
 --- !u!1 &1081414931
 GameObject:
   m_ObjectHideFlags: 0
@@ -3840,6 +4869,7 @@ GameObject:
   - component: {fileID: 1081414932}
   - component: {fileID: 1081414934}
   - component: {fileID: 1081414933}
+  - component: {fileID: 1081414935}
   m_Layer: 0
   m_Name: road_straight (20)
   m_TagString: Untagged
@@ -3915,6 +4945,27 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1081414931}
   m_Mesh: {fileID: 6440166555503141632, guid: 1e3401b7de61455419963494f10aeb82, type: 3}
+--- !u!65 &1081414935
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1081414931}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 0.02, z: 1}
+  m_Center: {x: 0, y: 0.01, z: 0}
 --- !u!1001 &1134889927
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4068,6 +5119,7 @@ GameObject:
   - component: {fileID: 1147441902}
   - component: {fileID: 1147441904}
   - component: {fileID: 1147441903}
+  - component: {fileID: 1147441905}
   m_Layer: 0
   m_Name: road_crossroad (1)
   m_TagString: Untagged
@@ -4143,6 +5195,27 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1147441901}
   m_Mesh: {fileID: -4377417742920401669, guid: 6904d36d5cf1ec548ac953f06bc2531e, type: 3}
+--- !u!65 &1147441905
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1147441901}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 0.02, z: 1}
+  m_Center: {x: 0, y: 0.01, z: 0}
 --- !u!1 &1155266394
 GameObject:
   m_ObjectHideFlags: 0
@@ -4154,6 +5227,7 @@ GameObject:
   - component: {fileID: 1155266395}
   - component: {fileID: 1155266397}
   - component: {fileID: 1155266396}
+  - component: {fileID: 1155266398}
   m_Layer: 0
   m_Name: road_straight (38)
   m_TagString: Untagged
@@ -4229,6 +5303,27 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1155266394}
   m_Mesh: {fileID: 6440166555503141632, guid: 1e3401b7de61455419963494f10aeb82, type: 3}
+--- !u!65 &1155266398
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1155266394}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1.0000002, y: 0.02, z: 1.0000002}
+  m_Center: {x: 0, y: 0.01, z: 0}
 --- !u!1 &1175014698
 GameObject:
   m_ObjectHideFlags: 0
@@ -4240,6 +5335,7 @@ GameObject:
   - component: {fileID: 1175014699}
   - component: {fileID: 1175014701}
   - component: {fileID: 1175014700}
+  - component: {fileID: 1175014702}
   m_Layer: 0
   m_Name: road_intersection (1)
   m_TagString: Untagged
@@ -4315,104 +5411,27 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1175014698}
   m_Mesh: {fileID: -4603950910259808982, guid: e9f2942feacbe5244821b1cd6b290c5a, type: 3}
---- !u!1001 &1184774741
-PrefabInstance:
+--- !u!65 &1175014702
+BoxCollider:
   m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 2556741711102124747, guid: 461ce726b5bcb6a49abddf3466cad36d,
-        type: 3}
-      propertyPath: m_Name
-      value: CameraHolder
-      objectReference: {fileID: 0}
-    - target: {fileID: 3794013512867418453, guid: 461ce726b5bcb6a49abddf3466cad36d,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -2.272379
-      objectReference: {fileID: 0}
-    - target: {fileID: 3794013512867418453, guid: 461ce726b5bcb6a49abddf3466cad36d,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 2.78
-      objectReference: {fileID: 0}
-    - target: {fileID: 3794013512867418453, guid: 461ce726b5bcb6a49abddf3466cad36d,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 2.02
-      objectReference: {fileID: 0}
-    - target: {fileID: 3794013512867418453, guid: 461ce726b5bcb6a49abddf3466cad36d,
-        type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3794013512867418453, guid: 461ce726b5bcb6a49abddf3466cad36d,
-        type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3794013512867418453, guid: 461ce726b5bcb6a49abddf3466cad36d,
-        type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3794013512867418453, guid: 461ce726b5bcb6a49abddf3466cad36d,
-        type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3794013512867418453, guid: 461ce726b5bcb6a49abddf3466cad36d,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3794013512867418453, guid: 461ce726b5bcb6a49abddf3466cad36d,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3794013512867418453, guid: 461ce726b5bcb6a49abddf3466cad36d,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4432233597140544214, guid: 461ce726b5bcb6a49abddf3466cad36d,
-        type: 3}
-      propertyPath: pInput
-      value: 
-      objectReference: {fileID: 2090311456}
-    - target: {fileID: 4432233597140544214, guid: 461ce726b5bcb6a49abddf3466cad36d,
-        type: 3}
-      propertyPath: orientation
-      value: 
-      objectReference: {fileID: 2090311455}
-    - target: {fileID: 4792984762776900702, guid: 461ce726b5bcb6a49abddf3466cad36d,
-        type: 3}
-      propertyPath: camPos
-      value: 
-      objectReference: {fileID: 2090311455}
-    - target: {fileID: 7621295846226332875, guid: 461ce726b5bcb6a49abddf3466cad36d,
-        type: 3}
-      propertyPath: field of view
-      value: 70
-      objectReference: {fileID: 0}
-    - target: {fileID: 7621295846226332875, guid: 461ce726b5bcb6a49abddf3466cad36d,
-        type: 3}
-      propertyPath: far clip plane
-      value: 20
-      objectReference: {fileID: 0}
-    - target: {fileID: 7621295846226332875, guid: 461ce726b5bcb6a49abddf3466cad36d,
-        type: 3}
-      propertyPath: near clip plane
-      value: 0.01
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 461ce726b5bcb6a49abddf3466cad36d, type: 3}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1175014698}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1.0000002, y: 0.02, z: 1.0000002}
+  m_Center: {x: 0, y: 0.01, z: 0}
 --- !u!1 &1188611200
 GameObject:
   m_ObjectHideFlags: 0
@@ -4424,6 +5443,7 @@ GameObject:
   - component: {fileID: 1188611201}
   - component: {fileID: 1188611203}
   - component: {fileID: 1188611202}
+  - component: {fileID: 1188611204}
   m_Layer: 0
   m_Name: road_crossing (2)
   m_TagString: Untagged
@@ -4499,6 +5519,27 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1188611200}
   m_Mesh: {fileID: -8522776619696526587, guid: 177795364844ed84c9e530f01023c37f, type: 3}
+--- !u!65 &1188611204
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1188611200}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1.0000002, y: 0.02, z: 1.0000002}
+  m_Center: {x: 0, y: 0.01, z: 0}
 --- !u!1 &1191353183
 GameObject:
   m_ObjectHideFlags: 0
@@ -4510,6 +5551,7 @@ GameObject:
   - component: {fileID: 1191353184}
   - component: {fileID: 1191353186}
   - component: {fileID: 1191353185}
+  - component: {fileID: 1191353187}
   m_Layer: 0
   m_Name: road_intersection (5)
   m_TagString: Untagged
@@ -4585,6 +5627,27 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1191353183}
   m_Mesh: {fileID: -4603950910259808982, guid: e9f2942feacbe5244821b1cd6b290c5a, type: 3}
+--- !u!65 &1191353187
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1191353183}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 0.02, z: 1}
+  m_Center: {x: 0, y: 0.01, z: 0}
 --- !u!1 &1201831809
 GameObject:
   m_ObjectHideFlags: 0
@@ -4596,6 +5659,7 @@ GameObject:
   - component: {fileID: 1201831810}
   - component: {fileID: 1201831812}
   - component: {fileID: 1201831811}
+  - component: {fileID: 1201831813}
   m_Layer: 0
   m_Name: road_straight (2)
   m_TagString: Untagged
@@ -4671,6 +5735,27 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1201831809}
   m_Mesh: {fileID: 6440166555503141632, guid: 1e3401b7de61455419963494f10aeb82, type: 3}
+--- !u!65 &1201831813
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1201831809}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 0.02, z: 1}
+  m_Center: {x: 0, y: 0.01, z: 0}
 --- !u!1 &1216226572
 GameObject:
   m_ObjectHideFlags: 0
@@ -4682,6 +5767,7 @@ GameObject:
   - component: {fileID: 1216226573}
   - component: {fileID: 1216226575}
   - component: {fileID: 1216226574}
+  - component: {fileID: 1216226576}
   m_Layer: 0
   m_Name: driveway_long (15)
   m_TagString: Untagged
@@ -4755,6 +5841,27 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1216226572}
   m_Mesh: {fileID: -3456312405952388865, guid: 781f7c54381cefb42890e21283ad39ae, type: 3}
+--- !u!65 &1216226576
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1216226572}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.3600001, y: 0.01, z: 0.4000001}
+  m_Center: {x: 0, y: 0.005, z: 0}
 --- !u!1 &1230107916
 GameObject:
   m_ObjectHideFlags: 0
@@ -4766,6 +5873,7 @@ GameObject:
   - component: {fileID: 1230107917}
   - component: {fileID: 1230107919}
   - component: {fileID: 1230107918}
+  - component: {fileID: 1230107920}
   m_Layer: 0
   m_Name: road_straight (4)
   m_TagString: Untagged
@@ -4841,6 +5949,27 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1230107916}
   m_Mesh: {fileID: 6440166555503141632, guid: 1e3401b7de61455419963494f10aeb82, type: 3}
+--- !u!65 &1230107920
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1230107916}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1.0000001, y: 0.02, z: 1.0000002}
+  m_Center: {x: 0, y: 0.01, z: 0}
 --- !u!1 &1251255951
 GameObject:
   m_ObjectHideFlags: 0
@@ -4852,6 +5981,7 @@ GameObject:
   - component: {fileID: 1251255952}
   - component: {fileID: 1251255954}
   - component: {fileID: 1251255953}
+  - component: {fileID: 1251255955}
   m_Layer: 0
   m_Name: house_type05 (14)
   m_TagString: Untagged
@@ -4928,6 +6058,54 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1251255951}
   m_Mesh: {fileID: -6445713987585115133, guid: 23cbdc4a6de95d34bb82c7f3769b2dba, type: 3}
+--- !u!65 &1251255955
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1251255951}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1.3080003, y: 0.7375, z: 1.3080003}
+  m_Center: {x: 0, y: 0.36875, z: 0}
+--- !u!1 &1273516114 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6165406450510588458, guid: 1b293098e3048be4f935719fb18c0573,
+    type: 3}
+  m_PrefabInstance: {fileID: 1435062012}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &1273516118
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1273516114}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 3, y: 0.02, z: 3}
+  m_Center: {x: 0, y: 0.01, z: 0}
 --- !u!1 &1274037187
 GameObject:
   m_ObjectHideFlags: 0
@@ -4939,6 +6117,7 @@ GameObject:
   - component: {fileID: 1274037188}
   - component: {fileID: 1274037190}
   - component: {fileID: 1274037189}
+  - component: {fileID: 1274037191}
   m_Layer: 0
   m_Name: road_straight (39)
   m_TagString: Untagged
@@ -5014,6 +6193,27 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1274037187}
   m_Mesh: {fileID: 6440166555503141632, guid: 1e3401b7de61455419963494f10aeb82, type: 3}
+--- !u!65 &1274037191
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1274037187}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1.0000001, y: 0.02, z: 1.0000002}
+  m_Center: {x: 0, y: 0.01, z: 0}
 --- !u!1 &1276793262
 GameObject:
   m_ObjectHideFlags: 0
@@ -5025,6 +6225,7 @@ GameObject:
   - component: {fileID: 1276793263}
   - component: {fileID: 1276793265}
   - component: {fileID: 1276793264}
+  - component: {fileID: 1276793266}
   m_Layer: 0
   m_Name: road_straight (19)
   m_TagString: Untagged
@@ -5100,6 +6301,27 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1276793262}
   m_Mesh: {fileID: 6440166555503141632, guid: 1e3401b7de61455419963494f10aeb82, type: 3}
+--- !u!65 &1276793266
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1276793262}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 0.02, z: 1}
+  m_Center: {x: 0, y: 0.01, z: 0}
 --- !u!1 &1303352068
 GameObject:
   m_ObjectHideFlags: 0
@@ -5111,6 +6333,7 @@ GameObject:
   - component: {fileID: 1303352069}
   - component: {fileID: 1303352071}
   - component: {fileID: 1303352070}
+  - component: {fileID: 1303352072}
   m_Layer: 0
   m_Name: road_intersection (8)
   m_TagString: Untagged
@@ -5186,6 +6409,27 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1303352068}
   m_Mesh: {fileID: -4603950910259808982, guid: e9f2942feacbe5244821b1cd6b290c5a, type: 3}
+--- !u!65 &1303352072
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1303352068}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1.0000002, y: 0.02, z: 1.0000002}
+  m_Center: {x: 0, y: 0.01, z: 0}
 --- !u!1 &1313544168
 GameObject:
   m_ObjectHideFlags: 0
@@ -5197,6 +6441,7 @@ GameObject:
   - component: {fileID: 1313544169}
   - component: {fileID: 1313544171}
   - component: {fileID: 1313544170}
+  - component: {fileID: 1313544172}
   m_Layer: 0
   m_Name: house_type05 (4)
   m_TagString: Untagged
@@ -5273,6 +6518,27 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1313544168}
   m_Mesh: {fileID: -6445713987585115133, guid: 23cbdc4a6de95d34bb82c7f3769b2dba, type: 3}
+--- !u!65 &1313544172
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1313544168}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1.308, y: 0.7375, z: 1.308}
+  m_Center: {x: 0, y: 0.36875, z: 0}
 --- !u!1 &1359669356
 GameObject:
   m_ObjectHideFlags: 0
@@ -5284,6 +6550,7 @@ GameObject:
   - component: {fileID: 1359669357}
   - component: {fileID: 1359669359}
   - component: {fileID: 1359669358}
+  - component: {fileID: 1359669360}
   m_Layer: 0
   m_Name: driveway_long (2)
   m_TagString: Untagged
@@ -5357,6 +6624,27 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1359669356}
   m_Mesh: {fileID: -3456312405952388865, guid: 781f7c54381cefb42890e21283ad39ae, type: 3}
+--- !u!65 &1359669360
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1359669356}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.36, y: 0.01, z: 0.4}
+  m_Center: {x: 0, y: 0.005, z: 0}
 --- !u!1 &1377071566
 GameObject:
   m_ObjectHideFlags: 0
@@ -5368,6 +6656,7 @@ GameObject:
   - component: {fileID: 1377071567}
   - component: {fileID: 1377071569}
   - component: {fileID: 1377071568}
+  - component: {fileID: 1377071570}
   m_Layer: 0
   m_Name: driveway_long (9)
   m_TagString: Untagged
@@ -5441,6 +6730,27 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1377071566}
   m_Mesh: {fileID: -3456312405952388865, guid: 781f7c54381cefb42890e21283ad39ae, type: 3}
+--- !u!65 &1377071570
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1377071566}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.36, y: 0.01, z: 0.4}
+  m_Center: {x: 0, y: 0.005, z: 0}
 --- !u!1 &1377273336
 GameObject:
   m_ObjectHideFlags: 0
@@ -5452,6 +6762,7 @@ GameObject:
   - component: {fileID: 1377273337}
   - component: {fileID: 1377273339}
   - component: {fileID: 1377273338}
+  - component: {fileID: 1377273340}
   m_Layer: 0
   m_Name: road_straight (31)
   m_TagString: Untagged
@@ -5527,6 +6838,27 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1377273336}
   m_Mesh: {fileID: 6440166555503141632, guid: 1e3401b7de61455419963494f10aeb82, type: 3}
+--- !u!65 &1377273340
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1377273336}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1.0000001, y: 0.02, z: 1.0000002}
+  m_Center: {x: 0, y: 0.01, z: 0}
 --- !u!1 &1378393740
 GameObject:
   m_ObjectHideFlags: 0
@@ -5538,6 +6870,7 @@ GameObject:
   - component: {fileID: 1378393741}
   - component: {fileID: 1378393743}
   - component: {fileID: 1378393742}
+  - component: {fileID: 1378393744}
   m_Layer: 0
   m_Name: road_straight (33)
   m_TagString: Untagged
@@ -5613,6 +6946,27 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1378393740}
   m_Mesh: {fileID: 6440166555503141632, guid: 1e3401b7de61455419963494f10aeb82, type: 3}
+--- !u!65 &1378393744
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1378393740}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 0.02, z: 1}
+  m_Center: {x: 0, y: 0.01, z: 0}
 --- !u!1 &1385291642
 GameObject:
   m_ObjectHideFlags: 0
@@ -5624,6 +6978,7 @@ GameObject:
   - component: {fileID: 1385291643}
   - component: {fileID: 1385291645}
   - component: {fileID: 1385291644}
+  - component: {fileID: 1385291646}
   m_Layer: 0
   m_Name: road_straight (35)
   m_TagString: Untagged
@@ -5699,6 +7054,27 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1385291642}
   m_Mesh: {fileID: 6440166555503141632, guid: 1e3401b7de61455419963494f10aeb82, type: 3}
+--- !u!65 &1385291646
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1385291642}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1.0000001, y: 0.02, z: 1.0000002}
+  m_Center: {x: 0, y: 0.01, z: 0}
 --- !u!1 &1423988186
 GameObject:
   m_ObjectHideFlags: 0
@@ -5710,6 +7086,7 @@ GameObject:
   - component: {fileID: 1423988187}
   - component: {fileID: 1423988189}
   - component: {fileID: 1423988188}
+  - component: {fileID: 1423988190}
   m_Layer: 0
   m_Name: road_bend (13)
   m_TagString: Untagged
@@ -5785,6 +7162,27 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1423988186}
   m_Mesh: {fileID: 8439104543645927819, guid: bc4221be88ec40148bdd153b6aa3fc47, type: 3}
+--- !u!65 &1423988190
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1423988186}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 0.02, z: 1}
+  m_Center: {x: 0, y: 0.01, z: 0}
 --- !u!1001 &1428052872
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6047,7 +7445,11 @@ PrefabInstance:
         type: 3}
       insertIndex: -1
       addedObject: {fileID: 1201831810}
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 4736840199233057730, guid: 1e3401b7de61455419963494f10aeb82,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1652854100}
   m_SourcePrefab: {fileID: 100100000, guid: 1e3401b7de61455419963494f10aeb82, type: 3}
 --- !u!4 &1428052873 stripped
 Transform:
@@ -6141,7 +7543,11 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 6165406450510588458, guid: 1b293098e3048be4f935719fb18c0573,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1273516118}
   m_SourcePrefab: {fileID: 100100000, guid: 1b293098e3048be4f935719fb18c0573, type: 3}
 --- !u!1 &1437163195
 GameObject:
@@ -6154,6 +7560,7 @@ GameObject:
   - component: {fileID: 1437163196}
   - component: {fileID: 1437163198}
   - component: {fileID: 1437163197}
+  - component: {fileID: 1437163199}
   m_Layer: 0
   m_Name: road_straight (32)
   m_TagString: Untagged
@@ -6229,6 +7636,27 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1437163195}
   m_Mesh: {fileID: 6440166555503141632, guid: 1e3401b7de61455419963494f10aeb82, type: 3}
+--- !u!65 &1437163199
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1437163195}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1.0000001, y: 0.02, z: 1.0000002}
+  m_Center: {x: 0, y: 0.01, z: 0}
 --- !u!1 &1440949882
 GameObject:
   m_ObjectHideFlags: 0
@@ -6240,6 +7668,7 @@ GameObject:
   - component: {fileID: 1440949883}
   - component: {fileID: 1440949885}
   - component: {fileID: 1440949884}
+  - component: {fileID: 1440949886}
   m_Layer: 0
   m_Name: road_intersection (3)
   m_TagString: Untagged
@@ -6315,6 +7744,27 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1440949882}
   m_Mesh: {fileID: -4603950910259808982, guid: e9f2942feacbe5244821b1cd6b290c5a, type: 3}
+--- !u!65 &1440949886
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1440949882}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1.0000002, y: 0.02, z: 1.0000002}
+  m_Center: {x: 0, y: 0.01, z: 0}
 --- !u!1 &1476554314
 GameObject:
   m_ObjectHideFlags: 0
@@ -6326,6 +7776,7 @@ GameObject:
   - component: {fileID: 1476554315}
   - component: {fileID: 1476554317}
   - component: {fileID: 1476554316}
+  - component: {fileID: 1476554318}
   m_Layer: 0
   m_Name: road_intersection (6)
   m_TagString: Untagged
@@ -6401,6 +7852,27 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1476554314}
   m_Mesh: {fileID: -4603950910259808982, guid: e9f2942feacbe5244821b1cd6b290c5a, type: 3}
+--- !u!65 &1476554318
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1476554314}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 0.02, z: 1}
+  m_Center: {x: 0, y: 0.01, z: 0}
 --- !u!1 &1491578584
 GameObject:
   m_ObjectHideFlags: 0
@@ -6412,6 +7884,7 @@ GameObject:
   - component: {fileID: 1491578585}
   - component: {fileID: 1491578587}
   - component: {fileID: 1491578586}
+  - component: {fileID: 1491578588}
   m_Layer: 0
   m_Name: road_straight (3)
   m_TagString: Untagged
@@ -6487,6 +7960,27 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1491578584}
   m_Mesh: {fileID: 6440166555503141632, guid: 1e3401b7de61455419963494f10aeb82, type: 3}
+--- !u!65 &1491578588
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1491578584}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 0.02, z: 1}
+  m_Center: {x: 0, y: 0.01, z: 0}
 --- !u!1 &1493380047
 GameObject:
   m_ObjectHideFlags: 0
@@ -6498,6 +7992,7 @@ GameObject:
   - component: {fileID: 1493380048}
   - component: {fileID: 1493380050}
   - component: {fileID: 1493380049}
+  - component: {fileID: 1493380051}
   m_Layer: 0
   m_Name: driveway_long (12)
   m_TagString: Untagged
@@ -6571,6 +8066,27 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1493380047}
   m_Mesh: {fileID: -3456312405952388865, guid: 781f7c54381cefb42890e21283ad39ae, type: 3}
+--- !u!65 &1493380051
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1493380047}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.36, y: 0.01, z: 0.4}
+  m_Center: {x: 0, y: 0.005, z: 0}
 --- !u!1001 &1493761698
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6646,7 +8162,11 @@ PrefabInstance:
         type: 3}
       insertIndex: -1
       addedObject: {fileID: 1867452140}
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 5392148674017741387, guid: 7e0c457d600ff46408d892d546e855f5,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1576315125}
   m_SourcePrefab: {fileID: 100100000, guid: 7e0c457d600ff46408d892d546e855f5, type: 3}
 --- !u!4 &1493761699 stripped
 Transform:
@@ -6654,6 +8174,33 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1493761698}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1495640335 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -1032458725288914433, guid: 177795364844ed84c9e530f01023c37f,
+    type: 3}
+  m_PrefabInstance: {fileID: 1918721877}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &1495640339
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1495640335}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 0.02, z: 1}
+  m_Center: {x: 0, y: 0.01, z: 0}
 --- !u!1 &1522490646
 GameObject:
   m_ObjectHideFlags: 0
@@ -6665,6 +8212,7 @@ GameObject:
   - component: {fileID: 1522490647}
   - component: {fileID: 1522490649}
   - component: {fileID: 1522490648}
+  - component: {fileID: 1522490650}
   m_Layer: 0
   m_Name: driveway_long (5)
   m_TagString: Untagged
@@ -6738,6 +8286,27 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1522490646}
   m_Mesh: {fileID: -3456312405952388865, guid: 781f7c54381cefb42890e21283ad39ae, type: 3}
+--- !u!65 &1522490650
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1522490646}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.36, y: 0.01, z: 0.4}
+  m_Center: {x: 0, y: 0.005, z: 0}
 --- !u!1 &1527110111
 GameObject:
   m_ObjectHideFlags: 0
@@ -6749,6 +8318,7 @@ GameObject:
   - component: {fileID: 1527110112}
   - component: {fileID: 1527110114}
   - component: {fileID: 1527110113}
+  - component: {fileID: 1527110115}
   m_Layer: 0
   m_Name: road_bend (6)
   m_TagString: Untagged
@@ -6824,6 +8394,27 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1527110111}
   m_Mesh: {fileID: 8439104543645927819, guid: bc4221be88ec40148bdd153b6aa3fc47, type: 3}
+--- !u!65 &1527110115
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1527110111}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 0.02, z: 1}
+  m_Center: {x: 0, y: 0.01, z: 0}
 --- !u!1 &1549743861
 GameObject:
   m_ObjectHideFlags: 0
@@ -6835,6 +8426,7 @@ GameObject:
   - component: {fileID: 1549743862}
   - component: {fileID: 1549743864}
   - component: {fileID: 1549743863}
+  - component: {fileID: 1549743865}
   m_Layer: 0
   m_Name: road_straight (27)
   m_TagString: Untagged
@@ -6910,6 +8502,27 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1549743861}
   m_Mesh: {fileID: 6440166555503141632, guid: 1e3401b7de61455419963494f10aeb82, type: 3}
+--- !u!65 &1549743865
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1549743861}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1.0000001, y: 0.02, z: 1}
+  m_Center: {x: 0, y: 0.01, z: 0}
 --- !u!1 &1557029133
 GameObject:
   m_ObjectHideFlags: 0
@@ -6921,6 +8534,7 @@ GameObject:
   - component: {fileID: 1557029134}
   - component: {fileID: 1557029136}
   - component: {fileID: 1557029135}
+  - component: {fileID: 1557029137}
   m_Layer: 0
   m_Name: driveway_long (3)
   m_TagString: Untagged
@@ -6994,6 +8608,54 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1557029133}
   m_Mesh: {fileID: -3456312405952388865, guid: 781f7c54381cefb42890e21283ad39ae, type: 3}
+--- !u!65 &1557029137
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1557029133}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.36, y: 0.01, z: 0.4}
+  m_Center: {x: 0, y: 0.005, z: 0}
+--- !u!1 &1576315121 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5392148674017741387, guid: 7e0c457d600ff46408d892d546e855f5,
+    type: 3}
+  m_PrefabInstance: {fileID: 1493761698}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &1576315125
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1576315121}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1.0000002, y: 0.02, z: 1.0000002}
+  m_Center: {x: 0, y: 0.01, z: 0}
 --- !u!1 &1583845358
 GameObject:
   m_ObjectHideFlags: 0
@@ -7005,6 +8667,7 @@ GameObject:
   - component: {fileID: 1583845359}
   - component: {fileID: 1583845361}
   - component: {fileID: 1583845360}
+  - component: {fileID: 1583845362}
   m_Layer: 0
   m_Name: road_crossing (3)
   m_TagString: Untagged
@@ -7080,6 +8743,27 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1583845358}
   m_Mesh: {fileID: -8522776619696526587, guid: 177795364844ed84c9e530f01023c37f, type: 3}
+--- !u!65 &1583845362
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1583845358}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1.0000002, y: 0.02, z: 1.0000002}
+  m_Center: {x: 0, y: 0.01, z: 0}
 --- !u!1 &1620562784
 GameObject:
   m_ObjectHideFlags: 0
@@ -7091,6 +8775,7 @@ GameObject:
   - component: {fileID: 1620562785}
   - component: {fileID: 1620562787}
   - component: {fileID: 1620562786}
+  - component: {fileID: 1620562788}
   m_Layer: 0
   m_Name: road_straight (11)
   m_TagString: Untagged
@@ -7166,6 +8851,27 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1620562784}
   m_Mesh: {fileID: 6440166555503141632, guid: 1e3401b7de61455419963494f10aeb82, type: 3}
+--- !u!65 &1620562788
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1620562784}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1.0000002, y: 0.02, z: 1.0000002}
+  m_Center: {x: 0, y: 0.01, z: 0}
 --- !u!1 &1626088358
 GameObject:
   m_ObjectHideFlags: 0
@@ -7177,6 +8883,7 @@ GameObject:
   - component: {fileID: 1626088359}
   - component: {fileID: 1626088361}
   - component: {fileID: 1626088360}
+  - component: {fileID: 1626088362}
   m_Layer: 0
   m_Name: driveway_long (11)
   m_TagString: Untagged
@@ -7250,6 +8957,27 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1626088358}
   m_Mesh: {fileID: -3456312405952388865, guid: 781f7c54381cefb42890e21283ad39ae, type: 3}
+--- !u!65 &1626088362
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1626088358}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.36, y: 0.01, z: 0.4}
+  m_Center: {x: 0, y: 0.005, z: 0}
 --- !u!1 &1628871082
 GameObject:
   m_ObjectHideFlags: 0
@@ -7261,6 +8989,7 @@ GameObject:
   - component: {fileID: 1628871083}
   - component: {fileID: 1628871085}
   - component: {fileID: 1628871084}
+  - component: {fileID: 1628871086}
   m_Layer: 0
   m_Name: road_straight (30)
   m_TagString: Untagged
@@ -7336,6 +9065,27 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1628871082}
   m_Mesh: {fileID: 6440166555503141632, guid: 1e3401b7de61455419963494f10aeb82, type: 3}
+--- !u!65 &1628871086
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1628871082}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1.0000002, y: 0.02, z: 1.0000002}
+  m_Center: {x: 0, y: 0.01, z: 0}
 --- !u!1 &1647708577
 GameObject:
   m_ObjectHideFlags: 0
@@ -7347,6 +9097,7 @@ GameObject:
   - component: {fileID: 1647708578}
   - component: {fileID: 1647708580}
   - component: {fileID: 1647708579}
+  - component: {fileID: 1647708581}
   m_Layer: 0
   m_Name: road_intersection (15)
   m_TagString: Untagged
@@ -7422,6 +9173,54 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1647708577}
   m_Mesh: {fileID: -4603950910259808982, guid: e9f2942feacbe5244821b1cd6b290c5a, type: 3}
+--- !u!65 &1647708581
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1647708577}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1.0000002, y: 0.02, z: 1.0000002}
+  m_Center: {x: 0, y: 0.01, z: 0}
+--- !u!1 &1652854096 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4736840199233057730, guid: 1e3401b7de61455419963494f10aeb82,
+    type: 3}
+  m_PrefabInstance: {fileID: 1428052872}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &1652854100
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1652854096}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1.0000002, y: 0.02, z: 1.0000002}
+  m_Center: {x: 0, y: 0.01, z: 0}
 --- !u!1 &1664265618
 GameObject:
   m_ObjectHideFlags: 0
@@ -7433,6 +9232,7 @@ GameObject:
   - component: {fileID: 1664265619}
   - component: {fileID: 1664265621}
   - component: {fileID: 1664265620}
+  - component: {fileID: 1664265622}
   m_Layer: 0
   m_Name: house_type05 (12)
   m_TagString: Untagged
@@ -7509,6 +9309,27 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1664265618}
   m_Mesh: {fileID: -6445713987585115133, guid: 23cbdc4a6de95d34bb82c7f3769b2dba, type: 3}
+--- !u!65 &1664265622
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1664265618}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1.308, y: 0.7375, z: 1.308}
+  m_Center: {x: 0, y: 0.36875, z: 0}
 --- !u!1 &1699467586
 GameObject:
   m_ObjectHideFlags: 0
@@ -7520,6 +9341,7 @@ GameObject:
   - component: {fileID: 1699467587}
   - component: {fileID: 1699467589}
   - component: {fileID: 1699467588}
+  - component: {fileID: 1699467590}
   m_Layer: 0
   m_Name: road_straight (1)
   m_TagString: Untagged
@@ -7595,6 +9417,27 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1699467586}
   m_Mesh: {fileID: 6440166555503141632, guid: 1e3401b7de61455419963494f10aeb82, type: 3}
+--- !u!65 &1699467590
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1699467586}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 0.02, z: 1}
+  m_Center: {x: 0, y: 0.01, z: 0}
 --- !u!1 &1700692151
 GameObject:
   m_ObjectHideFlags: 0
@@ -7606,6 +9449,7 @@ GameObject:
   - component: {fileID: 1700692152}
   - component: {fileID: 1700692154}
   - component: {fileID: 1700692153}
+  - component: {fileID: 1700692155}
   m_Layer: 0
   m_Name: road_crossing (1)
   m_TagString: Untagged
@@ -7681,6 +9525,27 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1700692151}
   m_Mesh: {fileID: -8522776619696526587, guid: 177795364844ed84c9e530f01023c37f, type: 3}
+--- !u!65 &1700692155
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1700692151}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 0.02, z: 1}
+  m_Center: {x: 0, y: 0.01, z: 0}
 --- !u!1 &1702719705
 GameObject:
   m_ObjectHideFlags: 0
@@ -7692,6 +9557,7 @@ GameObject:
   - component: {fileID: 1702719706}
   - component: {fileID: 1702719708}
   - component: {fileID: 1702719707}
+  - component: {fileID: 1702719709}
   m_Layer: 0
   m_Name: house_type05 (13)
   m_TagString: Untagged
@@ -7768,6 +9634,170 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1702719705}
   m_Mesh: {fileID: -6445713987585115133, guid: 23cbdc4a6de95d34bb82c7f3769b2dba, type: 3}
+--- !u!65 &1702719709
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1702719705}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1.308, y: 0.7375, z: 1.308}
+  m_Center: {x: 0, y: 0.36875, z: 0}
+--- !u!1001 &1765822628
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 2556741711102124747, guid: 461ce726b5bcb6a49abddf3466cad36d,
+        type: 3}
+      propertyPath: m_Name
+      value: CameraHolder
+      objectReference: {fileID: 0}
+    - target: {fileID: 3794013512867418453, guid: 461ce726b5bcb6a49abddf3466cad36d,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3794013512867418453, guid: 461ce726b5bcb6a49abddf3466cad36d,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3794013512867418453, guid: 461ce726b5bcb6a49abddf3466cad36d,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3794013512867418453, guid: 461ce726b5bcb6a49abddf3466cad36d,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -2.272379
+      objectReference: {fileID: 0}
+    - target: {fileID: 3794013512867418453, guid: 461ce726b5bcb6a49abddf3466cad36d,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 2.78
+      objectReference: {fileID: 0}
+    - target: {fileID: 3794013512867418453, guid: 461ce726b5bcb6a49abddf3466cad36d,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 2.02
+      objectReference: {fileID: 0}
+    - target: {fileID: 3794013512867418453, guid: 461ce726b5bcb6a49abddf3466cad36d,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3794013512867418453, guid: 461ce726b5bcb6a49abddf3466cad36d,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3794013512867418453, guid: 461ce726b5bcb6a49abddf3466cad36d,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3794013512867418453, guid: 461ce726b5bcb6a49abddf3466cad36d,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3794013512867418453, guid: 461ce726b5bcb6a49abddf3466cad36d,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3794013512867418453, guid: 461ce726b5bcb6a49abddf3466cad36d,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3794013512867418453, guid: 461ce726b5bcb6a49abddf3466cad36d,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3929089593215561665, guid: 461ce726b5bcb6a49abddf3466cad36d,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4432233597140544214, guid: 461ce726b5bcb6a49abddf3466cad36d,
+        type: 3}
+      propertyPath: pInput
+      value: 
+      objectReference: {fileID: 1960681326}
+    - target: {fileID: 4432233597140544214, guid: 461ce726b5bcb6a49abddf3466cad36d,
+        type: 3}
+      propertyPath: orientation
+      value: 
+      objectReference: {fileID: 1827618781}
+    - target: {fileID: 4792984762776900702, guid: 461ce726b5bcb6a49abddf3466cad36d,
+        type: 3}
+      propertyPath: camPos
+      value: 
+      objectReference: {fileID: 892104284}
+    - target: {fileID: 7621295846226332875, guid: 461ce726b5bcb6a49abddf3466cad36d,
+        type: 3}
+      propertyPath: far clip plane
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 7621295846226332875, guid: 461ce726b5bcb6a49abddf3466cad36d,
+        type: 3}
+      propertyPath: near clip plane
+      value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7621295846226332875, guid: 461ce726b5bcb6a49abddf3466cad36d,
+        type: 3}
+      propertyPath: m_BackGroundColor.b
+      value: 0.9150943
+      objectReference: {fileID: 0}
+    - target: {fileID: 7621295846226332875, guid: 461ce726b5bcb6a49abddf3466cad36d,
+        type: 3}
+      propertyPath: m_BackGroundColor.g
+      value: 0.72021616
+      objectReference: {fileID: 0}
+    - target: {fileID: 7621295846226332875, guid: 461ce726b5bcb6a49abddf3466cad36d,
+        type: 3}
+      propertyPath: m_BackGroundColor.r
+      value: 0.10071782
+      objectReference: {fileID: 0}
+    - target: {fileID: 8526238055019933030, guid: 461ce726b5bcb6a49abddf3466cad36d,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8526238055019933030, guid: 461ce726b5bcb6a49abddf3466cad36d,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8526238055019933030, guid: 461ce726b5bcb6a49abddf3466cad36d,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 461ce726b5bcb6a49abddf3466cad36d, type: 3}
 --- !u!1 &1784567136
 GameObject:
   m_ObjectHideFlags: 0
@@ -7779,6 +9809,7 @@ GameObject:
   - component: {fileID: 1784567137}
   - component: {fileID: 1784567139}
   - component: {fileID: 1784567138}
+  - component: {fileID: 1784567140}
   m_Layer: 0
   m_Name: house_type05 (1)
   m_TagString: Untagged
@@ -7855,6 +9886,27 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1784567136}
   m_Mesh: {fileID: -6445713987585115133, guid: 23cbdc4a6de95d34bb82c7f3769b2dba, type: 3}
+--- !u!65 &1784567140
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1784567136}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1.308, y: 0.7375, z: 1.308}
+  m_Center: {x: 0, y: 0.36875, z: 0}
 --- !u!1 &1801252046
 GameObject:
   m_ObjectHideFlags: 0
@@ -7866,6 +9918,7 @@ GameObject:
   - component: {fileID: 1801252047}
   - component: {fileID: 1801252049}
   - component: {fileID: 1801252048}
+  - component: {fileID: 1801252050}
   m_Layer: 0
   m_Name: driveway_long (14)
   m_TagString: Untagged
@@ -7939,6 +9992,27 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1801252046}
   m_Mesh: {fileID: -3456312405952388865, guid: 781f7c54381cefb42890e21283ad39ae, type: 3}
+--- !u!65 &1801252050
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1801252046}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.3600001, y: 0.01, z: 0.4000001}
+  m_Center: {x: 0, y: 0.005, z: 0}
 --- !u!1 &1825117004
 GameObject:
   m_ObjectHideFlags: 0
@@ -7950,6 +10024,7 @@ GameObject:
   - component: {fileID: 1825117005}
   - component: {fileID: 1825117007}
   - component: {fileID: 1825117006}
+  - component: {fileID: 1825117008}
   m_Layer: 0
   m_Name: road_straight (13)
   m_TagString: Untagged
@@ -8025,6 +10100,27 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1825117004}
   m_Mesh: {fileID: 6440166555503141632, guid: 1e3401b7de61455419963494f10aeb82, type: 3}
+--- !u!65 &1825117008
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1825117004}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 0.02, z: 1}
+  m_Center: {x: 0, y: 0.01, z: 0}
 --- !u!1 &1826261481
 GameObject:
   m_ObjectHideFlags: 0
@@ -8036,6 +10132,7 @@ GameObject:
   - component: {fileID: 1826261482}
   - component: {fileID: 1826261484}
   - component: {fileID: 1826261483}
+  - component: {fileID: 1826261485}
   m_Layer: 0
   m_Name: driveway_long (10)
   m_TagString: Untagged
@@ -8109,6 +10206,33 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1826261481}
   m_Mesh: {fileID: -3456312405952388865, guid: 781f7c54381cefb42890e21283ad39ae, type: 3}
+--- !u!65 &1826261485
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1826261481}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.36, y: 0.01, z: 0.4}
+  m_Center: {x: 0, y: 0.005, z: 0}
+--- !u!4 &1827618781 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1698018678052842418, guid: 7ddb95718746e2949b5062cb9568cc70,
+    type: 3}
+  m_PrefabInstance: {fileID: 81930657}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1828430405
 GameObject:
   m_ObjectHideFlags: 0
@@ -8120,6 +10244,7 @@ GameObject:
   - component: {fileID: 1828430406}
   - component: {fileID: 1828430408}
   - component: {fileID: 1828430407}
+  - component: {fileID: 1828430409}
   m_Layer: 0
   m_Name: road_straight (8)
   m_TagString: Untagged
@@ -8195,6 +10320,27 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1828430405}
   m_Mesh: {fileID: 6440166555503141632, guid: 1e3401b7de61455419963494f10aeb82, type: 3}
+--- !u!65 &1828430409
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1828430405}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1.0000002, y: 0.02, z: 1.0000002}
+  m_Center: {x: 0, y: 0.01, z: 0}
 --- !u!1 &1862513129
 GameObject:
   m_ObjectHideFlags: 0
@@ -8206,6 +10352,7 @@ GameObject:
   - component: {fileID: 1862513130}
   - component: {fileID: 1862513132}
   - component: {fileID: 1862513131}
+  - component: {fileID: 1862513133}
   m_Layer: 0
   m_Name: house_type05 (8)
   m_TagString: Untagged
@@ -8282,6 +10429,27 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1862513129}
   m_Mesh: {fileID: -6445713987585115133, guid: 23cbdc4a6de95d34bb82c7f3769b2dba, type: 3}
+--- !u!65 &1862513133
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1862513129}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1.308, y: 0.7375, z: 1.308}
+  m_Center: {x: 0, y: 0.36875, z: 0}
 --- !u!1 &1867452139
 GameObject:
   m_ObjectHideFlags: 0
@@ -8293,6 +10461,7 @@ GameObject:
   - component: {fileID: 1867452140}
   - component: {fileID: 1867452142}
   - component: {fileID: 1867452141}
+  - component: {fileID: 1867452143}
   m_Layer: 0
   m_Name: road_endRound (4)
   m_TagString: Untagged
@@ -8368,6 +10537,27 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1867452139}
   m_Mesh: {fileID: 6953955092486023084, guid: 7e0c457d600ff46408d892d546e855f5, type: 3}
+--- !u!65 &1867452143
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1867452139}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1.0000002, y: 0.02, z: 1.0000002}
+  m_Center: {x: 0.000015258789, y: 0.01, z: -0.0000076293945}
 --- !u!1 &1878853774
 GameObject:
   m_ObjectHideFlags: 0
@@ -8379,6 +10569,7 @@ GameObject:
   - component: {fileID: 1878853775}
   - component: {fileID: 1878853777}
   - component: {fileID: 1878853776}
+  - component: {fileID: 1878853778}
   m_Layer: 0
   m_Name: road_straight (28)
   m_TagString: Untagged
@@ -8454,6 +10645,27 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1878853774}
   m_Mesh: {fileID: 6440166555503141632, guid: 1e3401b7de61455419963494f10aeb82, type: 3}
+--- !u!65 &1878853778
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1878853774}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1.0000001, y: 0.02, z: 1}
+  m_Center: {x: 0, y: 0.01, z: 0}
 --- !u!1 &1887322943
 GameObject:
   m_ObjectHideFlags: 0
@@ -8465,6 +10677,7 @@ GameObject:
   - component: {fileID: 1887322944}
   - component: {fileID: 1887322946}
   - component: {fileID: 1887322945}
+  - component: {fileID: 1887322947}
   m_Layer: 0
   m_Name: road_straight (6)
   m_TagString: Untagged
@@ -8540,6 +10753,27 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1887322943}
   m_Mesh: {fileID: 6440166555503141632, guid: 1e3401b7de61455419963494f10aeb82, type: 3}
+--- !u!65 &1887322947
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1887322943}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1.0000001, y: 0.02, z: 1}
+  m_Center: {x: 0, y: 0.01, z: 0}
 --- !u!1 &1904040118
 GameObject:
   m_ObjectHideFlags: 0
@@ -8551,6 +10785,7 @@ GameObject:
   - component: {fileID: 1904040119}
   - component: {fileID: 1904040121}
   - component: {fileID: 1904040120}
+  - component: {fileID: 1904040122}
   m_Layer: 0
   m_Name: driveway_long (1)
   m_TagString: Untagged
@@ -8624,6 +10859,27 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1904040118}
   m_Mesh: {fileID: -3456312405952388865, guid: 781f7c54381cefb42890e21283ad39ae, type: 3}
+--- !u!65 &1904040122
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1904040118}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.36, y: 0.01, z: 0.4}
+  m_Center: {x: 0, y: 0.005, z: 0}
 --- !u!1001 &1918721877
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8726,7 +10982,11 @@ PrefabInstance:
         type: 3}
       insertIndex: -1
       addedObject: {fileID: 1583845359}
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: -1032458725288914433, guid: 177795364844ed84c9e530f01023c37f,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1495640339}
   m_SourcePrefab: {fileID: 100100000, guid: 177795364844ed84c9e530f01023c37f, type: 3}
 --- !u!4 &1918721878 stripped
 Transform:
@@ -8890,7 +11150,11 @@ PrefabInstance:
         type: 3}
       insertIndex: -1
       addedObject: {fileID: 1216226573}
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 4830592140103716783, guid: 781f7c54381cefb42890e21283ad39ae,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 827918723}
   m_SourcePrefab: {fileID: 100100000, guid: 781f7c54381cefb42890e21283ad39ae, type: 3}
 --- !u!4 &1919792891 stripped
 Transform:
@@ -8909,6 +11173,7 @@ GameObject:
   - component: {fileID: 1947815226}
   - component: {fileID: 1947815228}
   - component: {fileID: 1947815227}
+  - component: {fileID: 1947815229}
   m_Layer: 0
   m_Name: driveway_long (13)
   m_TagString: Untagged
@@ -8982,6 +11247,27 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1947815225}
   m_Mesh: {fileID: -3456312405952388865, guid: 781f7c54381cefb42890e21283ad39ae, type: 3}
+--- !u!65 &1947815229
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1947815225}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.36, y: 0.01, z: 0.4}
+  m_Center: {x: 0, y: 0.005, z: 0}
 --- !u!1 &1955024995
 GameObject:
   m_ObjectHideFlags: 0
@@ -8993,6 +11279,7 @@ GameObject:
   - component: {fileID: 1955024996}
   - component: {fileID: 1955024998}
   - component: {fileID: 1955024997}
+  - component: {fileID: 1955024999}
   m_Layer: 0
   m_Name: road_straight (36)
   m_TagString: Untagged
@@ -9068,6 +11355,66 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1955024995}
   m_Mesh: {fileID: 6440166555503141632, guid: 1e3401b7de61455419963494f10aeb82, type: 3}
+--- !u!65 &1955024999
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1955024995}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1.0000001, y: 0.02, z: 1}
+  m_Center: {x: 0, y: 0.01, z: 0}
+--- !u!114 &1960681326 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4179658824707082847, guid: 7ddb95718746e2949b5062cb9568cc70,
+    type: 3}
+  m_PrefabInstance: {fileID: 81930657}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 62899f850307741f2a39c98a8b639597, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1 &1978478061 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7380474572356889416, guid: e9f2942feacbe5244821b1cd6b290c5a,
+    type: 3}
+  m_PrefabInstance: {fileID: 783164782}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &1978478065
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1978478061}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 0.02, z: 1}
+  m_Center: {x: 0, y: 0.01, z: 0}
 --- !u!1 &2003027999
 GameObject:
   m_ObjectHideFlags: 0
@@ -9079,6 +11426,7 @@ GameObject:
   - component: {fileID: 2003028000}
   - component: {fileID: 2003028002}
   - component: {fileID: 2003028001}
+  - component: {fileID: 2003028003}
   m_Layer: 0
   m_Name: road_straight (25)
   m_TagString: Untagged
@@ -9154,6 +11502,27 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2003027999}
   m_Mesh: {fileID: 6440166555503141632, guid: 1e3401b7de61455419963494f10aeb82, type: 3}
+--- !u!65 &2003028003
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2003027999}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 0.02, z: 1}
+  m_Center: {x: 0, y: 0.01, z: 0}
 --- !u!1 &2013411710
 GameObject:
   m_ObjectHideFlags: 0
@@ -9165,6 +11534,7 @@ GameObject:
   - component: {fileID: 2013411711}
   - component: {fileID: 2013411713}
   - component: {fileID: 2013411712}
+  - component: {fileID: 2013411714}
   m_Layer: 0
   m_Name: road_bend (10)
   m_TagString: Untagged
@@ -9240,6 +11610,27 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2013411710}
   m_Mesh: {fileID: 8439104543645927819, guid: bc4221be88ec40148bdd153b6aa3fc47, type: 3}
+--- !u!65 &2013411714
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2013411710}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 0.02, z: 1}
+  m_Center: {x: 0, y: 0.01, z: 0}
 --- !u!1 &2014437802
 GameObject:
   m_ObjectHideFlags: 0
@@ -9251,6 +11642,7 @@ GameObject:
   - component: {fileID: 2014437803}
   - component: {fileID: 2014437805}
   - component: {fileID: 2014437804}
+  - component: {fileID: 2014437806}
   m_Layer: 0
   m_Name: house_type05 (11)
   m_TagString: Untagged
@@ -9327,6 +11719,27 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2014437802}
   m_Mesh: {fileID: -6445713987585115133, guid: 23cbdc4a6de95d34bb82c7f3769b2dba, type: 3}
+--- !u!65 &2014437806
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2014437802}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1.308, y: 0.7375, z: 1.308}
+  m_Center: {x: 0, y: 0.36875, z: 0}
 --- !u!1 &2018870489
 GameObject:
   m_ObjectHideFlags: 0
@@ -9338,6 +11751,7 @@ GameObject:
   - component: {fileID: 2018870490}
   - component: {fileID: 2018870492}
   - component: {fileID: 2018870491}
+  - component: {fileID: 2018870493}
   m_Layer: 0
   m_Name: road_straight (9)
   m_TagString: Untagged
@@ -9413,6 +11827,27 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2018870489}
   m_Mesh: {fileID: 6440166555503141632, guid: 1e3401b7de61455419963494f10aeb82, type: 3}
+--- !u!65 &2018870493
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2018870489}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.99999994, y: 0.02, z: 1}
+  m_Center: {x: 0, y: 0.01, z: 0}
 --- !u!1 &2024225547
 GameObject:
   m_ObjectHideFlags: 0
@@ -9516,6 +11951,7 @@ GameObject:
   - component: {fileID: 2031597909}
   - component: {fileID: 2031597911}
   - component: {fileID: 2031597910}
+  - component: {fileID: 2031597912}
   m_Layer: 0
   m_Name: road_bend (8)
   m_TagString: Untagged
@@ -9591,6 +12027,27 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2031597908}
   m_Mesh: {fileID: 8439104543645927819, guid: bc4221be88ec40148bdd153b6aa3fc47, type: 3}
+--- !u!65 &2031597912
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2031597908}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 0.02, z: 1}
+  m_Center: {x: 0, y: 0.01, z: 0}
 --- !u!1001 &2043318186
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9737,7 +12194,11 @@ PrefabInstance:
         type: 3}
       insertIndex: -1
       addedObject: {fileID: 1251255952}
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 783080341667269886, guid: 23cbdc4a6de95d34bb82c7f3769b2dba,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1062204489}
   m_SourcePrefab: {fileID: 100100000, guid: 23cbdc4a6de95d34bb82c7f3769b2dba, type: 3}
 --- !u!4 &2043318187 stripped
 Transform:
@@ -9756,6 +12217,7 @@ GameObject:
   - component: {fileID: 2068972463}
   - component: {fileID: 2068972465}
   - component: {fileID: 2068972464}
+  - component: {fileID: 2068972466}
   m_Layer: 0
   m_Name: house_type05 (6)
   m_TagString: Untagged
@@ -9832,127 +12294,27 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2068972462}
   m_Mesh: {fileID: -6445713987585115133, guid: 23cbdc4a6de95d34bb82c7f3769b2dba, type: 3}
---- !u!1001 &2090311454
-PrefabInstance:
+--- !u!65 &2068972466
+BoxCollider:
   m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 1349916400784189919, guid: 7ddb95718746e2949b5062cb9568cc70,
-        type: 3}
-      propertyPath: m_Name
-      value: Player
-      objectReference: {fileID: 0}
-    - target: {fileID: 1712427139881683690, guid: 7ddb95718746e2949b5062cb9568cc70,
-        type: 3}
-      propertyPath: m_LocalScale.x
-      value: 0.1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1712427139881683690, guid: 7ddb95718746e2949b5062cb9568cc70,
-        type: 3}
-      propertyPath: m_LocalScale.y
-      value: 0.1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1712427139881683690, guid: 7ddb95718746e2949b5062cb9568cc70,
-        type: 3}
-      propertyPath: m_LocalScale.z
-      value: 0.1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1712427139881683690, guid: 7ddb95718746e2949b5062cb9568cc70,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 9.823208
-      objectReference: {fileID: 0}
-    - target: {fileID: 1712427139881683690, guid: 7ddb95718746e2949b5062cb9568cc70,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 1.114
-      objectReference: {fileID: 0}
-    - target: {fileID: 1712427139881683690, guid: 7ddb95718746e2949b5062cb9568cc70,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 18.90472
-      objectReference: {fileID: 0}
-    - target: {fileID: 1712427139881683690, guid: 7ddb95718746e2949b5062cb9568cc70,
-        type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1712427139881683690, guid: 7ddb95718746e2949b5062cb9568cc70,
-        type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1712427139881683690, guid: 7ddb95718746e2949b5062cb9568cc70,
-        type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1712427139881683690, guid: 7ddb95718746e2949b5062cb9568cc70,
-        type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1712427139881683690, guid: 7ddb95718746e2949b5062cb9568cc70,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1712427139881683690, guid: 7ddb95718746e2949b5062cb9568cc70,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1712427139881683690, guid: 7ddb95718746e2949b5062cb9568cc70,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2446292090997747224, guid: 7ddb95718746e2949b5062cb9568cc70,
-        type: 3}
-      propertyPath: orientation
-      value: 
-      objectReference: {fileID: 2090311455}
-    - target: {fileID: 3860472805342613074, guid: 7ddb95718746e2949b5062cb9568cc70,
-        type: 3}
-      propertyPath: playerSpeed
-      value: 10
-      objectReference: {fileID: 0}
-    - target: {fileID: 4179658824707082847, guid: 7ddb95718746e2949b5062cb9568cc70,
-        type: 3}
-      propertyPath: m_Enabled
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 9006007844708971514, guid: 7ddb95718746e2949b5062cb9568cc70,
-        type: 3}
-      propertyPath: m_Constraints
-      value: 116
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 7ddb95718746e2949b5062cb9568cc70, type: 3}
---- !u!4 &2090311455 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 2058593281094808437, guid: 7ddb95718746e2949b5062cb9568cc70,
-    type: 3}
-  m_PrefabInstance: {fileID: 2090311454}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &2090311456 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 4179658824707082847, guid: 7ddb95718746e2949b5062cb9568cc70,
-    type: 3}
-  m_PrefabInstance: {fileID: 2090311454}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
+  m_GameObject: {fileID: 2068972462}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
   m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 62899f850307741f2a39c98a8b639597, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
+  serializedVersion: 3
+  m_Size: {x: 1.308, y: 0.7375, z: 1.308}
+  m_Center: {x: 0, y: 0.36875, z: 0}
 --- !u!1 &2092755860
 GameObject:
   m_ObjectHideFlags: 0
@@ -9964,6 +12326,7 @@ GameObject:
   - component: {fileID: 2092755861}
   - component: {fileID: 2092755863}
   - component: {fileID: 2092755862}
+  - component: {fileID: 2092755864}
   m_Layer: 0
   m_Name: house_type05 (15)
   m_TagString: Untagged
@@ -10040,6 +12403,27 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2092755860}
   m_Mesh: {fileID: -6445713987585115133, guid: 23cbdc4a6de95d34bb82c7f3769b2dba, type: 3}
+--- !u!65 &2092755864
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2092755860}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1.3080003, y: 0.7375, z: 1.3080003}
+  m_Center: {x: 0, y: 0.36875, z: 0}
 --- !u!1 &2093255777
 GameObject:
   m_ObjectHideFlags: 0
@@ -10051,6 +12435,7 @@ GameObject:
   - component: {fileID: 2093255778}
   - component: {fileID: 2093255780}
   - component: {fileID: 2093255779}
+  - component: {fileID: 2093255781}
   m_Layer: 0
   m_Name: road_bend (9)
   m_TagString: Untagged
@@ -10126,6 +12511,27 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2093255777}
   m_Mesh: {fileID: 8439104543645927819, guid: bc4221be88ec40148bdd153b6aa3fc47, type: 3}
+--- !u!65 &2093255781
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2093255777}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 0.02, z: 1}
+  m_Center: {x: 0, y: 0.01, z: 0}
 --- !u!1 &2102907313
 GameObject:
   m_ObjectHideFlags: 0
@@ -10137,6 +12543,7 @@ GameObject:
   - component: {fileID: 2102907314}
   - component: {fileID: 2102907316}
   - component: {fileID: 2102907315}
+  - component: {fileID: 2102907317}
   m_Layer: 0
   m_Name: house_type05 (2)
   m_TagString: Untagged
@@ -10213,6 +12620,27 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2102907313}
   m_Mesh: {fileID: -6445713987585115133, guid: 23cbdc4a6de95d34bb82c7f3769b2dba, type: 3}
+--- !u!65 &2102907317
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2102907313}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1.308, y: 0.7375, z: 1.308}
+  m_Center: {x: 0, y: 0.36875, z: 0}
 --- !u!1 &2110965675
 GameObject:
   m_ObjectHideFlags: 0
@@ -10224,6 +12652,7 @@ GameObject:
   - component: {fileID: 2110965676}
   - component: {fileID: 2110965678}
   - component: {fileID: 2110965677}
+  - component: {fileID: 2110965679}
   m_Layer: 0
   m_Name: road_straight (17)
   m_TagString: Untagged
@@ -10299,6 +12728,27 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2110965675}
   m_Mesh: {fileID: 6440166555503141632, guid: 1e3401b7de61455419963494f10aeb82, type: 3}
+--- !u!65 &2110965679
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2110965675}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1.0000004, y: 0.02, z: 1.0000002}
+  m_Center: {x: 0, y: 0.01, z: 0}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
@@ -10315,5 +12765,5 @@ SceneRoots:
   - {fileID: 1435062012}
   - {fileID: 2043318186}
   - {fileID: 1919792890}
-  - {fileID: 2090311454}
-  - {fileID: 1184774741}
+  - {fileID: 81930657}
+  - {fileID: 1765822628}
