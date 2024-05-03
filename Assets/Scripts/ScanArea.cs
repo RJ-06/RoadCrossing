@@ -34,6 +34,8 @@ public class ScanArea : MonoBehaviour
     [SerializeField]
     Material nodeMatActive;
 
+    [SerializeField] GameObject waypoint;
+
     void Start()
     {
         hitNodes = new bool[rows, columns]; // Initialize the hitNodes array
@@ -160,7 +162,9 @@ public class ScanArea : MonoBehaviour
         if (enoughGridFilled)
         {
             EventManager.instance.score++;
+            waypoint.SetActive(true);
             Scoring.onCross();
+            
         }
     }
 
