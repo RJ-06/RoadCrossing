@@ -1,7 +1,5 @@
 <ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
-    <ui:VisualElement name="VisualElement" style="flex-grow: 1; align-items: flex-start; justify-content: flex-start;">
-        <ui:VisualElement name="Top" style="flex-grow: 1; flex-direction: row; bottom: auto; height: 11px; width: 277px;">
-            <ui:Label tabindex="-1" text="Score: 0\nHigh Score: 0" parse-escape-sequences="true" display-tooltip-when-elided="true" name="ScoreVal" enable-rich-text="true" style="font-size: 50px;" />
-        </ui:VisualElement>
+    <ui:VisualElement name="VisualElement" style="flex-grow: 1; align-items: flex-start; justify-content: flex-start; top: auto; bottom: auto; height: 20%;">
+        <ui:Label tabindex="-1" text="Score: 0\nHigh Score: 0" parse-escape-sequences="true" display-tooltip-when-elided="true" name="ScoreVal" enable-rich-text="true" style="font-size: 50px; left: 2%; top: 2%; align-self: flex-start; align-items: auto;" />
     </ui:VisualElement>
 </ui:UXML>
