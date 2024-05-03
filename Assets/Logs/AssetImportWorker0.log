@@ -1,0 +1,519 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.9f1 (ea401c316338) revision 15351836'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22631) 64bit Professional' Language: 'en' Physical Memory: 16087 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.3.9f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/lsong/OneDrive/Documents/GitHub/RoadCrossing/Assets
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+50536
+Successfully changed project path to: C:/Users/lsong/OneDrive/Documents/GitHub/RoadCrossing/Assets
+C:/Users/lsong/OneDrive/Documents/GitHub/RoadCrossing/Assets
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [2588] Host "[IP] 10.9.133.222 [Port] 0 [Flags] 2 [Guid] 3668386747 [EditorId] 3668386747 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-VHP4R6DU) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [2588] Host "[IP] 10.9.133.222 [Port] 0 [Flags] 2 [Guid] 3668386747 [EditorId] 3668386747 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-VHP4R6DU) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 7 workers.
+Refreshing native plugins compatible for Editor in 0.00 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.9f1 (ea401c316338)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.9f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/lsong/OneDrive/Documents/GitHub/RoadCrossing/Assets/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Intel(R) Iris(R) Xe Graphics (ID=0x9a40)
+    Vendor:   Intel
+    VRAM:     8043 MB
+    Driver:   31.0.101.4314
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.9f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.9f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.9f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56920
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.9f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.039033 seconds.
+- Loaded All Assemblies, in  2.316 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.793 seconds
+Domain Reload Profiling: 4092ms
+	BeginReloadAssembly (718ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (5ms)
+	RebuildCommonClasses (230ms)
+	RebuildNativeTypeToScriptingClass (78ms)
+	initialDomainReloadingComplete (363ms)
+	LoadAllAssembliesAndSetupDomain (909ms)
+		LoadAssemblies (705ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (901ms)
+			TypeCache.Refresh (892ms)
+				TypeCache.ScanAssembly (802ms)
+			ScanForSourceGeneratedMonoScriptInfo (3ms)
+			ResolveRequiredComponents (2ms)
+	FinalizeReload (1795ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1440ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (47ms)
+			SetLoadedEditorAssemblies (46ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (24ms)
+			ProcessInitializeOnLoadAttributes (1010ms)
+			ProcessInitializeOnLoadMethodAttributes (312ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.660 seconds
+Refreshing native plugins compatible for Editor in 0.00 ms, found 0 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.553 seconds
+Domain Reload Profiling: 4204ms
+	BeginReloadAssembly (1044ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (88ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (111ms)
+	RebuildCommonClasses (297ms)
+	RebuildNativeTypeToScriptingClass (106ms)
+	initialDomainReloadingComplete (172ms)
+	LoadAllAssembliesAndSetupDomain (30ms)
+		LoadAssemblies (641ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (18ms)
+			TypeCache.Refresh (12ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (1ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (2555ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1277ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (53ms)
+			SetLoadedEditorAssemblies (56ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (229ms)
+			ProcessInitializeOnLoadAttributes (814ms)
+			ProcessInitializeOnLoadMethodAttributes (95ms)
+			AfterProcessingInitializeOnLoad (30ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (41ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.28 seconds
+Refreshing native plugins compatible for Editor in 0.00 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3 unused Assets / (39.8 KB). Loaded Objects now: 477.
+Memory consumption went from 45.9 MB to 45.9 MB.
+Total: 14.583700 ms (FindLiveObjects: 0.252200 ms CreateObjectMapping: 0.016400 ms MarkObjects: 14.118800 ms  DeleteObjects: 0.192500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 85510.165857 seconds.
+  path: Assets/GrassButBetter.png
+  artifactKey: Guid(1a23e01171cb159488bb00500825357c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GrassButBetter.png using Guid(1a23e01171cb159488bb00500825357c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd47a972d8ed59a45efe04a6c47c19d82') in 0.278351 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 50.068130 seconds.
+  path: Assets/stuffwemodeled/arrow.fbx
+  artifactKey: Guid(cadc45edbf611c749bd386d681afda72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/stuffwemodeled/arrow.fbx using Guid(cadc45edbf611c749bd386d681afda72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57037c2c1208c3955c2b6bb85d2318cb') in 0.932309 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/stuffwemodeled/yield.dae
+  artifactKey: Guid(bc81eeb5cbaa14d468c88c3b16a99a2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/stuffwemodeled/yield.dae using Guid(bc81eeb5cbaa14d468c88c3b16a99a2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b43211ebcfc8064b91929a495867ae04') in 0.142037 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 18
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/Materials/TargetHighlight.mat
+  artifactKey: Guid(961ad3c9280c5f94686926c4f25fd815) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/TargetHighlight.mat using Guid(961ad3c9280c5f94686926c4f25fd815) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c1cb48e285787c918a1df4157705ab1') in 0.441697 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Materials/Grass.mat
+  artifactKey: Guid(85fbe659edf73a544bc1048ac490aa1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Grass.mat using Guid(85fbe659edf73a544bc1048ac490aa1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3c36df8f36d81787606eb73dc442393') in 0.033432 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/stuffwemodeled/stopsign.fbx
+  artifactKey: Guid(6584f46045552e74cb79cba5290cb25f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/stuffwemodeled/stopsign.fbx using Guid(6584f46045552e74cb79cba5290cb25f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1dee5322adda7dde828e729bce35a010') in 0.063783 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Materials/GrassButBetter.mat
+  artifactKey: Guid(c9e745441fe3556418cd984bbecd45d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/GrassButBetter.mat using Guid(c9e745441fe3556418cd984bbecd45d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5049effc15b2ffd5997e4dc518dafa9f') in 0.026140 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 2.240392 seconds.
+  path: Assets/kenney_city-kit-roads/Preview.png
+  artifactKey: Guid(03af4be9e23862047922752276d09f6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_city-kit-roads/Preview.png using Guid(03af4be9e23862047922752276d09f6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '533f89520922764364e82bc1b8a63494') in 0.077716 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.438608 seconds.
+  path: Assets/kenney_car-kit/Preview.png
+  artifactKey: Guid(52123773d1f93244e8f6a2752c63b093) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_car-kit/Preview.png using Guid(52123773d1f93244e8f6a2752c63b093) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c06032ed1de0d4b1dd7952ca9cb223d5') in 0.074827 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.686348 seconds.
+  path: Assets/kenney_blocky-characters/Preview.png
+  artifactKey: Guid(3cd446734792c264ca980ffd776ddf81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_blocky-characters/Preview.png using Guid(3cd446734792c264ca980ffd776ddf81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd972a082289caba42d59c6472df3b94') in 0.085821 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 1.911851 seconds.
+  path: Assets/kenney_blocky-characters/Models/advancedCharacter.fbx
+  artifactKey: Guid(911f60f534c82be4da65a4f826cb8bf6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_blocky-characters/Models/advancedCharacter.fbx using Guid(911f60f534c82be4da65a4f826cb8bf6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3815db7645852874c91d987e2f0860b6') in 0.174103 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 81
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/kenney_city-kit-roads/Models/FBX format/bridge_pillarWide.fbx
+  artifactKey: Guid(017d17fa7a09c8d4483983152c69c162) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_city-kit-roads/Models/FBX format/bridge_pillarWide.fbx using Guid(017d17fa7a09c8d4483983152c69c162) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '659baeb03faaaee347224ec4fb5e4510') in 0.093994 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/kenney_city-kit-roads/Models/FBX format/construction_light.fbx
+  artifactKey: Guid(58a9dc71afec43d41a8b57831e1a450e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_city-kit-roads/Models/FBX format/construction_light.fbx using Guid(58a9dc71afec43d41a8b57831e1a450e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8bdf1dc348ab4627fc7c793c95d7f41') in 0.068064 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/kenney_city-kit-roads/Models/OBJ format/bridge_pillar.obj
+  artifactKey: Guid(e9c345f8572fbc8408b2c57555ef01f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_city-kit-roads/Models/OBJ format/bridge_pillar.obj using Guid(e9c345f8572fbc8408b2c57555ef01f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '182386088a091842db4acc5175de89d4') in 0.057464 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/kenney_blocky-characters/Models/basicCharacter.fbx
+  artifactKey: Guid(9fce0ca81e6b1f546ae8d5fb80bfd45e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_blocky-characters/Models/basicCharacter.fbx using Guid(9fce0ca81e6b1f546ae8d5fb80bfd45e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98da4e01d4d367dbf4793ab15f971c07') in 0.137852 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 61
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/kenney_city-kit-roads/Models/OBJ format/construction_pylon.obj
+  artifactKey: Guid(64800875af4fe21469260b20ff413766) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_city-kit-roads/Models/OBJ format/construction_pylon.obj using Guid(64800875af4fe21469260b20ff413766) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '262def2da4b0a62a6c0f1d6cae25f33a') in 0.062870 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000093 seconds.
+  path: Assets/kenney_city-kit-roads/Models/OBJ format/bridge_pillarWide.obj
+  artifactKey: Guid(94932e14680716446899b490ad8014ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_city-kit-roads/Models/OBJ format/bridge_pillarWide.obj using Guid(94932e14680716446899b490ad8014ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59b44c729ee7b9bea6ef4c07672d9e50') in 0.062467 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/kenney_city-kit-roads/Models/DAE format/construction_light.dae
+  artifactKey: Guid(b98a72e838ff54b419b04668a0c8fc11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_city-kit-roads/Models/DAE format/construction_light.dae using Guid(b98a72e838ff54b419b04668a0c8fc11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9f9a9da43715cc9d40f1f0ad1345c76') in 0.069531 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/kenney_car-kit/Models/FBX format/deliveryFlat.fbx
+  artifactKey: Guid(93e6dd9aaf1dcac458214f431d0f934c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_car-kit/Models/FBX format/deliveryFlat.fbx using Guid(93e6dd9aaf1dcac458214f431d0f934c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3236962bb03aa996a2c360d94b1090d3') in 0.188814 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 36
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/kenney_city-kit-suburban/Models/FBX format/driveway_long.fbx
+  artifactKey: Guid(d52297bbdda95734197bf4be0ebb565a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_city-kit-suburban/Models/FBX format/driveway_long.fbx using Guid(d52297bbdda95734197bf4be0ebb565a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8fe554994ccc0ae2f101a0ce789feb5') in 0.051261 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000076 seconds.
+  path: Assets/kenney_city-kit-suburban/Models/OBJ format/driveway_long.obj
+  artifactKey: Guid(781f7c54381cefb42890e21283ad39ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_city-kit-suburban/Models/OBJ format/driveway_long.obj using Guid(781f7c54381cefb42890e21283ad39ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d9f4c14a94e5ea1a8cd31b1c31c6dba') in 0.071999 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/kenney_city-kit-roads/Models/DAE format/construction_pylon.dae
+  artifactKey: Guid(0ec6d93a3e7911140bc8a84f0128362c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_city-kit-roads/Models/DAE format/construction_pylon.dae using Guid(0ec6d93a3e7911140bc8a84f0128362c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63e422b43b028bdfe88504a8da6dd496') in 0.053651 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/kenney_blocky-characters/Models/Non-rigged/advancedCharacter.obj
+  artifactKey: Guid(ae7215ebd182ce1498bf04b67b7f049d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_blocky-characters/Models/Non-rigged/advancedCharacter.obj using Guid(ae7215ebd182ce1498bf04b67b7f049d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee888a9af3512339ec27902174bf3ea3') in 0.140346 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 35
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/kenney_car-kit/Models/FBX format/ambulance.fbx
+  artifactKey: Guid(f472c21b27ad4b14e987c1e0783f4f97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_car-kit/Models/FBX format/ambulance.fbx using Guid(f472c21b27ad4b14e987c1e0783f4f97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '202fc18da9257e30ddfcecb4ccad713b') in 0.226171 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 47
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/kenney_city-kit-roads/Models/OBJ format/construction_light.obj
+  artifactKey: Guid(3b194e26db20b514ba15dd8481f29b42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_city-kit-roads/Models/OBJ format/construction_light.obj using Guid(3b194e26db20b514ba15dd8481f29b42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60681435ba631e8d6cfa8d9e10bfc941') in 0.058393 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/kenney_car-kit/Models/DAE format/delivery.dae
+  artifactKey: Guid(3770b0400dc8be64cbaee427f8d2d770) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_car-kit/Models/DAE format/delivery.dae using Guid(3770b0400dc8be64cbaee427f8d2d770) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '505a8acc9578f47a213572c11c01624b') in 0.178598 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 39
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/kenney_city-kit-suburban/Models/DAE format/house_type11.dae
+  artifactKey: Guid(2882cc9619f739f4293fa7f7112d57b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_city-kit-suburban/Models/DAE format/house_type11.dae using Guid(2882cc9619f739f4293fa7f7112d57b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfc5e974f75c1d6d380c4f431746643c') in 0.084556 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/kenney_city-kit-suburban/Models/OBJ format/house_type02.obj
+  artifactKey: Guid(104118695960bcd439ef46795cb39a73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_city-kit-suburban/Models/OBJ format/house_type02.obj using Guid(104118695960bcd439ef46795cb39a73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7211535f621bd689d1e82ebb2095eabc') in 0.097135 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/kenney_city-kit-suburban/Models/DAE format/house_type12.dae
+  artifactKey: Guid(a03f6251274270746b6a32b2892ce267) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_city-kit-suburban/Models/DAE format/house_type12.dae using Guid(a03f6251274270746b6a32b2892ce267) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '847880c87afa5ec69d7e3eedf598520c') in 0.085296 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/kenney_car-kit/Models/OBJ format/tractorPolice.obj
+  artifactKey: Guid(2dc81bff8d38c89449d39d0b0a73c196) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_car-kit/Models/OBJ format/tractorPolice.obj using Guid(2dc81bff8d38c89449d39d0b0a73c196) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ebe97bc1cf24f1f0f88dfd255a5572c5') in 0.237986 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 47
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/kenney_car-kit/Models/OBJ format/race.obj
+  artifactKey: Guid(e45757ad22731bb4295ac9456e64755d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_car-kit/Models/OBJ format/race.obj using Guid(e45757ad22731bb4295ac9456e64755d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cbe7d5d07c4e72149395944185ad0667') in 0.191396 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 35
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/kenney_car-kit/Models/FBX format/sedanSports.fbx
+  artifactKey: Guid(9e82587c3f9a3484a98fd668f477899e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_car-kit/Models/FBX format/sedanSports.fbx using Guid(9e82587c3f9a3484a98fd668f477899e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1bc7a3b21633939cf856a8bd8740abc0') in 0.200116 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 42
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/kenney_city-kit-suburban/Models/DAE format/house_type04.dae
+  artifactKey: Guid(f14f730d404bea441a8d3952327aae15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_city-kit-suburban/Models/DAE format/house_type04.dae using Guid(f14f730d404bea441a8d3952327aae15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9c92c86ea4efbc5572d79790e43f2e8') in 0.119222 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/kenney_city-kit-suburban/Models/DAE format/house_type10.dae
+  artifactKey: Guid(244ae1e08cda1964989930d88eaa107e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_city-kit-suburban/Models/DAE format/house_type10.dae using Guid(244ae1e08cda1964989930d88eaa107e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e62b86c360f78fca05cbe0591e951b9f') in 0.084924 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/kenney_city-kit-suburban/Models/DAE format/house_type05.dae
+  artifactKey: Guid(631747b4a62cf2c4c9e5ad54db9e4891) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_city-kit-suburban/Models/DAE format/house_type05.dae using Guid(631747b4a62cf2c4c9e5ad54db9e4891) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f89b112ba5e58f19909f66d207aeb9db') in 0.081489 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/kenney_car-kit/Models/OBJ format/raceFuture.obj
+  artifactKey: Guid(ad8f8ed3e1f056a4cbc095a749c65b5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_car-kit/Models/OBJ format/raceFuture.obj using Guid(ad8f8ed3e1f056a4cbc095a749c65b5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '375340b26651bbf91512b4aa0ada4d46') in 0.177226 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 35
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/kenney_car-kit/Models/OBJ format/suv.obj
+  artifactKey: Guid(2de635c3b8460d04cada52763c3ae94c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_car-kit/Models/OBJ format/suv.obj using Guid(2de635c3b8460d04cada52763c3ae94c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2fdf0554b7fa531e5a3a5e7106334a9e') in 0.183494 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 37
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/kenney_car-kit/Models/OBJ format/deliveryFlat.obj
+  artifactKey: Guid(76cb7892af9493a44bf5cfadf0c3e490) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_car-kit/Models/OBJ format/deliveryFlat.obj using Guid(76cb7892af9493a44bf5cfadf0c3e490) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4553af5fcf2497022f2af8eaee36d374') in 0.205344 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 36
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/kenney_city-kit-suburban/Models/OBJ format/house_type03.obj
+  artifactKey: Guid(0dfdc2aa415591c4c95452cc13fa22a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_city-kit-suburban/Models/OBJ format/house_type03.obj using Guid(0dfdc2aa415591c4c95452cc13fa22a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45ceb340760ce2239f85fd5c84314295') in 0.080721 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/kenney_city-kit-suburban/Models/OBJ format/house_type01.obj
+  artifactKey: Guid(f46bb275d7717e647a8afaff2580646c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_city-kit-suburban/Models/OBJ format/house_type01.obj using Guid(f46bb275d7717e647a8afaff2580646c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7aa7b5a636cbc39db8f26093bdd9d338') in 0.085356 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/kenney_city-kit-suburban/Models/DAE format/house_type06.dae
+  artifactKey: Guid(86ba1f0b0dc55d944b8919355d02f50b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_city-kit-suburban/Models/DAE format/house_type06.dae using Guid(86ba1f0b0dc55d944b8919355d02f50b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dbda01e3e5eb70579ad6d041586bfc3d') in 0.091275 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/kenney_city-kit-suburban/Models/OBJ format/house_type04.obj
+  artifactKey: Guid(87242817056afb64e8d2a7a022908de8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_city-kit-suburban/Models/OBJ format/house_type04.obj using Guid(87242817056afb64e8d2a7a022908de8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ecf7505e15a3f696236c169d9e32849') in 0.092078 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/kenney_car-kit/Models/DAE format/wheelTruck.dae
+  artifactKey: Guid(e0a4feee3d6861a4680c3384e5b49dbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_car-kit/Models/DAE format/wheelTruck.dae using Guid(e0a4feee3d6861a4680c3384e5b49dbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1293a571b6955cdb07678a057835275c') in 0.068978 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
