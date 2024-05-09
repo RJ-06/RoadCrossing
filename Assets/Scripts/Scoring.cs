@@ -43,6 +43,7 @@ public class Scoring : MonoBehaviour
 
     static void loadGame()
     {
+        Debug.Log("this happened");
         try
         {
             highScore = PlayerPrefs.GetInt("HighScore");
