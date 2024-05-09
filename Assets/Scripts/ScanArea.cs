@@ -162,7 +162,6 @@ public class ScanArea : MonoBehaviour
         if (enoughGridFilled)
         {
             EventManager.instance.score++;
-            waypoint.SetActive(true);
             Scoring.onCross();
             
         }
@@ -199,6 +198,7 @@ public class ScanArea : MonoBehaviour
             barrier.SetActive(false);
             this.gameObject.SetActive(false);
             //EventManager.instance.score++;
+            waypoint.SetActive(true);
             Scoring.onCross();
             Debug.Log("scanned!");
             

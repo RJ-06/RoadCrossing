@@ -14,9 +14,10 @@ public class Waypoint : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
+        Debug.Log("any collision");
         if(!other.CompareTag("Player"))
             return;
-
+        Debug.Log("player collision");
         Scoring.onCross();
         this.gameObject.SetActive(false);
     }
