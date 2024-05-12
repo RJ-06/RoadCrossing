@@ -6,6 +6,8 @@ public class Waypoint : MonoBehaviour
 {
     // Start is called before the first frame update
     [SerializeField] ParticleSystem p;
+    [SerializeField] WaypointManager w;
+
 
     private void Awake()
     {
@@ -14,9 +16,10 @@ public class Waypoint : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
+
         if(!other.CompareTag("Player"))
             return;
-        Scoring.onCross();
-        this.gameObject.SetActive(false);
+
+        w.nextWP();
     }
 }

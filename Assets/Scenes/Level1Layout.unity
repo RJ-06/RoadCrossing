@@ -1588,6 +1588,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: ButtonSystem
       objectReference: {fileID: 0}
+    - target: {fileID: 3951835166013678231, guid: 368ab47ff9ac0be4daa0f71299f6a097,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6481333312294315320, guid: 368ab47ff9ac0be4daa0f71299f6a097,
         type: 3}
       propertyPath: s
@@ -11665,6 +11670,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 309984106883756153, guid: 3c5a928efdbc471428a1135a24e8812b,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5071624506590654676, guid: 3c5a928efdbc471428a1135a24e8812b,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -11719,6 +11729,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: HUD
+      objectReference: {fileID: 0}
+    - target: {fileID: 7577882278968554436, guid: 3c5a928efdbc471428a1135a24e8812b,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8528160776528254405, guid: 3c5a928efdbc471428a1135a24e8812b,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

@@ -35,6 +35,7 @@ public class ScanArea : MonoBehaviour
     Material nodeMatActive;
 
     [SerializeField] GameObject waypoint;
+    [SerializeField] WaypointManager wp;
 
     void Start()
     {
@@ -162,7 +163,6 @@ public class ScanArea : MonoBehaviour
         if (enoughGridFilled)
         {
             EventManager.instance.score++;
-            Scoring.onCross();
             
         }
     }
@@ -198,8 +198,8 @@ public class ScanArea : MonoBehaviour
             barrier.SetActive(false);
             this.gameObject.SetActive(false);
             //EventManager.instance.score++;
-            waypoint.SetActive(true);
-            Scoring.onCross();
+
+            Scoring.onScore();
             Debug.Log("scanned!");
             
         }

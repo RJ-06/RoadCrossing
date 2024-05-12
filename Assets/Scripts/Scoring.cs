@@ -24,7 +24,7 @@ public class Scoring : MonoBehaviour
         
     }
 
-    public static void onCross() 
+    public static void onScore() 
     {
         score++;
         if (score > highScore) 
