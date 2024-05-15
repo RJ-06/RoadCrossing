@@ -134,6 +134,7 @@ GameObject:
   - component: {fileID: 19873069}
   - component: {fileID: 19873071}
   - component: {fileID: 19873070}
+  - component: {fileID: 19873072}
   m_Layer: 0
   m_Name: driveway_long (16)
   m_TagString: Untagged
@@ -207,6 +208,27 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 19873068}
   m_Mesh: {fileID: -3456312405952388865, guid: 781f7c54381cefb42890e21283ad39ae, type: 3}
+--- !u!65 &19873072
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 19873068}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.3600001, y: 0.01, z: 0.4000001}
+  m_Center: {x: 0, y: 0.005, z: 0}
 --- !u!1 &20771158
 GameObject:
   m_ObjectHideFlags: 0
@@ -218,6 +240,7 @@ GameObject:
   - component: {fileID: 20771159}
   - component: {fileID: 20771161}
   - component: {fileID: 20771160}
+  - component: {fileID: 20771162}
   m_Layer: 0
   m_Name: driveway_long (19)
   m_TagString: Untagged
@@ -291,6 +314,27 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 20771158}
   m_Mesh: {fileID: -3456312405952388865, guid: 781f7c54381cefb42890e21283ad39ae, type: 3}
+--- !u!65 &20771162
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 20771158}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.3600001, y: 0.01, z: 0.4000001}
+  m_Center: {x: 0.0000019073486, y: 0.005, z: 0}
 --- !u!1 &23798537
 GameObject:
   m_ObjectHideFlags: 0
@@ -388,6 +432,7 @@ GameObject:
   - component: {fileID: 25140888}
   - component: {fileID: 25140890}
   - component: {fileID: 25140889}
+  - component: {fileID: 25140891}
   m_Layer: 0
   m_Name: house_type08 (4)
   m_TagString: Untagged
@@ -464,6 +509,27 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 25140887}
   m_Mesh: {fileID: 2785096126248973917, guid: c6ba6552b8ef9784a8753cc8f64fd33a, type: 3}
+--- !u!65 &25140891
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 25140887}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1.7363806, y: 1.2, z: 1.0058917}
+  m_Center: {x: 0, y: 0.6, z: 0.0000038146973}
 --- !u!1001 &40750961
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -664,6 +730,7 @@ GameObject:
   - component: {fileID: 61507715}
   - component: {fileID: 61507717}
   - component: {fileID: 61507716}
+  - component: {fileID: 61507718}
   m_Layer: 0
   m_Name: house_type08 (6)
   m_TagString: Untagged
@@ -740,6 +807,27 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 61507714}
   m_Mesh: {fileID: 2785096126248973917, guid: c6ba6552b8ef9784a8753cc8f64fd33a, type: 3}
+--- !u!65 &61507718
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 61507714}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1.7363806, y: 1.2, z: 1.0058917}
+  m_Center: {x: 0, y: 0.6, z: 0}
 --- !u!1 &65160677
 GameObject:
   m_ObjectHideFlags: 0
@@ -923,6 +1011,7 @@ GameObject:
   - component: {fileID: 81654320}
   - component: {fileID: 81654322}
   - component: {fileID: 81654321}
+  - component: {fileID: 81654323}
   m_Layer: 0
   m_Name: driveway_long (21)
   m_TagString: Untagged
@@ -996,6 +1085,27 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 81654319}
   m_Mesh: {fileID: -3456312405952388865, guid: 781f7c54381cefb42890e21283ad39ae, type: 3}
+--- !u!65 &81654323
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 81654319}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.3600001, y: 0.01, z: 0.4000001}
+  m_Center: {x: 0, y: 0.005, z: 0.0000019073486}
 --- !u!1 &83954603
 GameObject:
   m_ObjectHideFlags: 0
@@ -1007,6 +1117,7 @@ GameObject:
   - component: {fileID: 83954604}
   - component: {fileID: 83954606}
   - component: {fileID: 83954605}
+  - component: {fileID: 83954607}
   m_Layer: 0
   m_Name: house_type08 (5)
   m_TagString: Untagged
@@ -1083,6 +1194,27 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 83954603}
   m_Mesh: {fileID: 2785096126248973917, guid: c6ba6552b8ef9784a8753cc8f64fd33a, type: 3}
+--- !u!65 &83954607
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 83954603}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1.7363806, y: 1.2, z: 1.0058917}
+  m_Center: {x: -0.0000019073486, y: 0.6, z: 0}
 --- !u!1 &87504923
 GameObject:
   m_ObjectHideFlags: 0
@@ -1266,6 +1398,7 @@ GameObject:
   - component: {fileID: 89180988}
   - component: {fileID: 89180990}
   - component: {fileID: 89180989}
+  - component: {fileID: 89180991}
   m_Layer: 0
   m_Name: house_type08 (3)
   m_TagString: Untagged
@@ -1342,6 +1475,27 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 89180987}
   m_Mesh: {fileID: 2785096126248973917, guid: c6ba6552b8ef9784a8753cc8f64fd33a, type: 3}
+--- !u!65 &89180991
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 89180987}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1.7363806, y: 1.2, z: 1.0058917}
+  m_Center: {x: -0.0000019073486, y: 0.6, z: 0}
 --- !u!1 &101195514
 GameObject:
   m_ObjectHideFlags: 0
@@ -1428,6 +1582,33 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 101195514}
   m_Mesh: {fileID: -4603950910259808982, guid: e9f2942feacbe5244821b1cd6b290c5a, type: 3}
+--- !u!1 &105126713 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5392420232685891557, guid: c6ba6552b8ef9784a8753cc8f64fd33a,
+    type: 3}
+  m_PrefabInstance: {fileID: 1567713822}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &105126717
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 105126713}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1.7363806, y: 1.2, z: 1.0058917}
+  m_Center: {x: -0.0000019073486, y: 0.6, z: 0}
 --- !u!1 &113812645
 GameObject:
   m_ObjectHideFlags: 0
@@ -1439,6 +1620,7 @@ GameObject:
   - component: {fileID: 113812646}
   - component: {fileID: 113812648}
   - component: {fileID: 113812647}
+  - component: {fileID: 113812649}
   m_Layer: 0
   m_Name: driveway_long (24)
   m_TagString: Untagged
@@ -1512,6 +1694,27 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 113812645}
   m_Mesh: {fileID: -3456312405952388865, guid: 781f7c54381cefb42890e21283ad39ae, type: 3}
+--- !u!65 &113812649
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 113812645}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.3600001, y: 0.01, z: 0.4000001}
+  m_Center: {x: -0.0000009536743, y: 0.005, z: 0.0000019073486}
 --- !u!1 &121662559
 GameObject:
   m_ObjectHideFlags: 0
@@ -1523,6 +1726,7 @@ GameObject:
   - component: {fileID: 121662560}
   - component: {fileID: 121662562}
   - component: {fileID: 121662561}
+  - component: {fileID: 121662563}
   m_Layer: 0
   m_Name: driveway_long (17)
   m_TagString: Untagged
@@ -1596,6 +1800,27 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 121662559}
   m_Mesh: {fileID: -3456312405952388865, guid: 781f7c54381cefb42890e21283ad39ae, type: 3}
+--- !u!65 &121662563
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 121662559}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.3600001, y: 0.01, z: 0.4000001}
+  m_Center: {x: -0.0000019073486, y: 0.005, z: 0}
 --- !u!1 &124813676
 GameObject:
   m_ObjectHideFlags: 0
@@ -1607,6 +1832,7 @@ GameObject:
   - component: {fileID: 124813677}
   - component: {fileID: 124813679}
   - component: {fileID: 124813678}
+  - component: {fileID: 124813680}
   m_Layer: 0
   m_Name: house_type08 (5)
   m_TagString: Untagged
@@ -1683,6 +1909,27 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 124813676}
   m_Mesh: {fileID: 2785096126248973917, guid: c6ba6552b8ef9784a8753cc8f64fd33a, type: 3}
+--- !u!65 &124813680
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 124813676}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1.7363806, y: 1.2, z: 1.0058917}
+  m_Center: {x: 0, y: 0.6, z: 0.0000019073486}
 --- !u!1 &125509513
 GameObject:
   m_ObjectHideFlags: 0
@@ -1694,6 +1941,7 @@ GameObject:
   - component: {fileID: 125509514}
   - component: {fileID: 125509516}
   - component: {fileID: 125509515}
+  - component: {fileID: 125509517}
   m_Layer: 0
   m_Name: driveway_long (24)
   m_TagString: Untagged
@@ -1767,6 +2015,27 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 125509513}
   m_Mesh: {fileID: -3456312405952388865, guid: 781f7c54381cefb42890e21283ad39ae, type: 3}
+--- !u!65 &125509517
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 125509513}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.3600001, y: 0.01, z: 0.4000001}
+  m_Center: {x: 0, y: 0.005, z: 0}
 --- !u!1 &140820054
 GameObject:
   m_ObjectHideFlags: 0
@@ -1778,6 +2047,7 @@ GameObject:
   - component: {fileID: 140820055}
   - component: {fileID: 140820057}
   - component: {fileID: 140820056}
+  - component: {fileID: 140820058}
   m_Layer: 0
   m_Name: driveway_long (20)
   m_TagString: Untagged
@@ -1851,6 +2121,27 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 140820054}
   m_Mesh: {fileID: -3456312405952388865, guid: 781f7c54381cefb42890e21283ad39ae, type: 3}
+--- !u!65 &140820058
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 140820054}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.3600001, y: 0.01, z: 0.4000001}
+  m_Center: {x: 0, y: 0.005, z: 0}
 --- !u!1 &155829160
 GameObject:
   m_ObjectHideFlags: 0
@@ -1862,6 +2153,7 @@ GameObject:
   - component: {fileID: 155829161}
   - component: {fileID: 155829163}
   - component: {fileID: 155829162}
+  - component: {fileID: 155829164}
   m_Layer: 0
   m_Name: house_type08 (8)
   m_TagString: Untagged
@@ -1938,6 +2230,27 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 155829160}
   m_Mesh: {fileID: 2785096126248973917, guid: c6ba6552b8ef9784a8753cc8f64fd33a, type: 3}
+--- !u!65 &155829164
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 155829160}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1.7363806, y: 1.2, z: 1.0058917}
+  m_Center: {x: 0.0000019073486, y: 0.6, z: 0}
 --- !u!1 &160212332
 GameObject:
   m_ObjectHideFlags: 0
@@ -1949,6 +2262,7 @@ GameObject:
   - component: {fileID: 160212333}
   - component: {fileID: 160212335}
   - component: {fileID: 160212334}
+  - component: {fileID: 160212336}
   m_Layer: 0
   m_Name: driveway_long (22)
   m_TagString: Untagged
@@ -2022,6 +2336,27 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 160212332}
   m_Mesh: {fileID: -3456312405952388865, guid: 781f7c54381cefb42890e21283ad39ae, type: 3}
+--- !u!65 &160212336
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 160212332}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.3600001, y: 0.01, z: 0.4000001}
+  m_Center: {x: 0, y: 0.005, z: 0}
 --- !u!1 &166455678
 GameObject:
   m_ObjectHideFlags: 0
@@ -2033,6 +2368,7 @@ GameObject:
   - component: {fileID: 166455679}
   - component: {fileID: 166455681}
   - component: {fileID: 166455680}
+  - component: {fileID: 166455682}
   m_Layer: 0
   m_Name: driveway_long (24)
   m_TagString: Untagged
@@ -2106,6 +2442,27 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 166455678}
   m_Mesh: {fileID: -3456312405952388865, guid: 781f7c54381cefb42890e21283ad39ae, type: 3}
+--- !u!65 &166455682
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 166455678}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.3600001, y: 0.01, z: 0.4000001}
+  m_Center: {x: 0, y: 0.005, z: 0}
 --- !u!1 &185997428
 GameObject:
   m_ObjectHideFlags: 0
@@ -2203,6 +2560,7 @@ GameObject:
   - component: {fileID: 203161923}
   - component: {fileID: 203161925}
   - component: {fileID: 203161924}
+  - component: {fileID: 203161926}
   m_Layer: 0
   m_Name: driveway_long (16)
   m_TagString: Untagged
@@ -2276,6 +2634,27 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 203161922}
   m_Mesh: {fileID: -3456312405952388865, guid: 781f7c54381cefb42890e21283ad39ae, type: 3}
+--- !u!65 &203161926
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 203161922}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.3600001, y: 0.01, z: 0.4000001}
+  m_Center: {x: 0, y: 0.005, z: 0.0000009536743}
 --- !u!1 &205112492
 GameObject:
   m_ObjectHideFlags: 0
@@ -2373,6 +2752,7 @@ GameObject:
   - component: {fileID: 216499045}
   - component: {fileID: 216499047}
   - component: {fileID: 216499046}
+  - component: {fileID: 216499048}
   m_Layer: 0
   m_Name: house_type08 (8)
   m_TagString: Untagged
@@ -2449,6 +2829,27 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 216499044}
   m_Mesh: {fileID: 2785096126248973917, guid: c6ba6552b8ef9784a8753cc8f64fd33a, type: 3}
+--- !u!65 &216499048
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 216499044}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1.7363806, y: 1.2, z: 1.0058917}
+  m_Center: {x: 0.0000009536743, y: 0.6, z: 0}
 --- !u!1 &235597092
 GameObject:
   m_ObjectHideFlags: 0
@@ -2546,6 +2947,7 @@ GameObject:
   - component: {fileID: 256934929}
   - component: {fileID: 256934931}
   - component: {fileID: 256934930}
+  - component: {fileID: 256934932}
   m_Layer: 0
   m_Name: house_type08 (9)
   m_TagString: Untagged
@@ -2622,6 +3024,27 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 256934928}
   m_Mesh: {fileID: 2785096126248973917, guid: c6ba6552b8ef9784a8753cc8f64fd33a, type: 3}
+--- !u!65 &256934932
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 256934928}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1.7363806, y: 1.2, z: 1.0058917}
+  m_Center: {x: 0, y: 0.6, z: 0}
 --- !u!1 &261499472
 GameObject:
   m_ObjectHideFlags: 0
@@ -2719,6 +3142,7 @@ GameObject:
   - component: {fileID: 266961142}
   - component: {fileID: 266961144}
   - component: {fileID: 266961143}
+  - component: {fileID: 266961145}
   m_Layer: 0
   m_Name: house_type08 (7)
   m_TagString: Untagged
@@ -2795,6 +3219,27 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 266961141}
   m_Mesh: {fileID: 2785096126248973917, guid: c6ba6552b8ef9784a8753cc8f64fd33a, type: 3}
+--- !u!65 &266961145
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 266961141}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1.7363806, y: 1.2, z: 1.0058917}
+  m_Center: {x: 0.0000009536743, y: 0.6, z: 0}
 --- !u!1 &269286246
 GameObject:
   m_ObjectHideFlags: 0
@@ -2806,6 +3251,7 @@ GameObject:
   - component: {fileID: 269286247}
   - component: {fileID: 269286249}
   - component: {fileID: 269286248}
+  - component: {fileID: 269286250}
   m_Layer: 0
   m_Name: driveway_long (19)
   m_TagString: Untagged
@@ -2879,6 +3325,33 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 269286246}
   m_Mesh: {fileID: -3456312405952388865, guid: 781f7c54381cefb42890e21283ad39ae, type: 3}
+--- !u!65 &269286250
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 269286246}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.3600001, y: 0.01, z: 0.4000001}
+  m_Center: {x: 0, y: 0.005, z: 0}
+--- !u!1 &269419557 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: c6ba6552b8ef9784a8753cc8f64fd33a,
+    type: 3}
+  m_PrefabInstance: {fileID: 483797679}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &281343477
 GameObject:
   m_ObjectHideFlags: 0
@@ -2890,6 +3363,7 @@ GameObject:
   - component: {fileID: 281343478}
   - component: {fileID: 281343480}
   - component: {fileID: 281343479}
+  - component: {fileID: 281343481}
   m_Layer: 0
   m_Name: house_type08 (6)
   m_TagString: Untagged
@@ -2966,6 +3440,27 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 281343477}
   m_Mesh: {fileID: 2785096126248973917, guid: c6ba6552b8ef9784a8753cc8f64fd33a, type: 3}
+--- !u!65 &281343481
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 281343477}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1.7363806, y: 1.2, z: 1.0058917}
+  m_Center: {x: 0, y: 0.6, z: 0}
 --- !u!1 &284255967
 GameObject:
   m_ObjectHideFlags: 0
@@ -2977,6 +3472,7 @@ GameObject:
   - component: {fileID: 284255968}
   - component: {fileID: 284255970}
   - component: {fileID: 284255969}
+  - component: {fileID: 284255971}
   m_Layer: 0
   m_Name: driveway_long (24)
   m_TagString: Untagged
@@ -3050,6 +3546,27 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 284255967}
   m_Mesh: {fileID: -3456312405952388865, guid: 781f7c54381cefb42890e21283ad39ae, type: 3}
+--- !u!65 &284255971
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 284255967}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.3600001, y: 0.01, z: 0.4000001}
+  m_Center: {x: 0, y: 0.005, z: 0.0000009536743}
 --- !u!1 &286194236
 GameObject:
   m_ObjectHideFlags: 0
@@ -3061,6 +3578,7 @@ GameObject:
   - component: {fileID: 286194237}
   - component: {fileID: 286194239}
   - component: {fileID: 286194238}
+  - component: {fileID: 286194240}
   m_Layer: 0
   m_Name: house_type08 (3)
   m_TagString: Untagged
@@ -3137,6 +3655,27 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 286194236}
   m_Mesh: {fileID: 2785096126248973917, guid: c6ba6552b8ef9784a8753cc8f64fd33a, type: 3}
+--- !u!65 &286194240
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 286194236}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1.7363806, y: 1.2, z: 1.0058917}
+  m_Center: {x: 0, y: 0.6, z: 0}
 --- !u!1 &294948395
 GameObject:
   m_ObjectHideFlags: 0
@@ -3148,6 +3687,7 @@ GameObject:
   - component: {fileID: 294948396}
   - component: {fileID: 294948398}
   - component: {fileID: 294948397}
+  - component: {fileID: 294948399}
   m_Layer: 0
   m_Name: house_type08 (9)
   m_TagString: Untagged
@@ -3224,6 +3764,27 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 294948395}
   m_Mesh: {fileID: 2785096126248973917, guid: c6ba6552b8ef9784a8753cc8f64fd33a, type: 3}
+--- !u!65 &294948399
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 294948395}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1.7363806, y: 1.2, z: 1.0058917}
+  m_Center: {x: 0.0000019073486, y: 0.6, z: 0}
 --- !u!1 &301406771
 GameObject:
   m_ObjectHideFlags: 0
@@ -3747,6 +4308,7 @@ GameObject:
   - component: {fileID: 333792887}
   - component: {fileID: 333792889}
   - component: {fileID: 333792888}
+  - component: {fileID: 333792890}
   m_Layer: 0
   m_Name: house_type08 (9)
   m_TagString: Untagged
@@ -3823,6 +4385,27 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 333792886}
   m_Mesh: {fileID: 2785096126248973917, guid: c6ba6552b8ef9784a8753cc8f64fd33a, type: 3}
+--- !u!65 &333792890
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 333792886}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1.7363806, y: 1.2, z: 1.0058917}
+  m_Center: {x: 0.0000009536743, y: 0.6, z: 0.0000038146973}
 --- !u!1 &338243785
 GameObject:
   m_ObjectHideFlags: 0
@@ -3928,6 +4511,7 @@ GameObject:
   - component: {fileID: 342131625}
   - component: {fileID: 342131627}
   - component: {fileID: 342131626}
+  - component: {fileID: 342131628}
   m_Layer: 0
   m_Name: driveway_long (20)
   m_TagString: Untagged
@@ -4001,6 +4585,27 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 342131624}
   m_Mesh: {fileID: -3456312405952388865, guid: 781f7c54381cefb42890e21283ad39ae, type: 3}
+--- !u!65 &342131628
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 342131624}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.3600001, y: 0.01, z: 0.4000001}
+  m_Center: {x: 0, y: 0.005, z: 0.0000019073486}
 --- !u!1 &345095466
 GameObject:
   m_ObjectHideFlags: 0
@@ -4184,6 +4789,7 @@ GameObject:
   - component: {fileID: 355244649}
   - component: {fileID: 355244651}
   - component: {fileID: 355244650}
+  - component: {fileID: 355244652}
   m_Layer: 0
   m_Name: driveway_long (16)
   m_TagString: Untagged
@@ -4257,6 +4863,27 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 355244648}
   m_Mesh: {fileID: -3456312405952388865, guid: 781f7c54381cefb42890e21283ad39ae, type: 3}
+--- !u!65 &355244652
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 355244648}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.3600001, y: 0.01, z: 0.4000001}
+  m_Center: {x: -0.0000019073486, y: 0.005, z: 0}
 --- !u!1 &359498962
 GameObject:
   m_ObjectHideFlags: 0
@@ -4354,6 +4981,7 @@ GameObject:
   - component: {fileID: 361176292}
   - component: {fileID: 361176294}
   - component: {fileID: 361176293}
+  - component: {fileID: 361176295}
   m_Layer: 0
   m_Name: driveway_long (17)
   m_TagString: Untagged
@@ -4427,6 +5055,27 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 361176291}
   m_Mesh: {fileID: -3456312405952388865, guid: 781f7c54381cefb42890e21283ad39ae, type: 3}
+--- !u!65 &361176295
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 361176291}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.3600001, y: 0.01, z: 0.4000001}
+  m_Center: {x: 0, y: 0.005, z: 0}
 --- !u!1 &363209223
 GameObject:
   m_ObjectHideFlags: 0
@@ -4783,6 +5432,7 @@ GameObject:
   - component: {fileID: 393629721}
   - component: {fileID: 393629723}
   - component: {fileID: 393629722}
+  - component: {fileID: 393629724}
   m_Layer: 0
   m_Name: driveway_long (22)
   m_TagString: Untagged
@@ -4856,6 +5506,33 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 393629720}
   m_Mesh: {fileID: -3456312405952388865, guid: 781f7c54381cefb42890e21283ad39ae, type: 3}
+--- !u!65 &393629724
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 393629720}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.3600001, y: 0.01, z: 0.4000001}
+  m_Center: {x: -0.0000019073486, y: 0.005, z: 0}
+--- !u!1 &397006952 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: c6ba6552b8ef9784a8753cc8f64fd33a,
+    type: 3}
+  m_PrefabInstance: {fileID: 644081965}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &398477696
 GameObject:
   m_ObjectHideFlags: 0
@@ -4867,6 +5544,7 @@ GameObject:
   - component: {fileID: 398477697}
   - component: {fileID: 398477699}
   - component: {fileID: 398477698}
+  - component: {fileID: 398477700}
   m_Layer: 0
   m_Name: house_type08 (9)
   m_TagString: Untagged
@@ -4943,6 +5621,27 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 398477696}
   m_Mesh: {fileID: 2785096126248973917, guid: c6ba6552b8ef9784a8753cc8f64fd33a, type: 3}
+--- !u!65 &398477700
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 398477696}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1.7363806, y: 1.2, z: 1.0058917}
+  m_Center: {x: 0.0000009536743, y: 0.6, z: 0}
 --- !u!1 &400462073
 GameObject:
   m_ObjectHideFlags: 0
@@ -5116,6 +5815,12 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 403855089}
   m_Mesh: {fileID: -4377417742920401669, guid: 6904d36d5cf1ec548ac953f06bc2531e, type: 3}
+--- !u!1 &408213700 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: c6ba6552b8ef9784a8753cc8f64fd33a,
+    type: 3}
+  m_PrefabInstance: {fileID: 1645052712}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &415295380
 GameObject:
   m_ObjectHideFlags: 0
@@ -5300,6 +6005,7 @@ GameObject:
   - component: {fileID: 420564189}
   - component: {fileID: 420564191}
   - component: {fileID: 420564190}
+  - component: {fileID: 420564192}
   m_Layer: 0
   m_Name: driveway_long (18)
   m_TagString: Untagged
@@ -5373,6 +6079,27 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 420564188}
   m_Mesh: {fileID: -3456312405952388865, guid: 781f7c54381cefb42890e21283ad39ae, type: 3}
+--- !u!65 &420564192
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 420564188}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.3600001, y: 0.01, z: 0.4000001}
+  m_Center: {x: 0, y: 0.005, z: 0}
 --- !u!1 &422302051
 GameObject:
   m_ObjectHideFlags: 0
@@ -5643,6 +6370,7 @@ GameObject:
   - component: {fileID: 433382304}
   - component: {fileID: 433382306}
   - component: {fileID: 433382305}
+  - component: {fileID: 433382307}
   m_Layer: 0
   m_Name: driveway_long (20)
   m_TagString: Untagged
@@ -5716,6 +6444,27 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 433382303}
   m_Mesh: {fileID: -3456312405952388865, guid: 781f7c54381cefb42890e21283ad39ae, type: 3}
+--- !u!65 &433382307
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 433382303}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.3600001, y: 0.01, z: 0.4000001}
+  m_Center: {x: 0, y: 0.005, z: 0}
 --- !u!1 &435719408
 GameObject:
   m_ObjectHideFlags: 0
@@ -5727,6 +6476,7 @@ GameObject:
   - component: {fileID: 435719409}
   - component: {fileID: 435719411}
   - component: {fileID: 435719410}
+  - component: {fileID: 435719412}
   m_Layer: 0
   m_Name: driveway_long (17)
   m_TagString: Untagged
@@ -5800,6 +6550,27 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 435719408}
   m_Mesh: {fileID: -3456312405952388865, guid: 781f7c54381cefb42890e21283ad39ae, type: 3}
+--- !u!65 &435719412
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 435719408}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.3600001, y: 0.01, z: 0.4000001}
+  m_Center: {x: -0.0000019073486, y: 0.005, z: 0}
 --- !u!1 &437203763
 GameObject:
   m_ObjectHideFlags: 0
@@ -5811,6 +6582,7 @@ GameObject:
   - component: {fileID: 437203764}
   - component: {fileID: 437203766}
   - component: {fileID: 437203765}
+  - component: {fileID: 437203767}
   m_Layer: 0
   m_Name: driveway_long (23)
   m_TagString: Untagged
@@ -5884,6 +6656,27 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 437203763}
   m_Mesh: {fileID: -3456312405952388865, guid: 781f7c54381cefb42890e21283ad39ae, type: 3}
+--- !u!65 &437203767
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 437203763}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.3600001, y: 0.01, z: 0.4000001}
+  m_Center: {x: 0, y: 0.005, z: 0}
 --- !u!1 &447253226
 GameObject:
   m_ObjectHideFlags: 0
@@ -6147,7 +6940,15 @@ PrefabInstance:
         type: 3}
       insertIndex: -1
       addedObject: {fileID: 1762988461}
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: c6ba6552b8ef9784a8753cc8f64fd33a,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2102227479}
+    - targetCorrespondingSourceObject: {fileID: 5392420232685891557, guid: c6ba6552b8ef9784a8753cc8f64fd33a,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1151259100}
   m_SourcePrefab: {fileID: 100100000, guid: c6ba6552b8ef9784a8753cc8f64fd33a, type: 3}
 --- !u!4 &454791812 stripped
 Transform:
@@ -6762,7 +7563,15 @@ PrefabInstance:
         type: 3}
       insertIndex: -1
       addedObject: {fileID: 880420078}
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: c6ba6552b8ef9784a8753cc8f64fd33a,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1409013984}
+    - targetCorrespondingSourceObject: {fileID: 5392420232685891557, guid: c6ba6552b8ef9784a8753cc8f64fd33a,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1134517941}
   m_SourcePrefab: {fileID: 100100000, guid: c6ba6552b8ef9784a8753cc8f64fd33a, type: 3}
 --- !u!4 &478916003 stripped
 Transform:
@@ -6947,13 +7756,48 @@ PrefabInstance:
         type: 3}
       insertIndex: -1
       addedObject: {fileID: 1577436441}
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: c6ba6552b8ef9784a8753cc8f64fd33a,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 483797681}
+    - targetCorrespondingSourceObject: {fileID: 5392420232685891557, guid: c6ba6552b8ef9784a8753cc8f64fd33a,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 581769201}
   m_SourcePrefab: {fileID: 100100000, guid: c6ba6552b8ef9784a8753cc8f64fd33a, type: 3}
 --- !u!4 &483797680 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: c6ba6552b8ef9784a8753cc8f64fd33a,
     type: 3}
   m_PrefabInstance: {fileID: 483797679}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &483797681
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 269419557}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!1 &489499579 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: c6ba6552b8ef9784a8753cc8f64fd33a,
+    type: 3}
+  m_PrefabInstance: {fileID: 1567713822}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &490036885
 GameObject:
@@ -6966,6 +7810,7 @@ GameObject:
   - component: {fileID: 490036886}
   - component: {fileID: 490036888}
   - component: {fileID: 490036887}
+  - component: {fileID: 490036889}
   m_Layer: 0
   m_Name: driveway_long (23)
   m_TagString: Untagged
@@ -7039,6 +7884,27 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 490036885}
   m_Mesh: {fileID: -3456312405952388865, guid: 781f7c54381cefb42890e21283ad39ae, type: 3}
+--- !u!65 &490036889
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 490036885}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.3600001, y: 0.01, z: 0.4000001}
+  m_Center: {x: -0.0000019073486, y: 0.005, z: 0}
 --- !u!1001 &499924288
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7167,6 +8033,7 @@ GameObject:
   - component: {fileID: 513158797}
   - component: {fileID: 513158799}
   - component: {fileID: 513158798}
+  - component: {fileID: 513158800}
   m_Layer: 0
   m_Name: driveway_long (18)
   m_TagString: Untagged
@@ -7240,6 +8107,27 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 513158796}
   m_Mesh: {fileID: -3456312405952388865, guid: 781f7c54381cefb42890e21283ad39ae, type: 3}
+--- !u!65 &513158800
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 513158796}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.3600001, y: 0.01, z: 0.4000001}
+  m_Center: {x: 0, y: 0.005, z: 0}
 --- !u!1 &530920932
 GameObject:
   m_ObjectHideFlags: 0
@@ -7251,6 +8139,7 @@ GameObject:
   - component: {fileID: 530920933}
   - component: {fileID: 530920935}
   - component: {fileID: 530920934}
+  - component: {fileID: 530920936}
   m_Layer: 0
   m_Name: driveway_long (22)
   m_TagString: Untagged
@@ -7324,6 +8213,27 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 530920932}
   m_Mesh: {fileID: -3456312405952388865, guid: 781f7c54381cefb42890e21283ad39ae, type: 3}
+--- !u!65 &530920936
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 530920932}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.3600001, y: 0.01, z: 0.4000001}
+  m_Center: {x: 0, y: 0.005, z: 0}
 --- !u!1 &539167779
 GameObject:
   m_ObjectHideFlags: 0
@@ -7421,6 +8331,7 @@ GameObject:
   - component: {fileID: 564588156}
   - component: {fileID: 564588158}
   - component: {fileID: 564588157}
+  - component: {fileID: 564588159}
   m_Layer: 0
   m_Name: driveway_long (25)
   m_TagString: Untagged
@@ -7494,6 +8405,27 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 564588155}
   m_Mesh: {fileID: -3456312405952388865, guid: 781f7c54381cefb42890e21283ad39ae, type: 3}
+--- !u!65 &564588159
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 564588155}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.3600001, y: 0.01, z: 0.4000001}
+  m_Center: {x: -0.0000019073486, y: 0.005, z: 0}
 --- !u!1 &566124753
 GameObject:
   m_ObjectHideFlags: 0
@@ -7505,6 +8437,7 @@ GameObject:
   - component: {fileID: 566124754}
   - component: {fileID: 566124756}
   - component: {fileID: 566124755}
+  - component: {fileID: 566124757}
   m_Layer: 0
   m_Name: driveway_long (18)
   m_TagString: Untagged
@@ -7578,6 +8511,27 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 566124753}
   m_Mesh: {fileID: -3456312405952388865, guid: 781f7c54381cefb42890e21283ad39ae, type: 3}
+--- !u!65 &566124757
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 566124753}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.3600001, y: 0.01, z: 0.4000001}
+  m_Center: {x: 0, y: 0.005, z: 0.0000009536743}
 --- !u!1 &571072571
 GameObject:
   m_ObjectHideFlags: 0
@@ -7589,6 +8543,7 @@ GameObject:
   - component: {fileID: 571072572}
   - component: {fileID: 571072574}
   - component: {fileID: 571072573}
+  - component: {fileID: 571072575}
   m_Layer: 0
   m_Name: house_type08 (3)
   m_TagString: Untagged
@@ -7665,6 +8620,27 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 571072571}
   m_Mesh: {fileID: 2785096126248973917, guid: c6ba6552b8ef9784a8753cc8f64fd33a, type: 3}
+--- !u!65 &571072575
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 571072571}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1.7363806, y: 1.2, z: 1.0058917}
+  m_Center: {x: -0.0000019073486, y: 0.6, z: 0}
 --- !u!1 &572852673
 GameObject:
   m_ObjectHideFlags: 0
@@ -7676,6 +8652,7 @@ GameObject:
   - component: {fileID: 572852674}
   - component: {fileID: 572852676}
   - component: {fileID: 572852675}
+  - component: {fileID: 572852677}
   m_Layer: 0
   m_Name: house_type08 (6)
   m_TagString: Untagged
@@ -7752,6 +8729,27 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 572852673}
   m_Mesh: {fileID: 2785096126248973917, guid: c6ba6552b8ef9784a8753cc8f64fd33a, type: 3}
+--- !u!65 &572852677
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 572852673}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1.7363806, y: 1.2, z: 1.0058917}
+  m_Center: {x: 0.0000019073486, y: 0.6, z: 0}
 --- !u!1 &573368974
 GameObject:
   m_ObjectHideFlags: 0
@@ -7838,6 +8836,33 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 573368974}
   m_Mesh: {fileID: -4603950910259808982, guid: e9f2942feacbe5244821b1cd6b290c5a, type: 3}
+--- !u!1 &581769197 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5392420232685891557, guid: c6ba6552b8ef9784a8753cc8f64fd33a,
+    type: 3}
+  m_PrefabInstance: {fileID: 483797679}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &581769201
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 581769197}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1.7363806, y: 1.2, z: 1.0058917}
+  m_Center: {x: 0, y: 0.6, z: 0}
 --- !u!1 &587645009
 GameObject:
   m_ObjectHideFlags: 0
@@ -7849,6 +8874,7 @@ GameObject:
   - component: {fileID: 587645010}
   - component: {fileID: 587645012}
   - component: {fileID: 587645011}
+  - component: {fileID: 587645013}
   m_Layer: 0
   m_Name: house_type08 (3)
   m_TagString: Untagged
@@ -7925,6 +8951,27 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 587645009}
   m_Mesh: {fileID: 2785096126248973917, guid: c6ba6552b8ef9784a8753cc8f64fd33a, type: 3}
+--- !u!65 &587645013
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 587645009}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1.7363806, y: 1.2, z: 1.0058917}
+  m_Center: {x: -0.0000019073486, y: 0.6, z: 0}
 --- !u!1 &597316922
 GameObject:
   m_ObjectHideFlags: 0
@@ -7936,6 +8983,7 @@ GameObject:
   - component: {fileID: 597316923}
   - component: {fileID: 597316925}
   - component: {fileID: 597316924}
+  - component: {fileID: 597316926}
   m_Layer: 0
   m_Name: driveway_long (16)
   m_TagString: Untagged
@@ -8009,6 +9057,27 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 597316922}
   m_Mesh: {fileID: -3456312405952388865, guid: 781f7c54381cefb42890e21283ad39ae, type: 3}
+--- !u!65 &597316926
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 597316922}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.3600001, y: 0.01, z: 0.4000001}
+  m_Center: {x: -0.0000019073486, y: 0.005, z: 0}
 --- !u!1 &599433697
 GameObject:
   m_ObjectHideFlags: 0
@@ -8654,7 +9723,15 @@ PrefabInstance:
         type: 3}
       insertIndex: -1
       addedObject: {fileID: 1069154100}
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: c6ba6552b8ef9784a8753cc8f64fd33a,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1445564657}
+    - targetCorrespondingSourceObject: {fileID: 5392420232685891557, guid: c6ba6552b8ef9784a8753cc8f64fd33a,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1888666851}
   m_SourcePrefab: {fileID: 100100000, guid: c6ba6552b8ef9784a8753cc8f64fd33a, type: 3}
 --- !u!4 &633705114 stripped
 Transform:
@@ -8673,6 +9750,7 @@ GameObject:
   - component: {fileID: 638526712}
   - component: {fileID: 638526714}
   - component: {fileID: 638526713}
+  - component: {fileID: 638526715}
   m_Layer: 0
   m_Name: driveway_long (17)
   m_TagString: Untagged
@@ -8746,6 +9824,27 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 638526711}
   m_Mesh: {fileID: -3456312405952388865, guid: 781f7c54381cefb42890e21283ad39ae, type: 3}
+--- !u!65 &638526715
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 638526711}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.3600001, y: 0.01, z: 0.4000001}
+  m_Center: {x: 0, y: 0.005, z: 0}
 --- !u!1001 &644081965
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8923,7 +10022,15 @@ PrefabInstance:
         type: 3}
       insertIndex: -1
       addedObject: {fileID: 1510411520}
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: c6ba6552b8ef9784a8753cc8f64fd33a,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 644081967}
+    - targetCorrespondingSourceObject: {fileID: 5392420232685891557, guid: c6ba6552b8ef9784a8753cc8f64fd33a,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1895653882}
   m_SourcePrefab: {fileID: 100100000, guid: c6ba6552b8ef9784a8753cc8f64fd33a, type: 3}
 --- !u!4 &644081966 stripped
 Transform:
@@ -8931,6 +10038,27 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 644081965}
   m_PrefabAsset: {fileID: 0}
+--- !u!65 &644081967
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 397006952}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &648114927
 GameObject:
   m_ObjectHideFlags: 0
@@ -9028,6 +10156,7 @@ GameObject:
   - component: {fileID: 651353782}
   - component: {fileID: 651353784}
   - component: {fileID: 651353783}
+  - component: {fileID: 651353785}
   m_Layer: 0
   m_Name: house_type08 (2)
   m_TagString: Untagged
@@ -9104,6 +10233,27 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 651353781}
   m_Mesh: {fileID: 2785096126248973917, guid: c6ba6552b8ef9784a8753cc8f64fd33a, type: 3}
+--- !u!65 &651353785
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 651353781}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1.7363806, y: 1.2, z: 1.0058917}
+  m_Center: {x: 0, y: 0.6, z: 0}
 --- !u!1 &671319201
 GameObject:
   m_ObjectHideFlags: 0
@@ -9373,6 +10523,7 @@ GameObject:
   - component: {fileID: 681187408}
   - component: {fileID: 681187410}
   - component: {fileID: 681187409}
+  - component: {fileID: 681187411}
   m_Layer: 0
   m_Name: house_type08 (4)
   m_TagString: Untagged
@@ -9449,6 +10600,27 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 681187407}
   m_Mesh: {fileID: 2785096126248973917, guid: c6ba6552b8ef9784a8753cc8f64fd33a, type: 3}
+--- !u!65 &681187411
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 681187407}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1.7363806, y: 1.2, z: 1.0058917}
+  m_Center: {x: -0.0000019073486, y: 0.6, z: 0}
 --- !u!1 &689348436
 GameObject:
   m_ObjectHideFlags: 0
@@ -9460,6 +10632,7 @@ GameObject:
   - component: {fileID: 689348437}
   - component: {fileID: 689348439}
   - component: {fileID: 689348438}
+  - component: {fileID: 689348440}
   m_Layer: 0
   m_Name: driveway_long (25)
   m_TagString: Untagged
@@ -9533,6 +10706,27 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 689348436}
   m_Mesh: {fileID: -3456312405952388865, guid: 781f7c54381cefb42890e21283ad39ae, type: 3}
+--- !u!65 &689348440
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 689348436}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.3600001, y: 0.01, z: 0.4000001}
+  m_Center: {x: -0.0000009536743, y: 0.005, z: 0.0000019073486}
 --- !u!1001 &698923358
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -10110,6 +11304,7 @@ GameObject:
   - component: {fileID: 735843939}
   - component: {fileID: 735843941}
   - component: {fileID: 735843940}
+  - component: {fileID: 735843942}
   m_Layer: 0
   m_Name: house_type08 (7)
   m_TagString: Untagged
@@ -10186,6 +11381,27 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 735843938}
   m_Mesh: {fileID: 2785096126248973917, guid: c6ba6552b8ef9784a8753cc8f64fd33a, type: 3}
+--- !u!65 &735843942
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 735843938}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1.7363806, y: 1.2, z: 1.0058917}
+  m_Center: {x: 0, y: 0.6, z: 0}
 --- !u!1 &758943668
 GameObject:
   m_ObjectHideFlags: 0
@@ -10283,6 +11499,7 @@ GameObject:
   - component: {fileID: 759323841}
   - component: {fileID: 759323843}
   - component: {fileID: 759323842}
+  - component: {fileID: 759323844}
   m_Layer: 0
   m_Name: driveway_long (24)
   m_TagString: Untagged
@@ -10356,6 +11573,27 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 759323840}
   m_Mesh: {fileID: -3456312405952388865, guid: 781f7c54381cefb42890e21283ad39ae, type: 3}
+--- !u!65 &759323844
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 759323840}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.3600001, y: 0.01, z: 0.4000001}
+  m_Center: {x: -0.0000009536743, y: 0.005, z: 0.0000019073486}
 --- !u!1 &769806198
 GameObject:
   m_ObjectHideFlags: 0
@@ -10865,6 +12103,33 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 786002733}
   m_Mesh: {fileID: 6440166555503141632, guid: 1e3401b7de61455419963494f10aeb82, type: 3}
+--- !u!1 &787125017 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5392420232685891557, guid: c6ba6552b8ef9784a8753cc8f64fd33a,
+    type: 3}
+  m_PrefabInstance: {fileID: 2066328225}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &787125021
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 787125017}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1.7363806, y: 1.2, z: 1.0058917}
+  m_Center: {x: 0, y: 0.6, z: 0}
 --- !u!1 &789778306
 GameObject:
   m_ObjectHideFlags: 0
@@ -10876,6 +12141,7 @@ GameObject:
   - component: {fileID: 789778307}
   - component: {fileID: 789778309}
   - component: {fileID: 789778308}
+  - component: {fileID: 789778310}
   m_Layer: 0
   m_Name: driveway_long (17)
   m_TagString: Untagged
@@ -10949,6 +12215,27 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 789778306}
   m_Mesh: {fileID: -3456312405952388865, guid: 781f7c54381cefb42890e21283ad39ae, type: 3}
+--- !u!65 &789778310
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 789778306}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.3600001, y: 0.01, z: 0.4000001}
+  m_Center: {x: 0, y: 0.005, z: 0}
 --- !u!1001 &798509115
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -11065,6 +12352,7 @@ GameObject:
   - component: {fileID: 803231827}
   - component: {fileID: 803231829}
   - component: {fileID: 803231828}
+  - component: {fileID: 803231830}
   m_Layer: 0
   m_Name: house_type08 (5)
   m_TagString: Untagged
@@ -11141,6 +12429,27 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 803231826}
   m_Mesh: {fileID: 2785096126248973917, guid: c6ba6552b8ef9784a8753cc8f64fd33a, type: 3}
+--- !u!65 &803231830
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 803231826}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1.7363806, y: 1.2, z: 1.0058917}
+  m_Center: {x: -0.0000009536743, y: 0.6, z: 0.0000038146973}
 --- !u!1 &810266846
 GameObject:
   m_ObjectHideFlags: 0
@@ -11152,6 +12461,7 @@ GameObject:
   - component: {fileID: 810266847}
   - component: {fileID: 810266849}
   - component: {fileID: 810266848}
+  - component: {fileID: 810266850}
   m_Layer: 0
   m_Name: house_type08 (3)
   m_TagString: Untagged
@@ -11228,6 +12538,27 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 810266846}
   m_Mesh: {fileID: 2785096126248973917, guid: c6ba6552b8ef9784a8753cc8f64fd33a, type: 3}
+--- !u!65 &810266850
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 810266846}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1.7363806, y: 1.2, z: 1.0058917}
+  m_Center: {x: 0, y: 0.6, z: 0}
 --- !u!1 &830195617
 GameObject:
   m_ObjectHideFlags: 0
@@ -11239,6 +12570,7 @@ GameObject:
   - component: {fileID: 830195618}
   - component: {fileID: 830195620}
   - component: {fileID: 830195619}
+  - component: {fileID: 830195621}
   m_Layer: 0
   m_Name: driveway_long (24)
   m_TagString: Untagged
@@ -11312,6 +12644,27 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 830195617}
   m_Mesh: {fileID: -3456312405952388865, guid: 781f7c54381cefb42890e21283ad39ae, type: 3}
+--- !u!65 &830195621
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 830195617}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.3600001, y: 0.01, z: 0.4000001}
+  m_Center: {x: -0.0000019073486, y: 0.005, z: 0}
 --- !u!1 &830478088
 GameObject:
   m_ObjectHideFlags: 0
@@ -11323,6 +12676,7 @@ GameObject:
   - component: {fileID: 830478089}
   - component: {fileID: 830478091}
   - component: {fileID: 830478090}
+  - component: {fileID: 830478092}
   m_Layer: 0
   m_Name: house_type08 (2)
   m_TagString: Untagged
@@ -11399,6 +12753,27 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 830478088}
   m_Mesh: {fileID: 2785096126248973917, guid: c6ba6552b8ef9784a8753cc8f64fd33a, type: 3}
+--- !u!65 &830478092
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 830478088}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1.7363806, y: 1.2, z: 1.0058917}
+  m_Center: {x: 0, y: 0.6, z: 0}
 --- !u!1 &832809732
 GameObject:
   m_ObjectHideFlags: 0
@@ -11410,6 +12785,7 @@ GameObject:
   - component: {fileID: 832809733}
   - component: {fileID: 832809735}
   - component: {fileID: 832809734}
+  - component: {fileID: 832809736}
   m_Layer: 0
   m_Name: house_type08 (4)
   m_TagString: Untagged
@@ -11486,6 +12862,27 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 832809732}
   m_Mesh: {fileID: 2785096126248973917, guid: c6ba6552b8ef9784a8753cc8f64fd33a, type: 3}
+--- !u!65 &832809736
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 832809732}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1.7363806, y: 1.2, z: 1.0058917}
+  m_Center: {x: 0, y: 0.6, z: 0.0000019073486}
 --- !u!1 &844168204
 GameObject:
   m_ObjectHideFlags: 0
@@ -11583,6 +12980,7 @@ GameObject:
   - component: {fileID: 855172105}
   - component: {fileID: 855172107}
   - component: {fileID: 855172106}
+  - component: {fileID: 855172108}
   m_Layer: 0
   m_Name: driveway_long (24)
   m_TagString: Untagged
@@ -11656,6 +13054,27 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 855172104}
   m_Mesh: {fileID: -3456312405952388865, guid: 781f7c54381cefb42890e21283ad39ae, type: 3}
+--- !u!65 &855172108
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 855172104}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.3600001, y: 0.01, z: 0.4000001}
+  m_Center: {x: -0.0000019073486, y: 0.005, z: 0}
 --- !u!1 &880420077
 GameObject:
   m_ObjectHideFlags: 0
@@ -11667,6 +13086,7 @@ GameObject:
   - component: {fileID: 880420078}
   - component: {fileID: 880420080}
   - component: {fileID: 880420079}
+  - component: {fileID: 880420081}
   m_Layer: 0
   m_Name: driveway_long (21)
   m_TagString: Untagged
@@ -11740,6 +13160,27 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 880420077}
   m_Mesh: {fileID: -3456312405952388865, guid: 781f7c54381cefb42890e21283ad39ae, type: 3}
+--- !u!65 &880420081
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 880420077}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.3600001, y: 0.01, z: 0.4000001}
+  m_Center: {x: 0, y: 0.005, z: 0}
 --- !u!1 &885630156
 GameObject:
   m_ObjectHideFlags: 0
@@ -11837,6 +13278,7 @@ GameObject:
   - component: {fileID: 889792078}
   - component: {fileID: 889792080}
   - component: {fileID: 889792079}
+  - component: {fileID: 889792081}
   m_Layer: 0
   m_Name: driveway_long (21)
   m_TagString: Untagged
@@ -11910,6 +13352,27 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 889792077}
   m_Mesh: {fileID: -3456312405952388865, guid: 781f7c54381cefb42890e21283ad39ae, type: 3}
+--- !u!65 &889792081
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 889792077}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.3600001, y: 0.01, z: 0.4000001}
+  m_Center: {x: 0, y: 0.005, z: 0}
 --- !u!1 &926734412
 GameObject:
   m_ObjectHideFlags: 0
@@ -11921,6 +13384,7 @@ GameObject:
   - component: {fileID: 926734413}
   - component: {fileID: 926734415}
   - component: {fileID: 926734414}
+  - component: {fileID: 926734416}
   m_Layer: 0
   m_Name: house_type08 (1)
   m_TagString: Untagged
@@ -11997,6 +13461,27 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 926734412}
   m_Mesh: {fileID: 2785096126248973917, guid: c6ba6552b8ef9784a8753cc8f64fd33a, type: 3}
+--- !u!65 &926734416
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 926734412}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1.7363806, y: 1.2, z: 1.0058917}
+  m_Center: {x: 0.0000019073486, y: 0.6, z: 0}
 --- !u!1 &931780316
 GameObject:
   m_ObjectHideFlags: 0
@@ -12008,6 +13493,7 @@ GameObject:
   - component: {fileID: 931780317}
   - component: {fileID: 931780319}
   - component: {fileID: 931780318}
+  - component: {fileID: 931780320}
   m_Layer: 0
   m_Name: driveway_long (25)
   m_TagString: Untagged
@@ -12081,6 +13567,27 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 931780316}
   m_Mesh: {fileID: -3456312405952388865, guid: 781f7c54381cefb42890e21283ad39ae, type: 3}
+--- !u!65 &931780320
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 931780316}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.3600001, y: 0.01, z: 0.4000001}
+  m_Center: {x: -0.0000019073486, y: 0.005, z: 0.0000019073486}
 --- !u!1 &952360507
 GameObject:
   m_ObjectHideFlags: 0
@@ -12350,6 +13857,7 @@ GameObject:
   - component: {fileID: 984961663}
   - component: {fileID: 984961665}
   - component: {fileID: 984961664}
+  - component: {fileID: 984961666}
   m_Layer: 0
   m_Name: house_type08 (3)
   m_TagString: Untagged
@@ -12426,6 +13934,27 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 984961662}
   m_Mesh: {fileID: 2785096126248973917, guid: c6ba6552b8ef9784a8753cc8f64fd33a, type: 3}
+--- !u!65 &984961666
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 984961662}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1.7363806, y: 1.2, z: 1.0058917}
+  m_Center: {x: 0, y: 0.6, z: 0}
 --- !u!1 &991436031
 GameObject:
   m_ObjectHideFlags: 0
@@ -12437,6 +13966,7 @@ GameObject:
   - component: {fileID: 991436032}
   - component: {fileID: 991436034}
   - component: {fileID: 991436033}
+  - component: {fileID: 991436035}
   m_Layer: 0
   m_Name: house_type08 (5)
   m_TagString: Untagged
@@ -12513,6 +14043,27 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 991436031}
   m_Mesh: {fileID: 2785096126248973917, guid: c6ba6552b8ef9784a8753cc8f64fd33a, type: 3}
+--- !u!65 &991436035
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 991436031}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1.7363806, y: 1.2, z: 1.0058917}
+  m_Center: {x: 0, y: 0.6, z: 0}
 --- !u!1001 &992533424
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -12629,6 +14180,7 @@ GameObject:
   - component: {fileID: 994236401}
   - component: {fileID: 994236403}
   - component: {fileID: 994236402}
+  - component: {fileID: 994236404}
   m_Layer: 0
   m_Name: house_type08 (3)
   m_TagString: Untagged
@@ -12705,6 +14257,27 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 994236400}
   m_Mesh: {fileID: 2785096126248973917, guid: c6ba6552b8ef9784a8753cc8f64fd33a, type: 3}
+--- !u!65 &994236404
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 994236400}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1.7363806, y: 1.2, z: 1.0058917}
+  m_Center: {x: -0.0000019073486, y: 0.6, z: 0.0000019073486}
 --- !u!1 &1007546208
 GameObject:
   m_ObjectHideFlags: 0
@@ -12716,6 +14289,7 @@ GameObject:
   - component: {fileID: 1007546209}
   - component: {fileID: 1007546211}
   - component: {fileID: 1007546210}
+  - component: {fileID: 1007546212}
   m_Layer: 0
   m_Name: house_type08 (4)
   m_TagString: Untagged
@@ -12792,6 +14366,27 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1007546208}
   m_Mesh: {fileID: 2785096126248973917, guid: c6ba6552b8ef9784a8753cc8f64fd33a, type: 3}
+--- !u!65 &1007546212
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1007546208}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1.7363806, y: 1.2, z: 1.0058917}
+  m_Center: {x: -0.0000009536743, y: 0.6, z: 0.0000038146973}
 --- !u!1 &1018520942
 GameObject:
   m_ObjectHideFlags: 0
@@ -13081,6 +14676,7 @@ GameObject:
   - component: {fileID: 1025266920}
   - component: {fileID: 1025266922}
   - component: {fileID: 1025266921}
+  - component: {fileID: 1025266923}
   m_Layer: 0
   m_Name: house_type08 (7)
   m_TagString: Untagged
@@ -13157,6 +14753,27 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1025266919}
   m_Mesh: {fileID: 2785096126248973917, guid: c6ba6552b8ef9784a8753cc8f64fd33a, type: 3}
+--- !u!65 &1025266923
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1025266919}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1.7363806, y: 1.2, z: 1.0058917}
+  m_Center: {x: 0.0000009536743, y: 0.6, z: 0}
 --- !u!1 &1026159476
 GameObject:
   m_ObjectHideFlags: 0
@@ -13340,6 +14957,7 @@ GameObject:
   - component: {fileID: 1027385640}
   - component: {fileID: 1027385642}
   - component: {fileID: 1027385641}
+  - component: {fileID: 1027385643}
   m_Layer: 0
   m_Name: house_type08 (9)
   m_TagString: Untagged
@@ -13416,6 +15034,27 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1027385639}
   m_Mesh: {fileID: 2785096126248973917, guid: c6ba6552b8ef9784a8753cc8f64fd33a, type: 3}
+--- !u!65 &1027385643
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1027385639}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1.7363806, y: 1.2, z: 1.0058917}
+  m_Center: {x: 0, y: 0.6, z: 0}
 --- !u!1 &1038513143
 GameObject:
   m_ObjectHideFlags: 0
@@ -13618,6 +15257,7 @@ GameObject:
   - component: {fileID: 1047232925}
   - component: {fileID: 1047232927}
   - component: {fileID: 1047232926}
+  - component: {fileID: 1047232928}
   m_Layer: 0
   m_Name: driveway_long (22)
   m_TagString: Untagged
@@ -13691,6 +15331,27 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1047232924}
   m_Mesh: {fileID: -3456312405952388865, guid: 781f7c54381cefb42890e21283ad39ae, type: 3}
+--- !u!65 &1047232928
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1047232924}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.3600001, y: 0.01, z: 0.4000001}
+  m_Center: {x: -0.0000019073486, y: 0.005, z: 0}
 --- !u!1 &1052034453
 GameObject:
   m_ObjectHideFlags: 0
@@ -13702,6 +15363,7 @@ GameObject:
   - component: {fileID: 1052034454}
   - component: {fileID: 1052034456}
   - component: {fileID: 1052034455}
+  - component: {fileID: 1052034457}
   m_Layer: 0
   m_Name: house_type08 (9)
   m_TagString: Untagged
@@ -13778,6 +15440,27 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1052034453}
   m_Mesh: {fileID: 2785096126248973917, guid: c6ba6552b8ef9784a8753cc8f64fd33a, type: 3}
+--- !u!65 &1052034457
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1052034453}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1.7363806, y: 1.2, z: 1.0058917}
+  m_Center: {x: 0.0000009536743, y: 0.6, z: 0.0000038146973}
 --- !u!1 &1054130731
 GameObject:
   m_ObjectHideFlags: 0
@@ -13789,6 +15472,7 @@ GameObject:
   - component: {fileID: 1054130732}
   - component: {fileID: 1054130734}
   - component: {fileID: 1054130733}
+  - component: {fileID: 1054130735}
   m_Layer: 0
   m_Name: driveway_long (23)
   m_TagString: Untagged
@@ -13862,6 +15546,27 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1054130731}
   m_Mesh: {fileID: -3456312405952388865, guid: 781f7c54381cefb42890e21283ad39ae, type: 3}
+--- !u!65 &1054130735
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1054130731}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.3600001, y: 0.01, z: 0.4000001}
+  m_Center: {x: 0, y: 0.005, z: 0}
 --- !u!1 &1055904512
 GameObject:
   m_ObjectHideFlags: 0
@@ -13873,6 +15578,7 @@ GameObject:
   - component: {fileID: 1055904513}
   - component: {fileID: 1055904515}
   - component: {fileID: 1055904514}
+  - component: {fileID: 1055904516}
   m_Layer: 0
   m_Name: house_type08 (8)
   m_TagString: Untagged
@@ -13949,6 +15655,27 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1055904512}
   m_Mesh: {fileID: 2785096126248973917, guid: c6ba6552b8ef9784a8753cc8f64fd33a, type: 3}
+--- !u!65 &1055904516
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1055904512}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1.7363806, y: 1.2, z: 1.0058917}
+  m_Center: {x: 0.0000009536743, y: 0.6, z: 0.0000038146973}
 --- !u!1 &1066170450
 GameObject:
   m_ObjectHideFlags: 0
@@ -14046,6 +15773,7 @@ GameObject:
   - component: {fileID: 1069154100}
   - component: {fileID: 1069154102}
   - component: {fileID: 1069154101}
+  - component: {fileID: 1069154103}
   m_Layer: 0
   m_Name: driveway_long (21)
   m_TagString: Untagged
@@ -14119,6 +15847,27 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1069154099}
   m_Mesh: {fileID: -3456312405952388865, guid: 781f7c54381cefb42890e21283ad39ae, type: 3}
+--- !u!65 &1069154103
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1069154099}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.3600001, y: 0.01, z: 0.4000001}
+  m_Center: {x: 0.0000009536743, y: 0.005, z: 0.0000019073486}
 --- !u!1 &1081414931
 GameObject:
   m_ObjectHideFlags: 0
@@ -14216,6 +15965,7 @@ GameObject:
   - component: {fileID: 1109075193}
   - component: {fileID: 1109075195}
   - component: {fileID: 1109075194}
+  - component: {fileID: 1109075196}
   m_Layer: 0
   m_Name: driveway_long (23)
   m_TagString: Untagged
@@ -14289,6 +16039,27 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1109075192}
   m_Mesh: {fileID: -3456312405952388865, guid: 781f7c54381cefb42890e21283ad39ae, type: 3}
+--- !u!65 &1109075196
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1109075192}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.3600001, y: 0.01, z: 0.4000001}
+  m_Center: {x: 0, y: 0.005, z: 0.0000009536743}
 --- !u!1 &1122483780
 GameObject:
   m_ObjectHideFlags: 0
@@ -14300,6 +16071,7 @@ GameObject:
   - component: {fileID: 1122483781}
   - component: {fileID: 1122483783}
   - component: {fileID: 1122483782}
+  - component: {fileID: 1122483784}
   m_Layer: 0
   m_Name: driveway_long (23)
   m_TagString: Untagged
@@ -14373,6 +16145,27 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1122483780}
   m_Mesh: {fileID: -3456312405952388865, guid: 781f7c54381cefb42890e21283ad39ae, type: 3}
+--- !u!65 &1122483784
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1122483780}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.3600001, y: 0.01, z: 0.4000001}
+  m_Center: {x: -0.0000009536743, y: 0.005, z: 0.0000019073486}
 --- !u!1 &1127416538
 GameObject:
   m_ObjectHideFlags: 0
@@ -14470,6 +16263,7 @@ GameObject:
   - component: {fileID: 1128063214}
   - component: {fileID: 1128063216}
   - component: {fileID: 1128063215}
+  - component: {fileID: 1128063217}
   m_Layer: 0
   m_Name: driveway_long (17)
   m_TagString: Untagged
@@ -14543,6 +16337,54 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1128063213}
   m_Mesh: {fileID: -3456312405952388865, guid: 781f7c54381cefb42890e21283ad39ae, type: 3}
+--- !u!65 &1128063217
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1128063213}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.3600001, y: 0.01, z: 0.4000001}
+  m_Center: {x: -0.0000019073486, y: 0.005, z: 0.0000009536743}
+--- !u!1 &1134517937 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5392420232685891557, guid: c6ba6552b8ef9784a8753cc8f64fd33a,
+    type: 3}
+  m_PrefabInstance: {fileID: 478916002}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &1134517941
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1134517937}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1.7363806, y: 1.2, z: 1.0058917}
+  m_Center: {x: 0, y: 0.6, z: 0}
 --- !u!1001 &1134889927
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -14779,6 +16621,33 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1147441901}
   m_Mesh: {fileID: -4377417742920401669, guid: 6904d36d5cf1ec548ac953f06bc2531e, type: 3}
+--- !u!1 &1151259096 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5392420232685891557, guid: c6ba6552b8ef9784a8753cc8f64fd33a,
+    type: 3}
+  m_PrefabInstance: {fileID: 454791811}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &1151259100
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1151259096}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1.7363806, y: 1.2, z: 1.0058917}
+  m_Center: {x: 0, y: 0.6, z: 0}
 --- !u!1 &1155266394
 GameObject:
   m_ObjectHideFlags: 0
@@ -14876,6 +16745,7 @@ GameObject:
   - component: {fileID: 1161985026}
   - component: {fileID: 1161985028}
   - component: {fileID: 1161985027}
+  - component: {fileID: 1161985029}
   m_Layer: 0
   m_Name: driveway_long (20)
   m_TagString: Untagged
@@ -14949,6 +16819,27 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1161985025}
   m_Mesh: {fileID: -3456312405952388865, guid: 781f7c54381cefb42890e21283ad39ae, type: 3}
+--- !u!65 &1161985029
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1161985025}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.3600001, y: 0.01, z: 0.4000001}
+  m_Center: {x: 0.0000019073486, y: 0.005, z: 0}
 --- !u!1 &1163269837
 GameObject:
   m_ObjectHideFlags: 0
@@ -14960,6 +16851,7 @@ GameObject:
   - component: {fileID: 1163269838}
   - component: {fileID: 1163269840}
   - component: {fileID: 1163269839}
+  - component: {fileID: 1163269841}
   m_Layer: 0
   m_Name: driveway_long (22)
   m_TagString: Untagged
@@ -15033,6 +16925,27 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1163269837}
   m_Mesh: {fileID: -3456312405952388865, guid: 781f7c54381cefb42890e21283ad39ae, type: 3}
+--- !u!65 &1163269841
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1163269837}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.3600001, y: 0.01, z: 0.4000001}
+  m_Center: {x: 0, y: 0.005, z: 0}
 --- !u!1 &1163452430
 GameObject:
   m_ObjectHideFlags: 0
@@ -15044,6 +16957,7 @@ GameObject:
   - component: {fileID: 1163452431}
   - component: {fileID: 1163452433}
   - component: {fileID: 1163452432}
+  - component: {fileID: 1163452434}
   m_Layer: 0
   m_Name: driveway_long (25)
   m_TagString: Untagged
@@ -15117,6 +17031,27 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1163452430}
   m_Mesh: {fileID: -3456312405952388865, guid: 781f7c54381cefb42890e21283ad39ae, type: 3}
+--- !u!65 &1163452434
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1163452430}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.3600001, y: 0.01, z: 0.4000001}
+  m_Center: {x: -0.0000019073486, y: 0.005, z: 0.0000009536743}
 --- !u!1 &1170899476
 GameObject:
   m_ObjectHideFlags: 0
@@ -15128,6 +17063,7 @@ GameObject:
   - component: {fileID: 1170899477}
   - component: {fileID: 1170899479}
   - component: {fileID: 1170899478}
+  - component: {fileID: 1170899480}
   m_Layer: 0
   m_Name: driveway_long (20)
   m_TagString: Untagged
@@ -15201,6 +17137,27 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1170899476}
   m_Mesh: {fileID: -3456312405952388865, guid: 781f7c54381cefb42890e21283ad39ae, type: 3}
+--- !u!65 &1170899480
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1170899476}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.3600001, y: 0.01, z: 0.4000001}
+  m_Center: {x: 0.0000009536743, y: 0.005, z: 0.0000009536743}
 --- !u!1 &1175014698
 GameObject:
   m_ObjectHideFlags: 0
@@ -15298,6 +17255,7 @@ GameObject:
   - component: {fileID: 1178636422}
   - component: {fileID: 1178636424}
   - component: {fileID: 1178636423}
+  - component: {fileID: 1178636425}
   m_Layer: 0
   m_Name: driveway_long (19)
   m_TagString: Untagged
@@ -15371,6 +17329,27 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1178636421}
   m_Mesh: {fileID: -3456312405952388865, guid: 781f7c54381cefb42890e21283ad39ae, type: 3}
+--- !u!65 &1178636425
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1178636421}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.3600001, y: 0.01, z: 0.4000001}
+  m_Center: {x: 0, y: 0.005, z: 0.0000009536743}
 --- !u!1 &1187796974
 GameObject:
   m_ObjectHideFlags: 0
@@ -15715,6 +17694,12 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1201831809}
   m_Mesh: {fileID: 6440166555503141632, guid: 1e3401b7de61455419963494f10aeb82, type: 3}
+--- !u!1 &1211630333 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: c6ba6552b8ef9784a8753cc8f64fd33a,
+    type: 3}
+  m_PrefabInstance: {fileID: 2066328225}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1214841691
 GameObject:
   m_ObjectHideFlags: 0
@@ -15726,6 +17711,7 @@ GameObject:
   - component: {fileID: 1214841692}
   - component: {fileID: 1214841694}
   - component: {fileID: 1214841693}
+  - component: {fileID: 1214841695}
   m_Layer: 0
   m_Name: house_type08 (5)
   m_TagString: Untagged
@@ -15802,6 +17788,27 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1214841691}
   m_Mesh: {fileID: 2785096126248973917, guid: c6ba6552b8ef9784a8753cc8f64fd33a, type: 3}
+--- !u!65 &1214841695
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1214841691}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1.7363806, y: 1.2, z: 1.0058917}
+  m_Center: {x: 0, y: 0.6, z: 0}
 --- !u!1 &1216226572
 GameObject:
   m_ObjectHideFlags: 0
@@ -15897,6 +17904,7 @@ GameObject:
   - component: {fileID: 1216322910}
   - component: {fileID: 1216322912}
   - component: {fileID: 1216322911}
+  - component: {fileID: 1216322913}
   m_Layer: 0
   m_Name: driveway_long (20)
   m_TagString: Untagged
@@ -15970,6 +17978,27 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1216322909}
   m_Mesh: {fileID: -3456312405952388865, guid: 781f7c54381cefb42890e21283ad39ae, type: 3}
+--- !u!65 &1216322913
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1216322909}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.3600001, y: 0.01, z: 0.4000001}
+  m_Center: {x: 0, y: 0.005, z: 0}
 --- !u!1 &1230107916
 GameObject:
   m_ObjectHideFlags: 0
@@ -16067,6 +18096,7 @@ GameObject:
   - component: {fileID: 1230765716}
   - component: {fileID: 1230765718}
   - component: {fileID: 1230765717}
+  - component: {fileID: 1230765719}
   m_Layer: 0
   m_Name: house_type08 (6)
   m_TagString: Untagged
@@ -16143,6 +18173,27 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1230765715}
   m_Mesh: {fileID: 2785096126248973917, guid: c6ba6552b8ef9784a8753cc8f64fd33a, type: 3}
+--- !u!65 &1230765719
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1230765715}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1.7363806, y: 1.2, z: 1.0058917}
+  m_Center: {x: 0.0000019073486, y: 0.6, z: 0}
 --- !u!1 &1235717727
 GameObject:
   m_ObjectHideFlags: 0
@@ -16154,6 +18205,7 @@ GameObject:
   - component: {fileID: 1235717728}
   - component: {fileID: 1235717730}
   - component: {fileID: 1235717729}
+  - component: {fileID: 1235717731}
   m_Layer: 0
   m_Name: house_type08 (7)
   m_TagString: Untagged
@@ -16230,6 +18282,27 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1235717727}
   m_Mesh: {fileID: 2785096126248973917, guid: c6ba6552b8ef9784a8753cc8f64fd33a, type: 3}
+--- !u!65 &1235717731
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1235717727}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1.7363806, y: 1.2, z: 1.0058917}
+  m_Center: {x: 0, y: 0.6, z: 0}
 --- !u!1 &1248388125
 GameObject:
   m_ObjectHideFlags: 0
@@ -16414,6 +18487,7 @@ GameObject:
   - component: {fileID: 1258429540}
   - component: {fileID: 1258429542}
   - component: {fileID: 1258429541}
+  - component: {fileID: 1258429543}
   m_Layer: 0
   m_Name: driveway_long (19)
   m_TagString: Untagged
@@ -16487,6 +18561,27 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1258429539}
   m_Mesh: {fileID: -3456312405952388865, guid: 781f7c54381cefb42890e21283ad39ae, type: 3}
+--- !u!65 &1258429543
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1258429539}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.3600001, y: 0.01, z: 0.4000001}
+  m_Center: {x: 0, y: 0.005, z: 0}
 --- !u!1 &1263860309
 GameObject:
   m_ObjectHideFlags: 0
@@ -16584,6 +18679,7 @@ GameObject:
   - component: {fileID: 1264065757}
   - component: {fileID: 1264065759}
   - component: {fileID: 1264065758}
+  - component: {fileID: 1264065760}
   m_Layer: 0
   m_Name: house_type08 (1)
   m_TagString: Untagged
@@ -16660,6 +18756,27 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1264065756}
   m_Mesh: {fileID: 2785096126248973917, guid: c6ba6552b8ef9784a8753cc8f64fd33a, type: 3}
+--- !u!65 &1264065760
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1264065756}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1.7363806, y: 1.2, z: 1.0058917}
+  m_Center: {x: 0, y: 0.6, z: 0}
 --- !u!1 &1273722948
 GameObject:
   m_ObjectHideFlags: 0
@@ -16671,6 +18788,7 @@ GameObject:
   - component: {fileID: 1273722949}
   - component: {fileID: 1273722951}
   - component: {fileID: 1273722950}
+  - component: {fileID: 1273722952}
   m_Layer: 0
   m_Name: house_type08 (4)
   m_TagString: Untagged
@@ -16747,6 +18865,27 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1273722948}
   m_Mesh: {fileID: 2785096126248973917, guid: c6ba6552b8ef9784a8753cc8f64fd33a, type: 3}
+--- !u!65 &1273722952
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1273722948}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1.7363806, y: 1.2, z: 1.0058917}
+  m_Center: {x: 0, y: 0.6, z: 0}
 --- !u!1 &1274037187
 GameObject:
   m_ObjectHideFlags: 0
@@ -16930,6 +19069,7 @@ GameObject:
   - component: {fileID: 1289676284}
   - component: {fileID: 1289676286}
   - component: {fileID: 1289676285}
+  - component: {fileID: 1289676287}
   m_Layer: 0
   m_Name: house_type08 (6)
   m_TagString: Untagged
@@ -17006,6 +19146,27 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1289676283}
   m_Mesh: {fileID: 2785096126248973917, guid: c6ba6552b8ef9784a8753cc8f64fd33a, type: 3}
+--- !u!65 &1289676287
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1289676283}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1.7363806, y: 1.2, z: 1.0058917}
+  m_Center: {x: 0, y: 0.6, z: 0}
 --- !u!1 &1296189583
 GameObject:
   m_ObjectHideFlags: 0
@@ -17017,6 +19178,7 @@ GameObject:
   - component: {fileID: 1296189584}
   - component: {fileID: 1296189586}
   - component: {fileID: 1296189585}
+  - component: {fileID: 1296189587}
   m_Layer: 0
   m_Name: driveway_long (17)
   m_TagString: Untagged
@@ -17090,6 +19252,27 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1296189583}
   m_Mesh: {fileID: -3456312405952388865, guid: 781f7c54381cefb42890e21283ad39ae, type: 3}
+--- !u!65 &1296189587
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1296189583}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.3600001, y: 0.01, z: 0.4000001}
+  m_Center: {x: 0, y: 0.005, z: 0}
 --- !u!1 &1303352068
 GameObject:
   m_ObjectHideFlags: 0
@@ -17274,6 +19457,7 @@ GameObject:
   - component: {fileID: 1314854746}
   - component: {fileID: 1314854748}
   - component: {fileID: 1314854747}
+  - component: {fileID: 1314854749}
   m_Layer: 0
   m_Name: house_type08 (7)
   m_TagString: Untagged
@@ -17350,6 +19534,27 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1314854745}
   m_Mesh: {fileID: 2785096126248973917, guid: c6ba6552b8ef9784a8753cc8f64fd33a, type: 3}
+--- !u!65 &1314854749
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1314854745}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1.7363806, y: 1.2, z: 1.0058917}
+  m_Center: {x: 0.0000009536743, y: 0.6, z: 0}
 --- !u!1 &1316793448
 GameObject:
   m_ObjectHideFlags: 0
@@ -17552,6 +19757,7 @@ GameObject:
   - component: {fileID: 1322014509}
   - component: {fileID: 1322014511}
   - component: {fileID: 1322014510}
+  - component: {fileID: 1322014512}
   m_Layer: 0
   m_Name: driveway_long (16)
   m_TagString: Untagged
@@ -17625,6 +19831,27 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1322014508}
   m_Mesh: {fileID: -3456312405952388865, guid: 781f7c54381cefb42890e21283ad39ae, type: 3}
+--- !u!65 &1322014512
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1322014508}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.3600001, y: 0.01, z: 0.4000001}
+  m_Center: {x: 0, y: 0.005, z: 0}
 --- !u!1 &1338408289
 GameObject:
   m_ObjectHideFlags: 0
@@ -17636,6 +19863,7 @@ GameObject:
   - component: {fileID: 1338408290}
   - component: {fileID: 1338408292}
   - component: {fileID: 1338408291}
+  - component: {fileID: 1338408293}
   m_Layer: 0
   m_Name: driveway_long (24)
   m_TagString: Untagged
@@ -17709,6 +19937,27 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1338408289}
   m_Mesh: {fileID: -3456312405952388865, guid: 781f7c54381cefb42890e21283ad39ae, type: 3}
+--- !u!65 &1338408293
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1338408289}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.3600001, y: 0.01, z: 0.4000001}
+  m_Center: {x: 0, y: 0.005, z: 0.0000019073486}
 --- !u!1 &1347108182
 GameObject:
   m_ObjectHideFlags: 0
@@ -17720,6 +19969,7 @@ GameObject:
   - component: {fileID: 1347108183}
   - component: {fileID: 1347108185}
   - component: {fileID: 1347108184}
+  - component: {fileID: 1347108186}
   m_Layer: 0
   m_Name: driveway_long (16)
   m_TagString: Untagged
@@ -17793,6 +20043,27 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1347108182}
   m_Mesh: {fileID: -3456312405952388865, guid: 781f7c54381cefb42890e21283ad39ae, type: 3}
+--- !u!65 &1347108186
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1347108182}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.3600001, y: 0.01, z: 0.4000001}
+  m_Center: {x: 0, y: 0.005, z: 0}
 --- !u!1 &1356080680
 GameObject:
   m_ObjectHideFlags: 0
@@ -17963,6 +20234,33 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1359669356}
   m_Mesh: {fileID: -3456312405952388865, guid: 781f7c54381cefb42890e21283ad39ae, type: 3}
+--- !u!1 &1376564828 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5392420232685891557, guid: c6ba6552b8ef9784a8753cc8f64fd33a,
+    type: 3}
+  m_PrefabInstance: {fileID: 1645052712}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &1376564832
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1376564828}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1.7363806, y: 1.2, z: 1.0058917}
+  m_Center: {x: 0, y: 0.6, z: 0}
 --- !u!1001 &1376844946
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -18421,6 +20719,7 @@ GameObject:
   - component: {fileID: 1382655853}
   - component: {fileID: 1382655855}
   - component: {fileID: 1382655854}
+  - component: {fileID: 1382655856}
   m_Layer: 0
   m_Name: house_type08 (4)
   m_TagString: Untagged
@@ -18497,6 +20796,27 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1382655852}
   m_Mesh: {fileID: 2785096126248973917, guid: c6ba6552b8ef9784a8753cc8f64fd33a, type: 3}
+--- !u!65 &1382655856
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1382655852}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1.7363806, y: 1.2, z: 1.0058917}
+  m_Center: {x: -0.0000019073486, y: 0.6, z: 0}
 --- !u!1 &1385291642
 GameObject:
   m_ObjectHideFlags: 0
@@ -18594,6 +20914,7 @@ GameObject:
   - component: {fileID: 1391923389}
   - component: {fileID: 1391923391}
   - component: {fileID: 1391923390}
+  - component: {fileID: 1391923392}
   m_Layer: 0
   m_Name: driveway_long (25)
   m_TagString: Untagged
@@ -18667,6 +20988,27 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1391923388}
   m_Mesh: {fileID: -3456312405952388865, guid: 781f7c54381cefb42890e21283ad39ae, type: 3}
+--- !u!65 &1391923392
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1391923388}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.3600001, y: 0.01, z: 0.4000001}
+  m_Center: {x: -0.0000009536743, y: 0.005, z: 0.0000009536743}
 --- !u!1 &1394338365
 GameObject:
   m_ObjectHideFlags: 0
@@ -18678,6 +21020,7 @@ GameObject:
   - component: {fileID: 1394338366}
   - component: {fileID: 1394338368}
   - component: {fileID: 1394338367}
+  - component: {fileID: 1394338369}
   m_Layer: 0
   m_Name: house_type08 (6)
   m_TagString: Untagged
@@ -18754,6 +21097,27 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1394338365}
   m_Mesh: {fileID: 2785096126248973917, guid: c6ba6552b8ef9784a8753cc8f64fd33a, type: 3}
+--- !u!65 &1394338369
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1394338365}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1.7363806, y: 1.2, z: 1.0058917}
+  m_Center: {x: 0, y: 0.6, z: 0}
 --- !u!1 &1408292700
 GameObject:
   m_ObjectHideFlags: 0
@@ -18840,6 +21204,33 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1408292700}
   m_Mesh: {fileID: -4603950910259808982, guid: e9f2942feacbe5244821b1cd6b290c5a, type: 3}
+--- !u!1 &1409013983 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: c6ba6552b8ef9784a8753cc8f64fd33a,
+    type: 3}
+  m_PrefabInstance: {fileID: 478916002}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &1409013984
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1409013983}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1423988186
 GameObject:
   m_ObjectHideFlags: 0
@@ -19528,6 +21919,33 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1440949882}
   m_Mesh: {fileID: -4603950910259808982, guid: e9f2942feacbe5244821b1cd6b290c5a, type: 3}
+--- !u!1 &1445564656 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: c6ba6552b8ef9784a8753cc8f64fd33a,
+    type: 3}
+  m_PrefabInstance: {fileID: 633705113}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &1445564657
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1445564656}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1446971748
 GameObject:
   m_ObjectHideFlags: 0
@@ -19539,6 +21957,7 @@ GameObject:
   - component: {fileID: 1446971749}
   - component: {fileID: 1446971751}
   - component: {fileID: 1446971750}
+  - component: {fileID: 1446971752}
   m_Layer: 0
   m_Name: driveway_long (18)
   m_TagString: Untagged
@@ -19612,6 +22031,27 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1446971748}
   m_Mesh: {fileID: -3456312405952388865, guid: 781f7c54381cefb42890e21283ad39ae, type: 3}
+--- !u!65 &1446971752
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1446971748}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.3600001, y: 0.01, z: 0.4000001}
+  m_Center: {x: 0.0000019073486, y: 0.005, z: 0}
 --- !u!1 &1447519072
 GameObject:
   m_ObjectHideFlags: 0
@@ -19623,6 +22063,7 @@ GameObject:
   - component: {fileID: 1447519073}
   - component: {fileID: 1447519075}
   - component: {fileID: 1447519074}
+  - component: {fileID: 1447519076}
   m_Layer: 0
   m_Name: house_type08 (1)
   m_TagString: Untagged
@@ -19699,6 +22140,27 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1447519072}
   m_Mesh: {fileID: 2785096126248973917, guid: c6ba6552b8ef9784a8753cc8f64fd33a, type: 3}
+--- !u!65 &1447519076
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1447519072}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1.7363806, y: 1.2, z: 1.0058917}
+  m_Center: {x: 0, y: 0.6, z: 0}
 --- !u!1 &1460731839
 GameObject:
   m_ObjectHideFlags: 0
@@ -19796,6 +22258,7 @@ GameObject:
   - component: {fileID: 1465260526}
   - component: {fileID: 1465260528}
   - component: {fileID: 1465260527}
+  - component: {fileID: 1465260529}
   m_Layer: 0
   m_Name: house_type08 (2)
   m_TagString: Untagged
@@ -19872,6 +22335,27 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1465260525}
   m_Mesh: {fileID: 2785096126248973917, guid: c6ba6552b8ef9784a8753cc8f64fd33a, type: 3}
+--- !u!65 &1465260529
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1465260525}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1.7363806, y: 1.2, z: 1.0058917}
+  m_Center: {x: -0.0000019073486, y: 0.6, z: 0}
 --- !u!1 &1467473682
 GameObject:
   m_ObjectHideFlags: 0
@@ -19883,6 +22367,7 @@ GameObject:
   - component: {fileID: 1467473683}
   - component: {fileID: 1467473685}
   - component: {fileID: 1467473684}
+  - component: {fileID: 1467473686}
   m_Layer: 0
   m_Name: house_type08 (8)
   m_TagString: Untagged
@@ -19959,6 +22444,27 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1467473682}
   m_Mesh: {fileID: 2785096126248973917, guid: c6ba6552b8ef9784a8753cc8f64fd33a, type: 3}
+--- !u!65 &1467473686
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1467473682}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1.7363806, y: 1.2, z: 1.0058917}
+  m_Center: {x: 0, y: 0.6, z: 0}
 --- !u!1001 &1473416675
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -20075,6 +22581,7 @@ GameObject:
   - component: {fileID: 1489571983}
   - component: {fileID: 1489571985}
   - component: {fileID: 1489571984}
+  - component: {fileID: 1489571986}
   m_Layer: 0
   m_Name: driveway_long (19)
   m_TagString: Untagged
@@ -20148,6 +22655,27 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1489571982}
   m_Mesh: {fileID: -3456312405952388865, guid: 781f7c54381cefb42890e21283ad39ae, type: 3}
+--- !u!65 &1489571986
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1489571982}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.3600001, y: 0.01, z: 0.4000001}
+  m_Center: {x: 0, y: 0.005, z: 0}
 --- !u!1 &1491578584
 GameObject:
   m_ObjectHideFlags: 0
@@ -20329,6 +22857,7 @@ GameObject:
   - component: {fileID: 1510411520}
   - component: {fileID: 1510411522}
   - component: {fileID: 1510411521}
+  - component: {fileID: 1510411523}
   m_Layer: 0
   m_Name: driveway_long (21)
   m_TagString: Untagged
@@ -20402,6 +22931,27 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1510411519}
   m_Mesh: {fileID: -3456312405952388865, guid: 781f7c54381cefb42890e21283ad39ae, type: 3}
+--- !u!65 &1510411523
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1510411519}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.3600001, y: 0.01, z: 0.4000001}
+  m_Center: {x: 0.0000009536743, y: 0.005, z: 0.0000009536743}
 --- !u!1 &1512736797
 GameObject:
   m_ObjectHideFlags: 0
@@ -20413,6 +22963,7 @@ GameObject:
   - component: {fileID: 1512736798}
   - component: {fileID: 1512736800}
   - component: {fileID: 1512736799}
+  - component: {fileID: 1512736801}
   m_Layer: 0
   m_Name: house_type08 (4)
   m_TagString: Untagged
@@ -20489,6 +23040,27 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1512736797}
   m_Mesh: {fileID: 2785096126248973917, guid: c6ba6552b8ef9784a8753cc8f64fd33a, type: 3}
+--- !u!65 &1512736801
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1512736797}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1.7363806, y: 1.2, z: 1.0058917}
+  m_Center: {x: 0, y: 0.6, z: 0}
 --- !u!1 &1513344416
 GameObject:
   m_ObjectHideFlags: 0
@@ -20500,6 +23072,7 @@ GameObject:
   - component: {fileID: 1513344417}
   - component: {fileID: 1513344419}
   - component: {fileID: 1513344418}
+  - component: {fileID: 1513344420}
   m_Layer: 0
   m_Name: house_type08 (7)
   m_TagString: Untagged
@@ -20576,6 +23149,27 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1513344416}
   m_Mesh: {fileID: 2785096126248973917, guid: c6ba6552b8ef9784a8753cc8f64fd33a, type: 3}
+--- !u!65 &1513344420
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1513344416}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1.7363806, y: 1.2, z: 1.0058917}
+  m_Center: {x: 0.0000009536743, y: 0.6, z: 0}
 --- !u!1 &1518951530
 GameObject:
   m_ObjectHideFlags: 0
@@ -20843,6 +23437,7 @@ GameObject:
   - component: {fileID: 1534563171}
   - component: {fileID: 1534563173}
   - component: {fileID: 1534563172}
+  - component: {fileID: 1534563174}
   m_Layer: 0
   m_Name: driveway_long (23)
   m_TagString: Untagged
@@ -20916,6 +23511,27 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1534563170}
   m_Mesh: {fileID: -3456312405952388865, guid: 781f7c54381cefb42890e21283ad39ae, type: 3}
+--- !u!65 &1534563174
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1534563170}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.3600001, y: 0.01, z: 0.4000001}
+  m_Center: {x: -0.0000019073486, y: 0.005, z: 0}
 --- !u!1 &1547226400
 GameObject:
   m_ObjectHideFlags: 0
@@ -20927,6 +23543,7 @@ GameObject:
   - component: {fileID: 1547226401}
   - component: {fileID: 1547226403}
   - component: {fileID: 1547226402}
+  - component: {fileID: 1547226404}
   m_Layer: 0
   m_Name: driveway_long (19)
   m_TagString: Untagged
@@ -21000,6 +23617,27 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1547226400}
   m_Mesh: {fileID: -3456312405952388865, guid: 781f7c54381cefb42890e21283ad39ae, type: 3}
+--- !u!65 &1547226404
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1547226400}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.3600001, y: 0.01, z: 0.4000001}
+  m_Center: {x: 0, y: 0.005, z: 0}
 --- !u!1 &1549743861
 GameObject:
   m_ObjectHideFlags: 0
@@ -21347,7 +23985,15 @@ PrefabInstance:
         type: 3}
       insertIndex: -1
       addedObject: {fileID: 81654320}
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: c6ba6552b8ef9784a8753cc8f64fd33a,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1567713824}
+    - targetCorrespondingSourceObject: {fileID: 5392420232685891557, guid: c6ba6552b8ef9784a8753cc8f64fd33a,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 105126717}
   m_SourcePrefab: {fileID: 100100000, guid: c6ba6552b8ef9784a8753cc8f64fd33a, type: 3}
 --- !u!4 &1567713823 stripped
 Transform:
@@ -21355,6 +24001,27 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1567713822}
   m_PrefabAsset: {fileID: 0}
+--- !u!65 &1567713824
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 489499579}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1567771244
 GameObject:
   m_ObjectHideFlags: 0
@@ -21366,6 +24033,7 @@ GameObject:
   - component: {fileID: 1567771245}
   - component: {fileID: 1567771247}
   - component: {fileID: 1567771246}
+  - component: {fileID: 1567771248}
   m_Layer: 0
   m_Name: driveway_long (25)
   m_TagString: Untagged
@@ -21439,6 +24107,27 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1567771244}
   m_Mesh: {fileID: -3456312405952388865, guid: 781f7c54381cefb42890e21283ad39ae, type: 3}
+--- !u!65 &1567771248
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1567771244}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.3600001, y: 0.01, z: 0.4000001}
+  m_Center: {x: -0.0000019073486, y: 0.005, z: 0.0000019073486}
 --- !u!1 &1572516049
 GameObject:
   m_ObjectHideFlags: 0
@@ -21450,6 +24139,7 @@ GameObject:
   - component: {fileID: 1572516050}
   - component: {fileID: 1572516052}
   - component: {fileID: 1572516051}
+  - component: {fileID: 1572516053}
   m_Layer: 0
   m_Name: house_type08 (5)
   m_TagString: Untagged
@@ -21526,6 +24216,27 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1572516049}
   m_Mesh: {fileID: 2785096126248973917, guid: c6ba6552b8ef9784a8753cc8f64fd33a, type: 3}
+--- !u!65 &1572516053
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1572516049}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1.7363806, y: 1.2, z: 1.0058917}
+  m_Center: {x: -0.0000019073486, y: 0.6, z: 0}
 --- !u!1 &1574086860
 GameObject:
   m_ObjectHideFlags: 0
@@ -21537,6 +24248,7 @@ GameObject:
   - component: {fileID: 1574086861}
   - component: {fileID: 1574086863}
   - component: {fileID: 1574086862}
+  - component: {fileID: 1574086864}
   m_Layer: 0
   m_Name: house_type08 (3)
   m_TagString: Untagged
@@ -21613,6 +24325,27 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1574086860}
   m_Mesh: {fileID: 2785096126248973917, guid: c6ba6552b8ef9784a8753cc8f64fd33a, type: 3}
+--- !u!65 &1574086864
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1574086860}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1.7363806, y: 1.2, z: 1.0058917}
+  m_Center: {x: 0, y: 0.6, z: 0}
 --- !u!1 &1577436440
 GameObject:
   m_ObjectHideFlags: 0
@@ -21624,6 +24357,7 @@ GameObject:
   - component: {fileID: 1577436441}
   - component: {fileID: 1577436443}
   - component: {fileID: 1577436442}
+  - component: {fileID: 1577436444}
   m_Layer: 0
   m_Name: driveway_long (21)
   m_TagString: Untagged
@@ -21697,6 +24431,27 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1577436440}
   m_Mesh: {fileID: -3456312405952388865, guid: 781f7c54381cefb42890e21283ad39ae, type: 3}
+--- !u!65 &1577436444
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1577436440}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.3600001, y: 0.01, z: 0.4000001}
+  m_Center: {x: 0.0000009536743, y: 0.005, z: 0.0000019073486}
 --- !u!1 &1578848991
 GameObject:
   m_ObjectHideFlags: 0
@@ -21708,6 +24463,7 @@ GameObject:
   - component: {fileID: 1578848992}
   - component: {fileID: 1578848994}
   - component: {fileID: 1578848993}
+  - component: {fileID: 1578848995}
   m_Layer: 0
   m_Name: house_type08 (5)
   m_TagString: Untagged
@@ -21784,6 +24540,27 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1578848991}
   m_Mesh: {fileID: 2785096126248973917, guid: c6ba6552b8ef9784a8753cc8f64fd33a, type: 3}
+--- !u!65 &1578848995
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1578848991}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1.7363806, y: 1.2, z: 1.0058917}
+  m_Center: {x: 0, y: 0.6, z: 0.0000038146973}
 --- !u!1 &1581880088
 GameObject:
   m_ObjectHideFlags: 0
@@ -21795,6 +24572,7 @@ GameObject:
   - component: {fileID: 1581880089}
   - component: {fileID: 1581880091}
   - component: {fileID: 1581880090}
+  - component: {fileID: 1581880092}
   m_Layer: 0
   m_Name: house_type08 (8)
   m_TagString: Untagged
@@ -21871,6 +24649,27 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1581880088}
   m_Mesh: {fileID: 2785096126248973917, guid: c6ba6552b8ef9784a8753cc8f64fd33a, type: 3}
+--- !u!65 &1581880092
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1581880088}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1.7363806, y: 1.2, z: 1.0058917}
+  m_Center: {x: 0, y: 0.6, z: 0}
 --- !u!1 &1583845358
 GameObject:
   m_ObjectHideFlags: 0
@@ -21968,6 +24767,7 @@ GameObject:
   - component: {fileID: 1586711465}
   - component: {fileID: 1586711467}
   - component: {fileID: 1586711466}
+  - component: {fileID: 1586711468}
   m_Layer: 0
   m_Name: driveway_long (20)
   m_TagString: Untagged
@@ -22041,6 +24841,27 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1586711464}
   m_Mesh: {fileID: -3456312405952388865, guid: 781f7c54381cefb42890e21283ad39ae, type: 3}
+--- !u!65 &1586711468
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1586711464}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.3600001, y: 0.01, z: 0.4000001}
+  m_Center: {x: 0.0000009536743, y: 0.005, z: 0.0000019073486}
 --- !u!1 &1595496953
 GameObject:
   m_ObjectHideFlags: 0
@@ -22052,6 +24873,7 @@ GameObject:
   - component: {fileID: 1595496954}
   - component: {fileID: 1595496956}
   - component: {fileID: 1595496955}
+  - component: {fileID: 1595496957}
   m_Layer: 0
   m_Name: house_type08 (8)
   m_TagString: Untagged
@@ -22128,6 +24950,27 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1595496953}
   m_Mesh: {fileID: 2785096126248973917, guid: c6ba6552b8ef9784a8753cc8f64fd33a, type: 3}
+--- !u!65 &1595496957
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1595496953}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1.7363806, y: 1.2, z: 1.0058917}
+  m_Center: {x: 0.0000009536743, y: 0.6, z: 0.0000038146973}
 --- !u!1 &1598753117
 GameObject:
   m_ObjectHideFlags: 0
@@ -22139,6 +24982,7 @@ GameObject:
   - component: {fileID: 1598753118}
   - component: {fileID: 1598753120}
   - component: {fileID: 1598753119}
+  - component: {fileID: 1598753121}
   m_Layer: 0
   m_Name: house_type08 (9)
   m_TagString: Untagged
@@ -22215,6 +25059,27 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1598753117}
   m_Mesh: {fileID: 2785096126248973917, guid: c6ba6552b8ef9784a8753cc8f64fd33a, type: 3}
+--- !u!65 &1598753121
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1598753117}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1.7363806, y: 1.2, z: 1.0058917}
+  m_Center: {x: 0.0000009536743, y: 0.6, z: 0.0000038146973}
 --- !u!1 &1618542961
 GameObject:
   m_ObjectHideFlags: 0
@@ -22226,6 +25091,7 @@ GameObject:
   - component: {fileID: 1618542962}
   - component: {fileID: 1618542964}
   - component: {fileID: 1618542963}
+  - component: {fileID: 1618542965}
   m_Layer: 0
   m_Name: driveway_long (16)
   m_TagString: Untagged
@@ -22299,6 +25165,27 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1618542961}
   m_Mesh: {fileID: -3456312405952388865, guid: 781f7c54381cefb42890e21283ad39ae, type: 3}
+--- !u!65 &1618542965
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1618542961}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.3600001, y: 0.01, z: 0.4000001}
+  m_Center: {x: -0.0000019073486, y: 0.005, z: 0}
 --- !u!1 &1619125345
 GameObject:
   m_ObjectHideFlags: 0
@@ -22310,6 +25197,7 @@ GameObject:
   - component: {fileID: 1619125346}
   - component: {fileID: 1619125348}
   - component: {fileID: 1619125347}
+  - component: {fileID: 1619125349}
   m_Layer: 0
   m_Name: house_type08 (9)
   m_TagString: Untagged
@@ -22386,6 +25274,27 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1619125345}
   m_Mesh: {fileID: 2785096126248973917, guid: c6ba6552b8ef9784a8753cc8f64fd33a, type: 3}
+--- !u!65 &1619125349
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1619125345}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1.7363806, y: 1.2, z: 1.0058917}
+  m_Center: {x: 0, y: 0.6, z: 0}
 --- !u!1 &1620562784
 GameObject:
   m_ObjectHideFlags: 0
@@ -22567,6 +25476,7 @@ GameObject:
   - component: {fileID: 1626986880}
   - component: {fileID: 1626986882}
   - component: {fileID: 1626986881}
+  - component: {fileID: 1626986883}
   m_Layer: 0
   m_Name: driveway_long (25)
   m_TagString: Untagged
@@ -22640,6 +25550,27 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1626986879}
   m_Mesh: {fileID: -3456312405952388865, guid: 781f7c54381cefb42890e21283ad39ae, type: 3}
+--- !u!65 &1626986883
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1626986879}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.3600001, y: 0.01, z: 0.4000001}
+  m_Center: {x: 0, y: 0.005, z: 0}
 --- !u!1 &1628871082
 GameObject:
   m_ObjectHideFlags: 0
@@ -22737,6 +25668,7 @@ GameObject:
   - component: {fileID: 1629239765}
   - component: {fileID: 1629239767}
   - component: {fileID: 1629239766}
+  - component: {fileID: 1629239768}
   m_Layer: 0
   m_Name: driveway_long (23)
   m_TagString: Untagged
@@ -22810,6 +25742,27 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1629239764}
   m_Mesh: {fileID: -3456312405952388865, guid: 781f7c54381cefb42890e21283ad39ae, type: 3}
+--- !u!65 &1629239768
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1629239764}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.3600001, y: 0.01, z: 0.4000001}
+  m_Center: {x: 0, y: 0.005, z: 0.0000019073486}
 --- !u!1 &1635609747
 GameObject:
   m_ObjectHideFlags: 0
@@ -22821,6 +25774,7 @@ GameObject:
   - component: {fileID: 1635609748}
   - component: {fileID: 1635609750}
   - component: {fileID: 1635609749}
+  - component: {fileID: 1635609751}
   m_Layer: 0
   m_Name: house_type08 (6)
   m_TagString: Untagged
@@ -22897,6 +25851,27 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1635609747}
   m_Mesh: {fileID: 2785096126248973917, guid: c6ba6552b8ef9784a8753cc8f64fd33a, type: 3}
+--- !u!65 &1635609751
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1635609747}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1.7363806, y: 1.2, z: 1.0058917}
+  m_Center: {x: 0, y: 0.6, z: 0}
 --- !u!1001 &1645052712
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -23074,7 +26049,15 @@ PrefabInstance:
         type: 3}
       insertIndex: -1
       addedObject: {fileID: 889792078}
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: c6ba6552b8ef9784a8753cc8f64fd33a,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1645052714}
+    - targetCorrespondingSourceObject: {fileID: 5392420232685891557, guid: c6ba6552b8ef9784a8753cc8f64fd33a,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1376564832}
   m_SourcePrefab: {fileID: 100100000, guid: c6ba6552b8ef9784a8753cc8f64fd33a, type: 3}
 --- !u!4 &1645052713 stripped
 Transform:
@@ -23082,6 +26065,27 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1645052712}
   m_PrefabAsset: {fileID: 0}
+--- !u!65 &1645052714
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 408213700}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1647708577
 GameObject:
   m_ObjectHideFlags: 0
@@ -23266,6 +26270,7 @@ GameObject:
   - component: {fileID: 1694601050}
   - component: {fileID: 1694601052}
   - component: {fileID: 1694601051}
+  - component: {fileID: 1694601053}
   m_Layer: 0
   m_Name: driveway_long (19)
   m_TagString: Untagged
@@ -23339,6 +26344,27 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1694601049}
   m_Mesh: {fileID: -3456312405952388865, guid: 781f7c54381cefb42890e21283ad39ae, type: 3}
+--- !u!65 &1694601053
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1694601049}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.3600001, y: 0.01, z: 0.4000001}
+  m_Center: {x: 0, y: 0.005, z: 0}
 --- !u!1 &1694674984
 GameObject:
   m_ObjectHideFlags: 0
@@ -23350,6 +26376,7 @@ GameObject:
   - component: {fileID: 1694674985}
   - component: {fileID: 1694674987}
   - component: {fileID: 1694674986}
+  - component: {fileID: 1694674988}
   m_Layer: 0
   m_Name: house_type08 (7)
   m_TagString: Untagged
@@ -23426,6 +26453,27 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1694674984}
   m_Mesh: {fileID: 2785096126248973917, guid: c6ba6552b8ef9784a8753cc8f64fd33a, type: 3}
+--- !u!65 &1694674988
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1694674984}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1.7363806, y: 1.2, z: 1.0058917}
+  m_Center: {x: 0.0000019073486, y: 0.6, z: 0}
 --- !u!1 &1700692151
 GameObject:
   m_ObjectHideFlags: 0
@@ -23610,6 +26658,7 @@ GameObject:
   - component: {fileID: 1719963615}
   - component: {fileID: 1719963617}
   - component: {fileID: 1719963616}
+  - component: {fileID: 1719963618}
   m_Layer: 0
   m_Name: driveway_long (22)
   m_TagString: Untagged
@@ -23683,6 +26732,27 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1719963614}
   m_Mesh: {fileID: -3456312405952388865, guid: 781f7c54381cefb42890e21283ad39ae, type: 3}
+--- !u!65 &1719963618
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1719963614}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.3600001, y: 0.01, z: 0.4000001}
+  m_Center: {x: 0, y: 0.005, z: 0.0000009536743}
 --- !u!1 &1730986559
 GameObject:
   m_ObjectHideFlags: 0
@@ -23866,6 +26936,7 @@ GameObject:
   - component: {fileID: 1754455567}
   - component: {fileID: 1754455569}
   - component: {fileID: 1754455568}
+  - component: {fileID: 1754455570}
   m_Layer: 0
   m_Name: driveway_long (19)
   m_TagString: Untagged
@@ -23939,6 +27010,27 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1754455566}
   m_Mesh: {fileID: -3456312405952388865, guid: 781f7c54381cefb42890e21283ad39ae, type: 3}
+--- !u!65 &1754455570
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1754455566}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.3600001, y: 0.01, z: 0.4000001}
+  m_Center: {x: 0.0000019073486, y: 0.005, z: 0}
 --- !u!1 &1759242779
 GameObject:
   m_ObjectHideFlags: 0
@@ -23950,6 +27042,7 @@ GameObject:
   - component: {fileID: 1759242780}
   - component: {fileID: 1759242782}
   - component: {fileID: 1759242781}
+  - component: {fileID: 1759242783}
   m_Layer: 0
   m_Name: house_type08 (8)
   m_TagString: Untagged
@@ -24026,6 +27119,27 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1759242779}
   m_Mesh: {fileID: 2785096126248973917, guid: c6ba6552b8ef9784a8753cc8f64fd33a, type: 3}
+--- !u!65 &1759242783
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1759242779}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1.7363806, y: 1.2, z: 1.0058917}
+  m_Center: {x: 0, y: 0.6, z: 0}
 --- !u!1 &1760317334
 GameObject:
   m_ObjectHideFlags: 0
@@ -24123,6 +27237,7 @@ GameObject:
   - component: {fileID: 1762988461}
   - component: {fileID: 1762988463}
   - component: {fileID: 1762988462}
+  - component: {fileID: 1762988464}
   m_Layer: 0
   m_Name: driveway_long (21)
   m_TagString: Untagged
@@ -24196,6 +27311,27 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1762988460}
   m_Mesh: {fileID: -3456312405952388865, guid: 781f7c54381cefb42890e21283ad39ae, type: 3}
+--- !u!65 &1762988464
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1762988460}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.3600001, y: 0.01, z: 0.4000001}
+  m_Center: {x: 0.0000019073486, y: 0.005, z: 0}
 --- !u!1 &1764080073
 GameObject:
   m_ObjectHideFlags: 0
@@ -24207,6 +27343,7 @@ GameObject:
   - component: {fileID: 1764080074}
   - component: {fileID: 1764080076}
   - component: {fileID: 1764080075}
+  - component: {fileID: 1764080077}
   m_Layer: 0
   m_Name: driveway_long (18)
   m_TagString: Untagged
@@ -24280,6 +27417,27 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1764080073}
   m_Mesh: {fileID: -3456312405952388865, guid: 781f7c54381cefb42890e21283ad39ae, type: 3}
+--- !u!65 &1764080077
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1764080073}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.3600001, y: 0.01, z: 0.4000001}
+  m_Center: {x: 0, y: 0.005, z: 0}
 --- !u!1 &1765827784
 GameObject:
   m_ObjectHideFlags: 0
@@ -24291,6 +27449,7 @@ GameObject:
   - component: {fileID: 1765827785}
   - component: {fileID: 1765827787}
   - component: {fileID: 1765827786}
+  - component: {fileID: 1765827788}
   m_Layer: 0
   m_Name: driveway_long (18)
   m_TagString: Untagged
@@ -24364,6 +27523,27 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1765827784}
   m_Mesh: {fileID: -3456312405952388865, guid: 781f7c54381cefb42890e21283ad39ae, type: 3}
+--- !u!65 &1765827788
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1765827784}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.3600001, y: 0.01, z: 0.4000001}
+  m_Center: {x: 0, y: 0.005, z: 0}
 --- !u!1 &1775113664
 GameObject:
   m_ObjectHideFlags: 0
@@ -24548,6 +27728,7 @@ GameObject:
   - component: {fileID: 1785566829}
   - component: {fileID: 1785566831}
   - component: {fileID: 1785566830}
+  - component: {fileID: 1785566832}
   m_Layer: 0
   m_Name: house_type08 (2)
   m_TagString: Untagged
@@ -24624,6 +27805,27 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1785566828}
   m_Mesh: {fileID: 2785096126248973917, guid: c6ba6552b8ef9784a8753cc8f64fd33a, type: 3}
+--- !u!65 &1785566832
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1785566828}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1.7363806, y: 1.2, z: 1.0058917}
+  m_Center: {x: -0.0000019073486, y: 0.6, z: 0.0000019073486}
 --- !u!1 &1786040542
 GameObject:
   m_ObjectHideFlags: 0
@@ -24635,6 +27837,7 @@ GameObject:
   - component: {fileID: 1786040543}
   - component: {fileID: 1786040545}
   - component: {fileID: 1786040544}
+  - component: {fileID: 1786040546}
   m_Layer: 0
   m_Name: house_type08 (1)
   m_TagString: Untagged
@@ -24711,6 +27914,27 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1786040542}
   m_Mesh: {fileID: 2785096126248973917, guid: c6ba6552b8ef9784a8753cc8f64fd33a, type: 3}
+--- !u!65 &1786040546
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1786040542}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1.7363806, y: 1.2, z: 1.0058917}
+  m_Center: {x: 0, y: 0.6, z: 0}
 --- !u!1 &1787172008
 GameObject:
   m_ObjectHideFlags: 0
@@ -24722,6 +27946,7 @@ GameObject:
   - component: {fileID: 1787172009}
   - component: {fileID: 1787172011}
   - component: {fileID: 1787172010}
+  - component: {fileID: 1787172012}
   m_Layer: 0
   m_Name: house_type08 (1)
   m_TagString: Untagged
@@ -24798,6 +28023,27 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1787172008}
   m_Mesh: {fileID: 2785096126248973917, guid: c6ba6552b8ef9784a8753cc8f64fd33a, type: 3}
+--- !u!65 &1787172012
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1787172008}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1.7363806, y: 1.2, z: 1.0058917}
+  m_Center: {x: 0, y: 0.6, z: 0}
 --- !u!1 &1801252046
 GameObject:
   m_ObjectHideFlags: 0
@@ -24893,6 +28139,7 @@ GameObject:
   - component: {fileID: 1808407866}
   - component: {fileID: 1808407868}
   - component: {fileID: 1808407867}
+  - component: {fileID: 1808407869}
   m_Layer: 0
   m_Name: driveway_long (16)
   m_TagString: Untagged
@@ -24966,6 +28213,27 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1808407865}
   m_Mesh: {fileID: -3456312405952388865, guid: 781f7c54381cefb42890e21283ad39ae, type: 3}
+--- !u!65 &1808407869
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1808407865}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.3600001, y: 0.01, z: 0.4000001}
+  m_Center: {x: 0, y: 0.005, z: 0}
 --- !u!1 &1812979664
 GameObject:
   m_ObjectHideFlags: 0
@@ -24977,6 +28245,7 @@ GameObject:
   - component: {fileID: 1812979665}
   - component: {fileID: 1812979667}
   - component: {fileID: 1812979666}
+  - component: {fileID: 1812979668}
   m_Layer: 0
   m_Name: house_type08 (8)
   m_TagString: Untagged
@@ -25053,6 +28322,27 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1812979664}
   m_Mesh: {fileID: 2785096126248973917, guid: c6ba6552b8ef9784a8753cc8f64fd33a, type: 3}
+--- !u!65 &1812979668
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1812979664}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1.7363806, y: 1.2, z: 1.0058917}
+  m_Center: {x: 0.0000009536743, y: 0.6, z: 0.0000038146973}
 --- !u!1 &1813803339
 GameObject:
   m_ObjectHideFlags: 0
@@ -25064,6 +28354,7 @@ GameObject:
   - component: {fileID: 1813803340}
   - component: {fileID: 1813803342}
   - component: {fileID: 1813803341}
+  - component: {fileID: 1813803343}
   m_Layer: 0
   m_Name: driveway_long (20)
   m_TagString: Untagged
@@ -25137,6 +28428,27 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1813803339}
   m_Mesh: {fileID: -3456312405952388865, guid: 781f7c54381cefb42890e21283ad39ae, type: 3}
+--- !u!65 &1813803343
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1813803339}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.3600001, y: 0.01, z: 0.4000001}
+  m_Center: {x: 0.0000009536743, y: 0.005, z: 0.0000019073486}
 --- !u!1 &1817025395
 GameObject:
   m_ObjectHideFlags: 0
@@ -25148,6 +28460,7 @@ GameObject:
   - component: {fileID: 1817025396}
   - component: {fileID: 1817025398}
   - component: {fileID: 1817025397}
+  - component: {fileID: 1817025399}
   m_Layer: 0
   m_Name: house_type08 (4)
   m_TagString: Untagged
@@ -25224,6 +28537,27 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1817025395}
   m_Mesh: {fileID: 2785096126248973917, guid: c6ba6552b8ef9784a8753cc8f64fd33a, type: 3}
+--- !u!65 &1817025399
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1817025395}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1.7363806, y: 1.2, z: 1.0058917}
+  m_Center: {x: -0.0000009536743, y: 0.6, z: 0.0000038146973}
 --- !u!1001 &1818654142
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -25340,6 +28674,7 @@ GameObject:
   - component: {fileID: 1818744443}
   - component: {fileID: 1818744445}
   - component: {fileID: 1818744444}
+  - component: {fileID: 1818744446}
   m_Layer: 0
   m_Name: house_type08 (1)
   m_TagString: Untagged
@@ -25416,6 +28751,27 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1818744442}
   m_Mesh: {fileID: 2785096126248973917, guid: c6ba6552b8ef9784a8753cc8f64fd33a, type: 3}
+--- !u!65 &1818744446
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1818744442}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1.7363806, y: 1.2, z: 1.0058917}
+  m_Center: {x: 0, y: 0.6, z: 0}
 --- !u!1 &1825117004
 GameObject:
   m_ObjectHideFlags: 0
@@ -25597,6 +28953,7 @@ GameObject:
   - component: {fileID: 1827125095}
   - component: {fileID: 1827125097}
   - component: {fileID: 1827125096}
+  - component: {fileID: 1827125098}
   m_Layer: 0
   m_Name: driveway_long (18)
   m_TagString: Untagged
@@ -25670,6 +29027,27 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1827125094}
   m_Mesh: {fileID: -3456312405952388865, guid: 781f7c54381cefb42890e21283ad39ae, type: 3}
+--- !u!65 &1827125098
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1827125094}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.3600001, y: 0.01, z: 0.4000001}
+  m_Center: {x: 0, y: 0.005, z: 0}
 --- !u!1 &1828430405
 GameObject:
   m_ObjectHideFlags: 0
@@ -25872,6 +29250,7 @@ GameObject:
   - component: {fileID: 1858796423}
   - component: {fileID: 1858796425}
   - component: {fileID: 1858796424}
+  - component: {fileID: 1858796426}
   m_Layer: 0
   m_Name: driveway_long (18)
   m_TagString: Untagged
@@ -25945,6 +29324,27 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1858796422}
   m_Mesh: {fileID: -3456312405952388865, guid: 781f7c54381cefb42890e21283ad39ae, type: 3}
+--- !u!65 &1858796426
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1858796422}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.3600001, y: 0.01, z: 0.4000001}
+  m_Center: {x: 0.0000019073486, y: 0.005, z: 0}
 --- !u!1 &1862513129
 GameObject:
   m_ObjectHideFlags: 0
@@ -26043,6 +29443,7 @@ GameObject:
   - component: {fileID: 1868030316}
   - component: {fileID: 1868030318}
   - component: {fileID: 1868030317}
+  - component: {fileID: 1868030319}
   m_Layer: 0
   m_Name: house_type08 (1)
   m_TagString: Untagged
@@ -26119,6 +29520,27 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1868030315}
   m_Mesh: {fileID: 2785096126248973917, guid: c6ba6552b8ef9784a8753cc8f64fd33a, type: 3}
+--- !u!65 &1868030319
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1868030315}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1.7363806, y: 1.2, z: 1.0058917}
+  m_Center: {x: 0.0000019073486, y: 0.6, z: 0}
 --- !u!1 &1878853774
 GameObject:
   m_ObjectHideFlags: 0
@@ -26302,6 +29724,7 @@ GameObject:
   - component: {fileID: 1883539570}
   - component: {fileID: 1883539572}
   - component: {fileID: 1883539571}
+  - component: {fileID: 1883539573}
   m_Layer: 0
   m_Name: driveway_long (21)
   m_TagString: Untagged
@@ -26375,6 +29798,27 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1883539569}
   m_Mesh: {fileID: -3456312405952388865, guid: 781f7c54381cefb42890e21283ad39ae, type: 3}
+--- !u!65 &1883539573
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1883539569}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.3600001, y: 0.01, z: 0.4000001}
+  m_Center: {x: 0, y: 0.005, z: 0}
 --- !u!1 &1887322943
 GameObject:
   m_ObjectHideFlags: 0
@@ -26461,6 +29905,60 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1887322943}
   m_Mesh: {fileID: 6440166555503141632, guid: 1e3401b7de61455419963494f10aeb82, type: 3}
+--- !u!1 &1888666847 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5392420232685891557, guid: c6ba6552b8ef9784a8753cc8f64fd33a,
+    type: 3}
+  m_PrefabInstance: {fileID: 633705113}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &1888666851
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1888666847}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1.7363806, y: 1.2, z: 1.0058917}
+  m_Center: {x: 0, y: 0.6, z: 0}
+--- !u!1 &1895653878 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5392420232685891557, guid: c6ba6552b8ef9784a8753cc8f64fd33a,
+    type: 3}
+  m_PrefabInstance: {fileID: 644081965}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &1895653882
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1895653878}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1.7363806, y: 1.2, z: 1.0058917}
+  m_Center: {x: -0.0000019073486, y: 0.6, z: 0.0000019073486}
 --- !u!1 &1904040118
 GameObject:
   m_ObjectHideFlags: 0
@@ -26728,6 +30226,7 @@ GameObject:
   - component: {fileID: 1915007861}
   - component: {fileID: 1915007863}
   - component: {fileID: 1915007862}
+  - component: {fileID: 1915007864}
   m_Layer: 0
   m_Name: house_type08 (7)
   m_TagString: Untagged
@@ -26804,6 +30303,27 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1915007860}
   m_Mesh: {fileID: 2785096126248973917, guid: c6ba6552b8ef9784a8753cc8f64fd33a, type: 3}
+--- !u!65 &1915007864
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1915007860}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1.7363806, y: 1.2, z: 1.0058917}
+  m_Center: {x: 0, y: 0.6, z: 0}
 --- !u!1001 &1918721877
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -27135,6 +30655,7 @@ GameObject:
   - component: {fileID: 1930047972}
   - component: {fileID: 1930047974}
   - component: {fileID: 1930047973}
+  - component: {fileID: 1930047975}
   m_Layer: 0
   m_Name: house_type08 (2)
   m_TagString: Untagged
@@ -27211,6 +30732,27 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1930047971}
   m_Mesh: {fileID: 2785096126248973917, guid: c6ba6552b8ef9784a8753cc8f64fd33a, type: 3}
+--- !u!65 &1930047975
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1930047971}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1.7363806, y: 1.2, z: 1.0058917}
+  m_Center: {x: -0.0000019073486, y: 0.6, z: 0}
 --- !u!1 &1930803356
 GameObject:
   m_ObjectHideFlags: 0
@@ -27478,6 +31020,7 @@ GameObject:
   - component: {fileID: 1991961836}
   - component: {fileID: 1991961838}
   - component: {fileID: 1991961837}
+  - component: {fileID: 1991961839}
   m_Layer: 0
   m_Name: driveway_long (22)
   m_TagString: Untagged
@@ -27551,6 +31094,27 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1991961835}
   m_Mesh: {fileID: -3456312405952388865, guid: 781f7c54381cefb42890e21283ad39ae, type: 3}
+--- !u!65 &1991961839
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1991961835}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.3600001, y: 0.01, z: 0.4000001}
+  m_Center: {x: -0.0000019073486, y: 0.005, z: 0}
 --- !u!1 &2002197113
 GameObject:
   m_ObjectHideFlags: 0
@@ -27562,6 +31126,7 @@ GameObject:
   - component: {fileID: 2002197114}
   - component: {fileID: 2002197116}
   - component: {fileID: 2002197115}
+  - component: {fileID: 2002197117}
   m_Layer: 0
   m_Name: house_type08 (6)
   m_TagString: Untagged
@@ -27638,6 +31203,27 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2002197113}
   m_Mesh: {fileID: 2785096126248973917, guid: c6ba6552b8ef9784a8753cc8f64fd33a, type: 3}
+--- !u!65 &2002197117
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2002197113}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1.7363806, y: 1.2, z: 1.0058917}
+  m_Center: {x: 0.0000019073486, y: 0.6, z: 0}
 --- !u!1 &2003027999
 GameObject:
   m_ObjectHideFlags: 0
@@ -27994,6 +31580,7 @@ GameObject:
   - component: {fileID: 2023191328}
   - component: {fileID: 2023191330}
   - component: {fileID: 2023191329}
+  - component: {fileID: 2023191331}
   m_Layer: 0
   m_Name: house_type08 (5)
   m_TagString: Untagged
@@ -28070,6 +31657,27 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2023191327}
   m_Mesh: {fileID: 2785096126248973917, guid: c6ba6552b8ef9784a8753cc8f64fd33a, type: 3}
+--- !u!65 &2023191331
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2023191327}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1.7363806, y: 1.2, z: 1.0058917}
+  m_Center: {x: -0.0000009536743, y: 0.6, z: 0.0000038146973}
 --- !u!1 &2024225547
 GameObject:
   m_ObjectHideFlags: 0
@@ -28173,6 +31781,7 @@ GameObject:
   - component: {fileID: 2028547036}
   - component: {fileID: 2028547038}
   - component: {fileID: 2028547037}
+  - component: {fileID: 2028547039}
   m_Layer: 0
   m_Name: driveway_long (22)
   m_TagString: Untagged
@@ -28246,6 +31855,27 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2028547035}
   m_Mesh: {fileID: -3456312405952388865, guid: 781f7c54381cefb42890e21283ad39ae, type: 3}
+--- !u!65 &2028547039
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2028547035}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.3600001, y: 0.01, z: 0.4000001}
+  m_Center: {x: 0, y: 0.005, z: 0}
 --- !u!1 &2029032326
 GameObject:
   m_ObjectHideFlags: 0
@@ -28257,6 +31887,7 @@ GameObject:
   - component: {fileID: 2029032327}
   - component: {fileID: 2029032329}
   - component: {fileID: 2029032328}
+  - component: {fileID: 2029032330}
   m_Layer: 0
   m_Name: house_type08 (2)
   m_TagString: Untagged
@@ -28333,6 +31964,27 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2029032326}
   m_Mesh: {fileID: 2785096126248973917, guid: c6ba6552b8ef9784a8753cc8f64fd33a, type: 3}
+--- !u!65 &2029032330
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2029032326}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1.7363806, y: 1.2, z: 1.0058917}
+  m_Center: {x: -0.0000019073486, y: 0.6, z: 0}
 --- !u!1 &2031597908
 GameObject:
   m_ObjectHideFlags: 0
@@ -28579,6 +32231,7 @@ GameObject:
   - component: {fileID: 2045234198}
   - component: {fileID: 2045234200}
   - component: {fileID: 2045234199}
+  - component: {fileID: 2045234201}
   m_Layer: 0
   m_Name: driveway_long (25)
   m_TagString: Untagged
@@ -28652,6 +32305,27 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2045234197}
   m_Mesh: {fileID: -3456312405952388865, guid: 781f7c54381cefb42890e21283ad39ae, type: 3}
+--- !u!65 &2045234201
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2045234197}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.3600001, y: 0.01, z: 0.4000001}
+  m_Center: {x: 0, y: 0.005, z: 0}
 --- !u!1001 &2066328225
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -28829,7 +32503,15 @@ PrefabInstance:
         type: 3}
       insertIndex: -1
       addedObject: {fileID: 1883539570}
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: c6ba6552b8ef9784a8753cc8f64fd33a,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2066328227}
+    - targetCorrespondingSourceObject: {fileID: 5392420232685891557, guid: c6ba6552b8ef9784a8753cc8f64fd33a,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 787125021}
   m_SourcePrefab: {fileID: 100100000, guid: c6ba6552b8ef9784a8753cc8f64fd33a, type: 3}
 --- !u!4 &2066328226 stripped
 Transform:
@@ -28837,6 +32519,27 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 2066328225}
   m_PrefabAsset: {fileID: 0}
+--- !u!65 &2066328227
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1211630333}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &2068972462
 GameObject:
   m_ObjectHideFlags: 0
@@ -29021,6 +32724,7 @@ GameObject:
   - component: {fileID: 2075012352}
   - component: {fileID: 2075012354}
   - component: {fileID: 2075012353}
+  - component: {fileID: 2075012355}
   m_Layer: 0
   m_Name: driveway_long (17)
   m_TagString: Untagged
@@ -29094,6 +32798,27 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2075012351}
   m_Mesh: {fileID: -3456312405952388865, guid: 781f7c54381cefb42890e21283ad39ae, type: 3}
+--- !u!65 &2075012355
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2075012351}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.3600001, y: 0.01, z: 0.4000001}
+  m_Center: {x: 0, y: 0.005, z: 0}
 --- !u!1 &2088072233
 GameObject:
   m_ObjectHideFlags: 0
@@ -29105,6 +32830,7 @@ GameObject:
   - component: {fileID: 2088072234}
   - component: {fileID: 2088072236}
   - component: {fileID: 2088072235}
+  - component: {fileID: 2088072237}
   m_Layer: 0
   m_Name: house_type08 (2)
   m_TagString: Untagged
@@ -29181,6 +32907,27 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2088072233}
   m_Mesh: {fileID: 2785096126248973917, guid: c6ba6552b8ef9784a8753cc8f64fd33a, type: 3}
+--- !u!65 &2088072237
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2088072233}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1.7363806, y: 1.2, z: 1.0058917}
+  m_Center: {x: 0, y: 0.6, z: 0}
 --- !u!1 &2089534533
 GameObject:
   m_ObjectHideFlags: 0
@@ -29192,6 +32939,7 @@ GameObject:
   - component: {fileID: 2089534534}
   - component: {fileID: 2089534536}
   - component: {fileID: 2089534535}
+  - component: {fileID: 2089534537}
   m_Layer: 0
   m_Name: house_type08 (1)
   m_TagString: Untagged
@@ -29268,6 +33016,27 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2089534533}
   m_Mesh: {fileID: 2785096126248973917, guid: c6ba6552b8ef9784a8753cc8f64fd33a, type: 3}
+--- !u!65 &2089534537
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2089534533}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1.7363806, y: 1.2, z: 1.0058917}
+  m_Center: {x: 0.0000019073486, y: 0.6, z: 0}
 --- !u!1 &2092755860
 GameObject:
   m_ObjectHideFlags: 0
@@ -29366,6 +33135,7 @@ GameObject:
   - component: {fileID: 2093974154}
   - component: {fileID: 2093974156}
   - component: {fileID: 2093974155}
+  - component: {fileID: 2093974157}
   m_Layer: 0
   m_Name: driveway_long (23)
   m_TagString: Untagged
@@ -29439,6 +33209,54 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2093974153}
   m_Mesh: {fileID: -3456312405952388865, guid: 781f7c54381cefb42890e21283ad39ae, type: 3}
+--- !u!65 &2093974157
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2093974153}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.3600001, y: 0.01, z: 0.4000001}
+  m_Center: {x: -0.0000009536743, y: 0.005, z: 0.0000019073486}
+--- !u!1 &2102227478 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: c6ba6552b8ef9784a8753cc8f64fd33a,
+    type: 3}
+  m_PrefabInstance: {fileID: 454791811}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &2102227479
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2102227478}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &2102907313
 GameObject:
   m_ObjectHideFlags: 0
@@ -29795,6 +33613,7 @@ GameObject:
   - component: {fileID: 2136598240}
   - component: {fileID: 2136598242}
   - component: {fileID: 2136598241}
+  - component: {fileID: 2136598243}
   m_Layer: 0
   m_Name: house_type08 (2)
   m_TagString: Untagged
@@ -29871,6 +33690,27 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2136598239}
   m_Mesh: {fileID: 2785096126248973917, guid: c6ba6552b8ef9784a8753cc8f64fd33a, type: 3}
+--- !u!65 &2136598243
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2136598239}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1.7363806, y: 1.2, z: 1.0058917}
+  m_Center: {x: 0, y: 0.6, z: 0}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
