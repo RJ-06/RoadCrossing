@@ -1,0 +1,7 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:VisualElement name="Joystick" style="flex-grow: 0; background-color: rgba(0, 0, 0, 0); flex-shrink: 0;">
+        <ui:VisualElement name="JoystickBack" style="flex-grow: 0; background-color: rgba(0, 0, 0, 0); background-image: url(&apos;project://database/Assets/JoystickBack.png?fileID=2800000&amp;guid=22eb5ec2bccd5f041ada624839ed50dc&amp;type=3#JoystickBack&apos;); width: 256px; height: 256px; flex-shrink: 0;">
+            <ui:VisualElement name="JoystickHandle" style="flex-grow: 0; background-color: rgba(0, 0, 0, 0); background-image: url(&apos;project://database/Assets/JoystickHandle.png?fileID=2800000&amp;guid=76ed345c2bd6567418c6566d45dc4903&amp;type=3#JoystickHandle&apos;); width: 128px; height: 128px; flex-shrink: 0; top: 25%; left: 25%; transition-property: all, translate; transition-duration: 0s, 0.1s; transition-timing-function: ease, ease; transition-delay: 0s, 0s;" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>
