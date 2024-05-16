@@ -14,7 +14,7 @@ public class StopSign : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+        StartCoroutine(stopCar());
     }
 
     // Update is called once per frame
@@ -22,10 +22,11 @@ public class StopSign : MonoBehaviour
     {
         car = r.carAtNode;
 
-        
 
-        if (car != null && !stop)
+
+        if (car != null && stop == false)
         {
+            
             StartCoroutine(stopCar());
         }
 
@@ -43,19 +44,23 @@ public class StopSign : MonoBehaviour
 
     IEnumerator stopCar()
     {
-        
+
         foreach (RoadNode node in next)
         {
             node.canMoveTo = false;
         }
-
+        stop = true;
         yield return new WaitForSecondsRealtime(stopTime);
 
-        foreach(RoadNode node in next)
+        
+        foreach (RoadNode node in next)
         {
             node.canMoveTo = true;
         }
+        yield return new WaitForSecondsRealtime(stopTime * .2f);
         stop = false;
+
+
     }
 
     
