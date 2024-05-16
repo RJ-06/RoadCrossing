@@ -20,7 +20,6 @@ public class VirtualJoystick : MonoBehaviour
         m_JoystickHandle1.RegisterCallback<PointerDownEvent>(OnPointerDown1);
         m_JoystickHandle1.RegisterCallback<PointerUpEvent>(OnPointerUp1);
         m_JoystickHandle1.RegisterCallback<PointerMoveEvent>(OnPointerMove1);
-        //ha suck ot rahul
 
         m_JoystickBack2 = root.Q("JoystickBack2");
         m_JoystickHandle2 = root.Q("JoystickHandle2");

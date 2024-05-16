@@ -60,7 +60,7 @@ public class PlayerController : MonoBehaviour
         //Vector2 moveDir = moveAction.action.ReadValue<Vector2>();
 
         moveDirecion = orientation.forward * moveY + orientation.right * moveX;
-        rb.velocity = (moveDirecion.normalized * playerSpeed);
+        rb.velocity = (moveDirecion * playerSpeed);
     }
 
     
