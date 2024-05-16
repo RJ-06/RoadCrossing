@@ -10,8 +10,10 @@ public class PlayerCam : MonoBehaviour
     [SerializeField] float sensX;
     [SerializeField] float sensY;
     [SerializeField] float rotationYLock;
-
     [SerializeField] Transform orientation;
+
+    public static float mouseX;
+    public static float mouseY;
 
     float xRot;
     float yRot;
@@ -39,9 +41,10 @@ public class PlayerCam : MonoBehaviour
         }
 
 
-        float mouseX = cameraAction.ReadValue<Vector2>().x * Time.deltaTime * sensX;
-        float mouseY = cameraAction.ReadValue<Vector2>().y * Time.deltaTime * sensY;
-
+        //mouseX = cameraAction.ReadValue<Vector2>().x * Time.deltaTime * sensX;
+        //mouseY = cameraAction.ReadValue<Vector2>().y * Time.deltaTime * sensY;
+        mouseX *= Time.deltaTime * sensX;
+        mouseY *= Time.deltaTime * sensX;
         /*float mouseX = Input.GetAxisRaw("Mouse X") * Time.deltaTime * sensX;
         float mouseY = Input.GetAxisRaw("Mouse Y") * Time.deltaTime * sensY;*/
         yRot += mouseX;

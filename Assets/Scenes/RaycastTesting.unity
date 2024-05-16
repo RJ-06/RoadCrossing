@@ -561,12 +561,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 62899f850307741f2a39c98a8b639597, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!54 &1117831569 stripped
-Rigidbody:
-  m_CorrespondingSourceObject: {fileID: 9006007844708971514, guid: 7ddb95718746e2949b5062cb9568cc70,
-    type: 3}
-  m_PrefabInstance: {fileID: 1353014545}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1140729377
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -851,6 +845,7 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects:
     - {fileID: 5936291621532413781, guid: 7ddb95718746e2949b5062cb9568cc70, type: 3}
+    - {fileID: 7017949564281528048, guid: 7ddb95718746e2949b5062cb9568cc70, type: 3}
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7ddb95718746e2949b5062cb9568cc70, type: 3}
@@ -1337,8 +1332,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9d0d8d057b7497242905e3b3f9a43ba9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  worldObjectToMove: {fileID: 1117831569}
-  worldObjectPushStrength: 5
 --- !u!1001 &4868653264381090814
 PrefabInstance:
   m_ObjectHideFlags: 0

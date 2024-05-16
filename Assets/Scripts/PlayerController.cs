@@ -50,8 +50,8 @@ public class PlayerController : MonoBehaviour
 
         //moveX = Input.GetAxisRaw("Horizontal");
         //moveY = Input.GetAxisRaw("Vertical");
-        moveX = mAction.ReadValue<Vector2>().x;
-        moveY = mAction.ReadValue<Vector2>().y;
+        //moveX = mAction.ReadValue<Vector2>().x;
+        //moveY = mAction.ReadValue<Vector2>().y;
 
     }
 
