@@ -24,7 +24,13 @@ public class VirtualJoystick : MonoBehaviour
     void Update()
     {
         if (m_JoystickDelta != Vector2.zero)
-             worldObjectToMove.AddForce(new Vector3(m_JoystickDelta.x, 0, -m_JoystickDelta.y) * worldObjectPushStrength);
+        {
+            //worldObjectToMove.AddForce(new Vector3(m_JoystickDelta.x, 0, -m_JoystickDelta.y) * worldObjectPushStrength);
+            PlayerController.moveX = m_JoystickDelta.x;
+            PlayerController.moveY = m_JoystickDelta.y;
+            Debug.Log(PlayerController.moveX);
+            Debug.Log(PlayerController.moveY);
+        }
     }
 
     void OnPointerDown(PointerDownEvent e)

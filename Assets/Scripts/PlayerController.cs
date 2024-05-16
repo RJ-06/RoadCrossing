@@ -10,8 +10,8 @@ public class PlayerController : MonoBehaviour
 
     [SerializeField] float playerSpeed;
 
-    private float moveX;
-    private float moveY;
+    public static float moveX;
+    public static float moveY;
     Vector3 moveDirecion;
     [SerializeField] Transform orientation;
 
