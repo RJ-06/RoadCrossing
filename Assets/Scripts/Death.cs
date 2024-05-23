@@ -32,4 +32,9 @@ public class Death : MonoBehaviour
             deathTip = deathMessages[0];
         }
     }
+
+    public string getDeathTip() 
+    {
+        return deathTip;
+    }
 }
