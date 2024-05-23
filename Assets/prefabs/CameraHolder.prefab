@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3794013512867418453}
   - component: {fileID: 4792984762776900702}
+  - component: {fileID: 1032822160272746836}
   m_Layer: 0
   m_Name: CameraHolder
   m_TagString: Untagged
@@ -46,6 +47,22 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   camPos: {fileID: 0}
+--- !u!114 &1032822160272746836
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2556741711102124747}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 021a144a8c16f834da3ee4f4fdd33cfb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  waypoints:
+  - {fileID: 0}
+  - {fileID: 0}
+  TarWaypoint: 0
 --- !u!1 &6584028459581111559
 GameObject:
   m_ObjectHideFlags: 0
@@ -74,7 +91,7 @@ Transform:
   m_GameObject: {fileID: 6584028459581111559}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: -0.42, z: -0.09}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -90,7 +107,7 @@ Camera:
   m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 1
-  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
+  m_BackGroundColor: {r: 0.45911944, g: 0.96063465, b: 1, a: 0}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
   m_FOVAxisMode: 0
@@ -111,9 +128,9 @@ Camera:
     y: 0
     width: 1
     height: 1
-  near clip plane: 0.3
-  far clip plane: 1000
-  field of view: 70
+  near clip plane: 0.05
+  far clip plane: 50
+  field of view: 40
   orthographic: 0
   orthographic size: 5
   m_Depth: 0
@@ -151,7 +168,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 126d37a162d75874cb906810868c6c4a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sensX: 200
+  sensX: 100
   sensY: 100
   rotationYLock: 40
   orientation: {fileID: 0}
