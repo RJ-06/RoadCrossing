@@ -18,6 +18,8 @@ public class PlayerController : MonoBehaviour
     PlayerInput pInput;
     InputAction mAction;
 
+    [SerializeField] float maxSpeed;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -60,6 +62,8 @@ public class PlayerController : MonoBehaviour
         //Vector2 moveDir = moveAction.action.ReadValue<Vector2>();
 
         moveDirecion = orientation.forward * moveY + orientation.right * moveX;
+        moveDirecion = new Vector3(Mathf.Clamp(moveDirecion.x, -maxSpeed, maxSpeed), Mathf.Clamp(moveDirecion.y,-maxSpeed,maxSpeed),
+            Mathf.Clamp(moveDirecion.z,-maxSpeed,maxSpeed));
         rb.velocity = (moveDirecion * playerSpeed);
     }
 
