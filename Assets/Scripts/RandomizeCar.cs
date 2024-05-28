@@ -10,7 +10,9 @@ public class RandomizeCar : MonoBehaviour
 
     void Start()
     {
-        Instantiate(c[Random.Range(0,c.Length)],this.transform);
+        GameObject car = Instantiate(c[Random.Range(0,c.Length)],this.transform);
+        var bc = GetComponent<BoxCollider>();
+        bc.transform.position = car.transform.position;
         
     }
 
