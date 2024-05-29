@@ -16,8 +16,8 @@ public class Button : MonoBehaviour
         Debug.Log("Button clicked!");
 
         // Enable the specified game object
-
-        StartCoroutine(CreateScan());
+        objectToEnable.SetActive(true);
+        //StartCoroutine(CreateScan());
     }
 
     IEnumerator CreateScan() 
