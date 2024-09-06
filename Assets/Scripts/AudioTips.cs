@@ -14,11 +14,12 @@ public class AudioTips : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        if (other.GetComponent<PlayerController>() == null)
+        if (!other.CompareTag("Player"))
             return;
 
         AudioClip tip = tips[Random.Range(0, tips.Length)];
         thisAudio.clip = tip;
         thisAudio.Play();
+        Debug.Log(thisAudio.clip);
     }
 }
